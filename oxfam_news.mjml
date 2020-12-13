@@ -1,0 +1,318 @@
+<mjml lang="en">
+
+    <mj-head>
+        <mj-title>Oxfam News</mj-title>
+
+        <mj-preview>Oxfam Canada</mj-preview>
+
+        <mj-breakpoint width="480px" />
+
+        <mj-attributes>
+            <mj-all color="#323232" font-size="16px" font-family="OxfamTSTAR, Open Sans, Arial, Helvetica, sans-serif"></mj-all>
+            <mj-wrapper padding="0" border="none"></mj-wrapper>
+            <mj-section padding="0px"></mj-section>
+            <mj-text padding="12px 24px"></mj-text>
+            <mj-image padding="20px 24px" />
+            <mj-divider padding="12px 24px" border-width="2px" border-color="#DEE0E2" />
+            <mj-button padding="20px 15px" inner-padding="12px 40px 12px 40px" background-color="#61a534" color="#ffffff" font-size="16px" font-weight="bold" target="_blank" border-radius="23px" border="4px double #ffffff"></mj-button>
+            <mj-table padding="20px"></mj-table>
+
+            <mj-class name="padding-0" padding="0px"></mj-class>
+            <mj-class name="padding-top-0" padding-top="0px"></mj-class>
+            <mj-class name="padding-bottom-0" padding-bottom="0px"></mj-class>
+            <mj-class name="padding-20" padding="20px 0px 40px 0px"></mj-class>
+
+            <mj-class name="text-size-small" font-size="12px" line-height="16px"></mj-class>
+            <mj-class name="text-size-medium" font-size="18px" line-height="22px"></mj-class>
+            <mj-class name="text-size-normal" font-size="16px" line-height="24px"></mj-class>
+            <mj-class name="text-size-large" font-size="18px" line-height="27px"></mj-class>
+            <mj-class name="text-size-xlarge" font-size="24px" line-height="36px"></mj-class>
+
+            <mj-class name="text-h1-headline" font-family="OxfamHeadline, Open Sans, Arial, sans-serif" font-size="44px" line-height="48px" font-weight="700" color="#3b3b3b" padding-left="40px"></mj-class>
+            <mj-class name="text-h1-date" font-family="OxfamTSTAR, Open Sans, Arial, sans-serif" font-size="30px" line-height="34px" font-weight="100" color="#3b3b3b" padding-left="40px"></mj-class>
+            <mj-class name="text-h2-headline" font-size="24px" line-height="28px" font-weight="bold" color="#61a534"></mj-class>
+            <mj-class name="text-h3-subhead" font-size="24px" line-height="30px" font-weight="bold" color="#323232"></mj-class>
+
+            <mj-class name="bold" font-weight="bold"></mj-class>
+            <mj-class name="center" align="center"></mj-class>
+            <mj-class name="right" align="right"></mj-class>
+            <mj-class name="left" align="left"></mj-class>
+ 
+            <mj-class name="text-color-white" color="#ffffff"></mj-class>
+           
+            <mj-class name="top-image" padding-top="0px" padding-bottom="0px" padding-left="0px" padding-right="0px" width="600px" height="12px" align="center" font-size="12px"  src="https://www.oxfam.ca/wp-content/uploads/2018/08/toptop.jpg"></mj-class>
+        </mj-attributes>
+
+        <mj-style>
+           
+           @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap'); 
+        
+          @font-face {
+          font-family: "OxfamHeadline";
+          font-style: normal;
+          font-weight: 400;
+          src: url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/oxfamglobalheadline-webfont.woff") format("woff");
+          }
+
+          @font-face {
+          font-family: "OxfamTSTAR";
+          font-weight: 400;
+          font-style: normal;
+          src: url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/OxfamTSTARPRO-Regular.woff2") format("woff2");
+        }
+
+          @font-face {
+          font-family: "OxfamTSTARBold";
+          font-weight: 700;
+          font-style: normal;
+          src: url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/OxfamTSTARPRO-Bold.woff2") format("woff2");
+          }
+
+            @media only screen and (min-width:480px) {
+                .h1-desktop {
+                    font-size:32px!important;
+                    line-height:40px!important;
+                }
+
+                .h2-desktop {
+                    font-size:24px!important;
+                    line-height:30px!important;
+                }
+            }
+
+            u + .body .glist {
+                margin-left:0!important;
+            }
+        </mj-style>
+
+
+        <mj-style inline="inline">
+            
+            .color-cta {
+                color: #61a534;
+                text-decoration: underline;
+            }
+
+            .color-muted {
+                color: #4B5562;
+            }
+
+            .underline {
+                text-decoration: underline;
+            }
+
+            .no-underline {
+                text-decoration: none;
+            }
+        </mj-style>
+
+       
+    </mj-head>
+    <mj-body background-color="#eeeeee">
+
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" padding-top="40px">
+        </mj-text>
+        <mj-image mj-class="top-image" alt="green and yellow gradient art" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+      <mj-column width="50%" vertical-align="middle" padding="20px 0px">
+        <mj-image href="https://www.oxfam.ca/" src="https://42kgab3z3i7s3rm1xf48rq44-wpengine.netdna-ssl.com/wp-content/uploads/2018/09/oxfamcanada_green.png" width="165px" alt="OXFAM Canada" padding-top="40px"></mj-image>
+      </mj-column>
+
+      <mj-column width="50%" vertical-align="middle" padding-top="30px">
+        <mj-button href="https://secured.oxfam.ca/page/20905/donate/1?promo_name=Donate_now_button&amp;promo_position=Email&amp;promo_creative=Email">DONATE</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+      <mj-column width="5%"></mj-column>
+      <mj-column width="90%" padding="20px 0px 20px 0px">
+         <mj-text mj-class="text-h1-headline left">
+            OXFAM News
+          </mj-text>
+          <mj-text mj-class="text-h1-date left">
+            December 2020
+          </mj-text>
+      </mj-column>
+      <mj-column width="5%"></mj-column>
+    </mj-section>
+
+     <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-image href="https://www.oxfam.ca/" src="https://picsum.photos/600/395?grayscale" mj-class="padding-0" width="600px" alt="" ></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+        <mj-column width="5%"></mj-column>
+        <mj-column width="90%">
+          <mj-text mj-class="text-h2-headline left" padding-top="40px" padding-bottom="10px">
+           Adipiscing bibendum est ultricies integer quis auctor.
+          </mj-text>
+          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
+           <strong>Enim lobortis scelerisque fermentum</strong> , dui faucibus in ornare quam viverra. Lectus magnafringilla urna porttitor rhoncus dolor purus non enim.
+            Nunc sed id semper risus in. Diam donec adipiscing tristique risus nec feugiat. In vitae turpis massa sed. Mauris vitae ultricies leo integer malesuada nunc vel. A scelerisque purus semper eget duis. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Nulla facilisi etiam dignissim diam quis enim lobortis
+            scelerisque fermentum. Nisi lacus sed viverra tellus in.               
+          </mj-text>
+          <mj-button href="https://www.oxfam.ca/">CALL TO ACTION</mj-button>
+        </mj-column>
+        <mj-column width="5%"></mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+        <mj-column width="5%"></mj-column>
+        <mj-column width="90%">
+          <mj-text mj-class="text-h2-headline left" padding-top="40px" padding-bottom="10px">
+           Adipiscing bibendum est ultricies integer quis auctor.
+          </mj-text>
+          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
+           <strong>Enim lobortis scelerisque fermentum</strong> , dui faucibus in ornare quam viverra. Lectus magnafringilla urna porttitor rhoncus dolor purus non enim.
+            Nunc sed id semper risus in. Diam donec adipiscing tristique risus nec feugiat. In vitae turpis massa sed. Mauris vitae ultricies leo integer malesuada nunc vel. A scelerisque purus semper eget duis. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Nulla facilisi etiam dignissim diam quis enim lobortis
+            scelerisque fermentum. Nisi lacus sed viverra tellus in.               
+          </mj-text>
+          <mj-button href="https://www.oxfam.ca/">CALL TO ACTION</mj-button>
+        </mj-column>
+        <mj-column width="5%"></mj-column>
+    </mj-section>
+
+
+    <mj-section mj-class="padding-top-0 padding-bottom-0" background-url="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1991/bg.jpg" background-size="cover">
+       <mj-column width="5%"></mj-column>
+       <mj-column width="45%">
+          <mj-image mj-class="padding-bottom-0" alt="" src="https://picsum.photos/seed/first/224/224" width="224px" />
+          <mj-text mj-class="text-h3-subhead left">
+           This is the first subtitle
+          </mj-text>
+          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
+          Enim lobortis scelerisque fermentum, dui <strong>faucibus in ornare</strong>, quam
+          viverra. Lectus magna fringilla urna porttitor
+          rhoncus dolor purus non enim. Nunc sed id
+          semper risus in. Diam donec ...             
+          </mj-text>
+          <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
+              <a class="color-cta"  href="https://www.oxfam.ca/">Learn More</a>
+          </mj-text>
+          <mj-spacer height="40px" />
+       </mj-column>
+       <mj-column width="45%">
+          <mj-image mj-class="padding-bottom-0" alt="" src="https://picsum.photos/seed/second/224/224" width="224px" />
+          <mj-text mj-class="text-h3-subhead left">
+           Subtitle for the second block
+          </mj-text>
+          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
+          Enim lobortis scelerisque fermentum, dui <strong>faucibus in ornare</strong> quam
+          viverra. Lectus magna fringilla urna porttitor
+          rhoncus dolor purus non enim. Nunc sed id
+          semper risus in. Diam donec ...            
+          </mj-text>
+          <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
+              <a class="color-cta"  href="https://www.oxfam.ca/">Learn More</a>
+          </mj-text>
+          <mj-spacer height="40px" />
+        </mj-column>
+        <mj-column width="5%"></mj-column>
+    </mj-section>
+
+    <mj-section mj-class="padding-top-0 padding-bottom-0" background-url="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1991/bg.jpg" background-size="cover">
+       <mj-column width="5%"></mj-column>
+       <mj-column width="45%">
+          <mj-image mj-class="padding-bottom-0" alt="" src="https://picsum.photos/seed/third/224/224" width="224px" />
+          <mj-text mj-class="text-h3-subhead left">
+          Third subtitle for you
+          </mj-text>
+          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
+          Enim lobortis scelerisque fermentum, dui <strong>faucibus in ornare</strong>, quam
+          viverra. Lectus magna fringilla urna porttitor
+          rhoncus dolor purus non enim. Nunc sed id
+          semper risus in. Diam donec ...             
+          </mj-text>
+          <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
+              <a class="color-cta"  href="https://www.oxfam.ca/">Learn More</a>
+          </mj-text>
+          <mj-spacer height="40px" />
+       </mj-column>
+       <mj-column width="45%">
+          <mj-image mj-class="padding-bottom-0" alt="" src="https://picsum.photos/seed/fourth/224/224" width="224px" />
+          <mj-text mj-class="text-h3-subhead left">
+            Subtitle number four
+          </mj-text>
+          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
+          Enim lobortis scelerisque fermentum, dui <strong>faucibus in ornare</strong> quam
+          viverra. Lectus magna fringilla urna porttitor
+          rhoncus dolor purus non enim. Nunc sed id
+          semper risus in. Diam donec ...            
+          </mj-text>
+          <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
+              <a class="color-cta"  href="https://www.oxfam.ca/">Learn More</a>
+          </mj-text>
+          <mj-spacer height="40px" />
+        </mj-column>
+        <mj-column width="5%"></mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column background-color="#0c884a">
+        <mj-image mj-class="top-image" alt="green and yellow gradient art" />
+        <mj-image src="https://42kgab3z3i7s3rm1xf48rq44-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/oxfamcanada_white.png" href="https://www.oxfam.ca/" alt="OXFAM Canada" width="196px" />
+        <mj-text mj-class="text-color-white" align="center" font-size="12px" padding-bottom="20px" line-height="125%">
+          39 McArthur Ave. Ottawa, Ontario, K1L 8L7 &bull; <a href="mailto:donor_relations@oxfam.ca" style="color:#ffffff;text-decoration:none;">donor_relations@oxfam.ca</a> &bull; <span style="white-space:nowrap">1-800-466-9326</span>
+          <br><br>
+          Charitable Registration No. 129716866&nbsp;RR0001  
+          <br><br><br>           
+          Photo Credit
+          <br><br><br>  
+          <a href="https://www.oxfam.ca/privacy-policy/" style="color:#FFFFFF;text-decoration:none;">Privacy Policy</a> &nbsp;&bull;&nbsp; <a href="https://www.oxfam.ca/aoda-policy/" style="color:#FFFFFF;text-decoration:none;">Accessibility</a> &nbsp;&bull;&nbsp; <a href="https://www.oxfam.ca/who-we-are/about-oxfam/our-story/" style="color:#ffffff;text-decoration:none;">About Us</a>
+          <br><br>
+          &copy; 2020 Oxfam Canada is a member of the International Oxfam&nbsp;Confederation
+
+        </mj-text>
+        <mj-table width="275px" align="center">
+        <tr>
+                  <td align="center" valign="middle">
+                      <img src="https://42kgab3z3i7s3rm1xf48rq44-wpengine.netdna-ssl.com/wp-content/uploads/2019/01/foot_logo_humcoa.png" width="124" alt="HUMANITARIAN COALITION" style="width:124px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0">
+                  </td>
+                  <td width="10" style="width:10px"></td>
+                  <td align="center" valign="middle">
+                      <img src="https://42kgab3z3i7s3rm1xf48rq44-wpengine.netdna-ssl.com/wp-content/uploads/2019/01/foot_logo_imagine.png" width="98" alt="IMAGINE CANADA" style="width:98px; height:auto; display:block;font-family:Arial, sans-serif;font-size:10px;color:#000000;border:none;outline:none;" border="0">
+                  </td>
+          </tr>
+          </mj-table>
+          <mj-table width="225px" align="center">
+          <tr>
+                <td align="center" valign="middle">
+                        <a href="https://www.facebook.com/OxfamCanada/" target="_blank"><img src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/facebook-icon.png" width="48" alt="Facebook" style="width:48px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0">
+                  </td>
+                  <td width="10" style="width:10px"></td>
+                  <td align="center" valign="middle">
+                        <a href="https://twitter.com/oxfamcanada" target="_blank"><img src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/twitter-icon.png" width="48" alt="Twitter" style="width:48px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0">
+                  </td>
+                  <td width="10" style="width:10px"></td>
+                  <td align="center" valign="middle">
+                        <a href="https://www.instagram.com/oxfamcanada/" target="_blank"><img src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/instagram-icon.png" width="48" alt="Instagram" style="width:48px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0">
+                  </td>
+                  <td width="10" style="width:10px"></td>
+                  <td align="center" valign="middle">
+                        <a href="https://www.linkedin.com/company/oxfam-canada" target="_blank"><img src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/linkedin-icon.png" width="48" alt="Instagram" style="width:48px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0">
+                  </td>
+          </tr>
+          </mj-table>
+        <mj-spacer height="30px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" mj-class="padding-20 text-size-small">
+        <a href="{unsubscribe_url~23599~143773~https://act.oxfam.ca~pb}" style="color:#61a534;text-decoration:underline;">Unsubscribe</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="{view_in_browser_url}" style="color:#61a534;text-decoration:underline;">View&nbsp;in&nbsp;browser</a>
+        </mj-text>
+         
+      </mj-column>
+    </mj-section>
+
+
+  </mj-body>
+</mjml>
