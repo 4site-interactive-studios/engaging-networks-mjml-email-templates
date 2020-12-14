@@ -12,10 +12,11 @@
             <mj-wrapper padding="0" border="none"></mj-wrapper>
             <mj-section padding="0px"></mj-section>
             <mj-text padding="12px 24px"></mj-text>
-            <mj-image padding="20px 24px" />
+            <mj-image css-class="en__component en__component--imageblock" padding="20px 24px" />
             <mj-divider padding="12px 24px" border-width="2px" border-color="#DEE0E2" />
-            <mj-button padding="20px 15px" inner-padding="12px 40px 12px 40px" background-color="#61a534" color="#ffffff" font-size="16px" font-weight="bold" target="_blank" border-radius="23px" border="4px double #ffffff"></mj-button>
+            <mj-button css-class="en__component en__component--textblock" padding="20px 15px" inner-padding="12px 40px 12px 40px" background-color="#61a534" color="#ffffff" font-size="16px" font-weight="bold" target="_blank" border-radius="23px" border="4px double #ffffff"></mj-button>
             <mj-table padding="20px"></mj-table>
+            <mj-spacer css-class="en__component en__component--textblock"></mj-spacer>
 
             <mj-class name="padding-0" padding="0px"></mj-class>
             <mj-class name="padding-top-0" padding-top="0px"></mj-class>
@@ -45,7 +46,7 @@
 
         <mj-style>
            
-           @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap'); 
+          @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap'); 
         
           @font-face {
           font-family: "OxfamHeadline";
@@ -87,10 +88,9 @@
 
 
         <mj-style inline="inline">
-            
-            .color-cta {
-                color: #61a534;
-                text-decoration: underline;
+            .color-cta{
+              color: #61a534;
+              text-decoration: underline;
             }
 
             .color-muted {
@@ -105,7 +105,6 @@
                 text-decoration: none;
             }
         </mj-style>
-
        
     </mj-head>
     <mj-body background-color="#eeeeee">
@@ -147,16 +146,16 @@
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#ffffff">
+    <mj-section css-class="en__component en__component--textblock test2" background-color="#ffffff">
         <mj-column width="5%"></mj-column>
         <mj-column width="90%">
           <mj-text mj-class="text-h2-headline left" padding-top="40px" padding-bottom="10px">
            Adipiscing bibendum est ultricies integer quis auctor.
           </mj-text>
           <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
-           <strong>Enim lobortis scelerisque fermentum</strong> , dui faucibus in ornare quam viverra. Lectus magnafringilla urna porttitor rhoncus dolor purus non enim.
+           <p><strong>Test1 Enim lobortis scelerisque fermentum</strong> , dui faucibus in ornare quam viverra. Lectus magnafringilla urna porttitor rhoncus dolor purus non enim.
             Nunc sed id semper risus in. Diam donec adipiscing tristique risus nec feugiat. In vitae turpis massa sed. Mauris vitae ultricies leo integer malesuada nunc vel. A scelerisque purus semper eget duis. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Nulla facilisi etiam dignissim diam quis enim lobortis
-            scelerisque fermentum. Nisi lacus sed viverra tellus in.               
+            scelerisque fermentum. Nisi lacus sed viverra tellus in.</p>          
           </mj-text>
           <mj-button href="https://www.oxfam.ca/">CALL TO ACTION</mj-button>
         </mj-column>
@@ -169,11 +168,12 @@
           <mj-text mj-class="text-h2-headline left" padding-top="40px" padding-bottom="10px">
            Adipiscing bibendum est ultricies integer quis auctor.
           </mj-text>
-          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
-           <strong>Enim lobortis scelerisque fermentum</strong> , dui faucibus in ornare quam viverra. Lectus magnafringilla urna porttitor rhoncus dolor purus non enim.
-            Nunc sed id semper risus in. Diam donec adipiscing tristique risus nec feugiat. In vitae turpis massa sed. Mauris vitae ultricies leo integer malesuada nunc vel. A scelerisque purus semper eget duis. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Nulla facilisi etiam dignissim diam quis enim lobortis
-            scelerisque fermentum. Nisi lacus sed viverra tellus in.               
-          </mj-text>
+            <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
+              <mj-wrapper css-class="en__component en__component--textblock"><p><strong>Enim lobortis scelerisque fermentum</strong> , dui faucibus in ornare quam viverra. Lectus magnafringilla urna porttitor rhoncus dolor purus non enim.
+                Test Nunc sed id semper risus in. Diam donec adipiscing tristique risus nec feugiat. In vitae turpis massa sed. Mauris vitae ultricies leo integer malesuada nunc vel. A scelerisque purus semper eget duis. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Nulla facilisi etiam dignissim diam quis enim lobortis
+                scelerisque fermentum. Nisi lacus sed viverra tellus in.</p></div>               
+              </mj-wrapper>
+            </mj-text>
           <mj-button href="https://www.oxfam.ca/">CALL TO ACTION</mj-button>
         </mj-column>
         <mj-column width="5%"></mj-column>
@@ -194,7 +194,7 @@
           semper risus in. Diam donec ...             
           </mj-text>
           <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
-              <a class="color-cta"  href="https://www.oxfam.ca/">Learn More</a>
+              <a class="color-cta" href="https://www.oxfam.ca/">Learn More</a>
           </mj-text>
           <mj-spacer height="40px" />
        </mj-column>
@@ -210,7 +210,7 @@
           semper risus in. Diam donec ...            
           </mj-text>
           <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
-              <a class="color-cta"  href="https://www.oxfam.ca/">Learn More</a>
+              <a class="color-cta" href="https://www.oxfam.ca/">Learn More</a>
           </mj-text>
           <mj-spacer height="40px" />
         </mj-column>
@@ -231,7 +231,7 @@
           semper risus in. Diam donec ...             
           </mj-text>
           <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
-              <a class="color-cta"  href="https://www.oxfam.ca/">Learn More</a>
+              <a class="color-cta" href="https://www.oxfam.ca/">Learn More</a>
           </mj-text>
           <mj-spacer height="40px" />
        </mj-column>
@@ -247,7 +247,7 @@
           semper risus in. Diam donec ...            
           </mj-text>
           <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
-              <a class="color-cta"  href="https://www.oxfam.ca/">Learn More</a>
+              <a class="color-cta" href="https://www.oxfam.ca/">Learn More</a>
           </mj-text>
           <mj-spacer height="40px" />
         </mj-column>
