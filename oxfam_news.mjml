@@ -110,7 +110,41 @@
       }
     </mj-style>
 
+    <mj-style inline="inline">
+      /* In the event an editable component is inside another editable component, bump the z-index of its components dialog so it appears above its parent */
+      .en__component--active .en__component--active .en__component__actions {
+        z-index: 1000;
+      }
 
+      .en__component--active .en__component--active .en__component--active .en__component__actions {
+        z-index: 1001;
+      }
+
+      .en__component--active .en__component--active .en__component--active .en__component--active .en__component__actions {
+        z-index: 1002;
+      }
+
+      .en__component--active .en__component--active .en__component--active .en__component--active .en__component--active .en__component__actions {
+        z-index: 1003;
+      }
+
+      /* In the event an editable component is inside another editable component, darken the color its components action button so they appears distinc from its parents */
+      .en__component--active .en__component--active .en__component__actions .en__component__action {
+        background-color: hsl(191deg 100% 38%);
+      }
+
+      .en__component--active .en__component--active .en__component--active .en__component__actions .en__component__action {
+        background-color: hsl(191deg 100% 33%);
+      }
+
+      .en__component--active .en__component--active .en__component--active .en__component--active .en__component__actions .en__component__action {
+        background-color: hsl(191deg 100% 28%);
+      }
+
+      .en__component--active .en__component--active .en__component--active .en__component--active .en__component--active .en__component__actions .en__component__action {
+        background-color: hsl(191deg 100% 23%);
+      }
+    </mj-style>
   </mj-head>
   <mj-body background-color="#eeeeee">
 
