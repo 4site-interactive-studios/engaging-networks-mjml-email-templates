@@ -111,50 +111,13 @@
       }
     </mj-style>
 
-    <mj-raw>
-      <meta name="format-detection" content="telephone=no">
-      <style>
-        /* In the event an editable component is inside another editable component, bump the z-index of its components dialog so it appears above its parent */
-        .en__component--active .en__component--active .en__component__actions {
-          z-index: 1000;
-        }
 
-        .en__component--active .en__component--active .en__component--active .en__component__actions {
-          z-index: 1001;
-        }
-
-        .en__component--active .en__component--active .en__component--active .en__component--active .en__component__actions {
-          z-index: 1002;
-        }
-
-        .en__component--active .en__component--active .en__component--active .en__component--active .en__component--active .en__component__actions {
-          z-index: 1003;
-        }
-
-        /* In the event an editable component is inside another editable component, darken the color its components action button so they appears distinc from its parents */
-        .en__component--active .en__component--active .en__component__actions .en__component__action {
-          background-color: hsl(191deg 100% 38%);
-        }
-
-        .en__component--active .en__component--active .en__component--active .en__component__actions .en__component__action {
-          background-color: hsl(191deg 100% 33%);
-        }
-
-        .en__component--active .en__component--active .en__component--active .en__component--active .en__component__actions .en__component__action {
-          background-color: hsl(191deg 100% 28%);
-        }
-
-        .en__component--active .en__component--active .en__component--active .en__component--active .en__component--active .en__component__actions .en__component__action {
-          background-color: hsl(191deg 100% 23%);
-        }
-      </style>
-    </mj-raw>
   </mj-head>
   <mj-body background-color="#eeeeee">
 
     <mj-section>
       <mj-column>
-        <mj-text align="center" padding-top="0px">
+        <mj-text align="center" padding-top="40px">
         </mj-text>
         <mj-image mj-class="top-image" alt="green and yellow gradient art" />
       </mj-column>
@@ -183,143 +146,119 @@
       <mj-column width="5%"></mj-column>
     </mj-section>
 
-    <mj-wrapper css-class="en__component en__component--repeatable">
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-image href="https://www.oxfam.ca/" src="https://picsum.photos/600/395?grayscale" mj-class="padding-0" width="600px" alt=""></mj-image>
+      </mj-column>
+    </mj-section>
 
-      <mj-section background-color="#ffffff">
-        <mj-column>
-          <mj-image href="https://www.oxfam.ca/" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-600x395-grayscale.jpeg?v=1616091814000" mj-class="padding-0" width="600px" alt=""></mj-image>
-        </mj-column>
-      </mj-section>
+    <mj-section background-color="#ffffff">
+      <mj-column width="5%"></mj-column>
+      <mj-column width="90%">
+        <mj-text mj-class="text-h2-headline left" padding-top="40px" padding-bottom="10px">
+          Adipiscing bibendum est ultricies integer quis auctor.
+        </mj-text>
+        <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
+          <strong>Enim lobortis scelerisque fermentum</strong> , dui faucibus in ornare quam viverra. Lectus magnafringilla urna porttitor rhoncus dolor purus non enim.
+          Nunc sed id semper risus in. Diam donec adipiscing tristique risus nec feugiat. In vitae turpis massa sed. Mauris vitae ultricies leo integer malesuada nunc vel. A scelerisque purus semper eget duis. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Nulla facilisi etiam dignissim diam quis enim lobortis
+          scelerisque fermentum. Nisi lacus sed viverra tellus in.
+        </mj-text>
+        <mj-button href="https://www.oxfam.ca/">CALL TO ACTION</mj-button>
+      </mj-column>
+      <mj-column width="5%"></mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+      <mj-column width="5%"></mj-column>
+      <mj-column width="90%">
+        <mj-text mj-class="text-h2-headline left" padding-top="40px" padding-bottom="10px">
+          Adipiscing bibendum est ultricies integer quis auctor.
+        </mj-text>
+        <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
+          <strong>Enim lobortis scelerisque fermentum</strong> , dui faucibus in ornare quam viverra. Lectus magnafringilla urna porttitor rhoncus dolor purus non enim.
+          Nunc sed id semper risus in. Diam donec adipiscing tristique risus nec feugiat. In vitae turpis massa sed. Mauris vitae ultricies leo integer malesuada nunc vel. A scelerisque purus semper eget duis. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Nulla facilisi etiam dignissim diam quis enim lobortis
+          scelerisque fermentum. Nisi lacus sed viverra tellus in.
+        </mj-text>
+        <mj-button href="https://www.oxfam.ca/">CALL TO ACTION</mj-button>
+      </mj-column>
+      <mj-column width="5%"></mj-column>
+    </mj-section>
 
 
-      <mj-section background-color="#ffffff">
-        <mj-column width="5%"></mj-column>
-        <mj-column width="90%">
-          <mj-text mj-class="text-h2-headline left" padding-top="40px" padding-bottom="10px">
-            Adipiscing bibendum est ultricies integer quis auctor.
-          </mj-text>
-          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
-            <strong>Enim lobortis scelerisque fermentum</strong> , dui faucibus in ornare quam viverra. Lectus magnafringilla urna porttitor rhoncus dolor purus non enim.
-            Nunc sed id semper risus in. Diam donec adipiscing tristique risus nec feugiat. In vitae turpis massa sed. Mauris vitae ultricies leo integer malesuada nunc vel. A scelerisque purus semper eget duis. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Nulla facilisi etiam dignissim diam quis enim lobortis
-            scelerisque fermentum. Nisi lacus sed viverra tellus in.
-          </mj-text>
-          <mj-button href="https://www.oxfam.ca/">CALL TO ACTION</mj-button>
-        </mj-column>
-        <mj-column width="5%"></mj-column>
-      </mj-section>
-    </mj-wrapper>
+    <mj-section mj-class="padding-top-0 padding-bottom-0" background-url="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1991/bg.jpg" background-size="cover">
+      <mj-column width="5%"></mj-column>
+      <mj-column width="45%">
+        <mj-image mj-class="padding-bottom-0" alt="" src="https://picsum.photos/seed/first/224/224" width="224px" padding-top="20px" />
+        <mj-text mj-class="text-h3-subhead left">
+          This is the first subtitle
+        </mj-text>
+        <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
+          Enim lobortis scelerisque fermentum, dui <strong>faucibus in ornare</strong>, quam
+          viverra. Lectus magna fringilla urna porttitor
+          rhoncus dolor purus non enim. Nunc sed id
+          semper risus in. Diam donec ...
+        </mj-text>
+        <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
+          <a class="color-cta" href="https://www.oxfam.ca/">Learn More</a>
+        </mj-text>
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="45%">
+        <mj-image mj-class="padding-bottom-0" alt="" src="https://picsum.photos/seed/second/224/224" width="224px" padding-top="20px" />
+        <mj-text mj-class="text-h3-subhead left">
+          Subtitle for the second block
+        </mj-text>
+        <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
+          Enim lobortis scelerisque fermentum, dui <strong>faucibus in ornare</strong> quam
+          viverra. Lectus magna fringilla urna porttitor
+          rhoncus dolor purus non enim. Nunc sed id
+          semper risus in. Diam donec ...
+        </mj-text>
+        <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
+          <a class="color-cta" href="https://www.oxfam.ca/">Learn More</a>
+        </mj-text>
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="5%"></mj-column>
+    </mj-section>
 
-    <mj-wrapper css-class="en__component en__component--repeatable">
-      <mj-section background-color="#ffffff">
-        <mj-column width="5%"></mj-column>
-        <mj-column width="90%">
-          <mj-text mj-class="text-h2-headline left" padding-top="40px" padding-bottom="10px">
-            Adipiscing bibendum est ultricies integer quis auctor.
-          </mj-text>
-          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
-            <strong>Enim lobortis scelerisque fermentum</strong> , dui faucibus in ornare quam viverra. Lectus magnafringilla urna porttitor rhoncus dolor purus non enim.
-            Nunc sed id semper risus in. Diam donec adipiscing tristique risus nec feugiat. In vitae turpis massa sed. Mauris vitae ultricies leo integer malesuada nunc vel. A scelerisque purus semper eget duis. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Nulla facilisi etiam dignissim diam quis enim lobortis
-            scelerisque fermentum. Nisi lacus sed viverra tellus in.
-          </mj-text>
-          <mj-button href="https://www.oxfam.ca/">CALL TO ACTION</mj-button>
-        </mj-column>
-        <mj-column width="5%"></mj-column>
-      </mj-section>
-    </mj-wrapper>
+    <mj-section mj-class="padding-top-0 padding-bottom-0" background-url="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1991/bg.jpg" background-size="cover">
+      <mj-column width="5%"></mj-column>
+      <mj-column width="45%">
+        <mj-image mj-class="padding-bottom-0" alt="" src="https://picsum.photos/seed/third/224/224" width="224px" padding-top="20px" />
+        <mj-text mj-class="text-h3-subhead left">
+          Third subtitle for you
+        </mj-text>
+        <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
+          Enim lobortis scelerisque fermentum, dui <strong>faucibus in ornare</strong>, quam
+          viverra. Lectus magna fringilla urna porttitor
+          rhoncus dolor purus non enim. Nunc sed id
+          semper risus in. Diam donec ...
+        </mj-text>
+        <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
+          <a class="color-cta" href="https://www.oxfam.ca/">Learn More</a>
+        </mj-text>
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="45%">
+        <mj-image mj-class="padding-bottom-0" alt="" src="https://picsum.photos/seed/fourth/224/224" width="224px" padding-top="20px" />
+        <mj-text mj-class="text-h3-subhead left">
+          Subtitle number four
+        </mj-text>
+        <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
+          Enim lobortis scelerisque fermentum, dui <strong>faucibus in ornare</strong> quam
+          viverra. Lectus magna fringilla urna porttitor
+          rhoncus dolor purus non enim. Nunc sed id
+          semper risus in. Diam donec ...
+        </mj-text>
+        <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
+          <a class="color-cta" href="https://www.oxfam.ca/">Learn More</a>
+        </mj-text>
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="5%"></mj-column>
+    </mj-section>
 
-    <mj-wrapper css-class="en__component en__component--repeatable">
-      <mj-section mj-class="padding-top-0 padding-bottom-0" background-color="#ffffff">
-        <mj-column width="5%"></mj-column>
-        <mj-column width="45%">
-          <mj-image mj-class="padding-bottom-0" alt="" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-224x224.jpeg?v=1616091813000" width="224px" padding-top="20px" />
-          <mj-text mj-class="text-h3-subhead left">
-            This is the first subtitle
-          </mj-text>
-          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
-            Enim lobortis scelerisque fermentum, dui <strong>faucibus in ornare</strong>, quam
-            viverra. Lectus magna fringilla urna porttitor
-            rhoncus dolor purus non enim. Nunc sed id
-            semper risus in. Diam donec ...
-          </mj-text>
-          <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
-            <a class="color-cta" href="https://www.oxfam.ca/">Learn More</a>
-          </mj-text>
-          <mj-spacer height="20px" />
-        </mj-column>
-        <mj-column width="45%">
-          <mj-image mj-class="padding-bottom-0" alt="" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-224x224.jpeg?v=1616091813000" width="224px" padding-top="20px" />
-          <mj-text mj-class="text-h3-subhead left">
-            Subtitle for the second block
-          </mj-text>
-          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
-            Enim lobortis scelerisque fermentum, dui <strong>faucibus in ornare</strong> quam
-            viverra. Lectus magna fringilla urna porttitor
-            rhoncus dolor purus non enim. Nunc sed id
-            semper risus in. Diam donec ...
-          </mj-text>
-          <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
-            <a class="color-cta" href="https://www.oxfam.ca/">Learn More</a>
-          </mj-text>
-          <mj-spacer height="20px" />
-        </mj-column>
-        <mj-column width="5%"></mj-column>
-      </mj-section>
-    </mj-wrapper>
-    <mj-wrapper css-class="en__component en__component--repeatable">
-      <mj-section mj-class="padding-top-0 padding-bottom-0" background-color="#ffffff">
-        <mj-column width="5%"></mj-column>
-        <mj-column width="45%">
-          <mj-image mj-class="padding-bottom-0" alt="" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-224x224.jpeg?v=1616091813000" width="224px" padding-top="20px" />
-          <mj-text mj-class="text-h3-subhead left">
-            Third subtitle for you
-          </mj-text>
-          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
-            Enim lobortis scelerisque fermentum, dui <strong>faucibus in ornare</strong>, quam
-            viverra. Lectus magna fringilla urna porttitor
-            rhoncus dolor purus non enim. Nunc sed id
-            semper risus in. Diam donec ...
-          </mj-text>
-          <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
-            <a class="color-cta" href="https://www.oxfam.ca/">Learn More</a>
-          </mj-text>
-          <mj-spacer height="20px" />
-        </mj-column>
-        <mj-column width="45%">
-          <mj-image mj-class="padding-bottom-0" alt="" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-224x224.jpeg?v=1616091813000" width="224px" padding-top="20px" />
-          <mj-text mj-class="text-h3-subhead left">
-            Subtitle number four
-          </mj-text>
-          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
-            Enim lobortis scelerisque fermentum, dui <strong>faucibus in ornare</strong> quam
-            viverra. Lectus magna fringilla urna porttitor
-            rhoncus dolor purus non enim. Nunc sed id
-            semper risus in. Diam donec ...
-          </mj-text>
-          <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
-            <a class="color-cta" href="https://www.oxfam.ca/">Learn More</a>
-          </mj-text>
-          <mj-spacer height="20px" />
-        </mj-column>
-        <mj-column width="5%"></mj-column>
-      </mj-section>
-    </mj-wrapper>
-    <mj-wrapper css-class="en__component en__component--repeatable">
-      <mj-section background-color="#ffffff">
-        <mj-column width="5%"></mj-column>
-        <mj-column width="90%">
-          <mj-text mj-class="text-h2-headline left" padding-top="40px" padding-bottom="10px">
-            Adipiscing bibendum est ultricies integer quis auctor.
-          </mj-text>
-          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
-            <strong>Enim lobortis scelerisque fermentum</strong> , dui faucibus in ornare quam viverra. Lectus magnafringilla urna porttitor rhoncus dolor purus non enim.
-            Nunc sed id semper risus in. Diam donec adipiscing tristique risus nec feugiat. In vitae turpis massa sed. Mauris vitae ultricies leo integer malesuada nunc vel. A scelerisque purus semper eget duis. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Nulla facilisi etiam dignissim diam quis enim lobortis
-            scelerisque fermentum. Nisi lacus sed viverra tellus in.
-          </mj-text>
-          <mj-button href="https://www.oxfam.ca/">CALL TO ACTION</mj-button>
-        </mj-column>
-        <mj-column width="5%"></mj-column>
-      </mj-section>
-    </mj-wrapper>
     <mj-section>
       <mj-column background-color="#0c884a">
         <mj-image mj-class="top-image" alt="green and yellow gradient art" />
