@@ -301,6 +301,23 @@
         <mj-column width="5%"></mj-column>
       </mj-section>
     </mj-wrapper>
+    <mj-wrapper css-class="en__component en__component--repeatable">
+      <mj-section background-color="#ffffff">
+        <mj-column width="5%"></mj-column>
+        <mj-column width="90%">
+          <mj-text mj-class="text-h2-headline left" padding-top="40px" padding-bottom="10px">
+            Adipiscing bibendum est ultricies integer quis auctor.
+          </mj-text>
+          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
+            <strong>Enim lobortis scelerisque fermentum</strong> , dui faucibus in ornare quam viverra. Lectus magnafringilla urna porttitor rhoncus dolor purus non enim.
+            Nunc sed id semper risus in. Diam donec adipiscing tristique risus nec feugiat. In vitae turpis massa sed. Mauris vitae ultricies leo integer malesuada nunc vel. A scelerisque purus semper eget duis. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Nulla facilisi etiam dignissim diam quis enim lobortis
+            scelerisque fermentum. Nisi lacus sed viverra tellus in.
+          </mj-text>
+          <mj-button href="https://www.oxfam.ca/">CALL TO ACTION</mj-button>
+        </mj-column>
+        <mj-column width="5%"></mj-column>
+      </mj-section>
+    </mj-wrapper>
     <mj-section>
       <mj-column background-color="#0c884a">
         <mj-image mj-class="top-image" alt="green and yellow gradient art" />
