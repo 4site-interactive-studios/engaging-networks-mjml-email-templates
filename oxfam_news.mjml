@@ -185,7 +185,7 @@
 
       <mj-section background-color="#ffffff">
         <mj-column>
-          <mj-image href="https://www.oxfam.ca/" src="https://picsum.photos/600/395?grayscale" mj-class="padding-0" width="600px" alt=""></mj-image>
+          <mj-image href="https://www.oxfam.ca/" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-600x395-grayscale.jpeg?v=1616091814000" mj-class="padding-0" width="600px" alt=""></mj-image>
         </mj-column>
       </mj-section>
 
@@ -229,7 +229,7 @@
       <mj-section mj-class="padding-top-0 padding-bottom-0" background-color="#ffffff">
         <mj-column width="5%"></mj-column>
         <mj-column width="45%">
-          <mj-image mj-class="padding-bottom-0" alt="" src="https://picsum.photos/seed/first/224/224" width="224px" padding-top="20px" />
+          <mj-image mj-class="padding-bottom-0" alt="" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-224x224.jpeg?v=1616091813000" width="224px" padding-top="20px" />
           <mj-text mj-class="text-h3-subhead left">
             This is the first subtitle
           </mj-text>
@@ -245,7 +245,7 @@
           <mj-spacer height="20px" />
         </mj-column>
         <mj-column width="45%">
-          <mj-image mj-class="padding-bottom-0" alt="" src="https://picsum.photos/seed/second/224/224" width="224px" padding-top="20px" />
+          <mj-image mj-class="padding-bottom-0" alt="" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-224x224.jpeg?v=1616091813000" width="224px" padding-top="20px" />
           <mj-text mj-class="text-h3-subhead left">
             Subtitle for the second block
           </mj-text>
@@ -267,7 +267,7 @@
       <mj-section mj-class="padding-top-0 padding-bottom-0" background-color="#ffffff">
         <mj-column width="5%"></mj-column>
         <mj-column width="45%">
-          <mj-image mj-class="padding-bottom-0" alt="" src="https://picsum.photos/seed/third/224/224" width="224px" padding-top="20px" />
+          <mj-image mj-class="padding-bottom-0" alt="" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-224x224.jpeg?v=1616091813000" width="224px" padding-top="20px" />
           <mj-text mj-class="text-h3-subhead left">
             Third subtitle for you
           </mj-text>
@@ -283,7 +283,7 @@
           <mj-spacer height="20px" />
         </mj-column>
         <mj-column width="45%">
-          <mj-image mj-class="padding-bottom-0" alt="" src="https://picsum.photos/seed/fourth/224/224" width="224px" padding-top="20px" />
+          <mj-image mj-class="padding-bottom-0" alt="" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-224x224.jpeg?v=1616091813000" width="224px" padding-top="20px" />
           <mj-text mj-class="text-h3-subhead left">
             Subtitle number four
           </mj-text>
