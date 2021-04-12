@@ -13,7 +13,7 @@
       <mj-text padding="12px 24px" css-class="en__component en__component--textblock"></mj-text>
       <mj-image padding="0px" css-class="en__component en__component--imageblock" />
       <mj-divider padding="12px 24px" border-width="2px" border-color="#DEE0E2" />
-      <mj-button padding="20px 15px" inner-padding="13px 40px 11px 40px" css-class="en__component en__component--textblock button" font-family="sans-serif" background-color="#61a534" color="#ffffff" font-size="16px" font-weight="bold" target="_blank" border-radius="23px" border="4px double #ffffff"></mj-button>
+      <mj-button padding="20px 15px" inner-padding="13px 40px 11px 40px" css-class="en__component en__component--textblock button" font-family="sans-serif" background-color="#61a534" color="#ffffff" font-size="16px" font-weight="bold" target="_blank" border-radius="23px" border="4px single #ffffff"></mj-button>
       <mj-spacer css-class="en__component en__component--textblock"></mj-spacer>
 
       <mj-class name="padding-0" padding="0px"></mj-class>
