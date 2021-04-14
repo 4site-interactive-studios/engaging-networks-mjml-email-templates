@@ -39,7 +39,7 @@
 
       <mj-class name="text-color-white" color="#ffffff"></mj-class>
 
-      <mj-class name="top-image" padding-top="0px" padding-bottom="0px" padding-left="0px" padding-right="0px" width="600px" height="12px" align="center" font-size="12px" src="https://www.oxfam.ca/wp-content/uploads/2018/08/toptop.jpg"></mj-class>
+      <mj-class name="divider-image" padding-top="0px" padding-bottom="0px" padding-left="0px" padding-right="0px" width="600px" height="12px" align="center" font-size="12px" src="https://www.oxfam.ca/wp-content/uploads/2018/08/toptop.jpg"></mj-class>
     </mj-attributes>
 
     <mj-style>
@@ -143,7 +143,7 @@
       </style>
       <!--REF: https://www.litmus.com/blog/typography-tips-for-email-designers/-->
       <!--[if mso]>
-      <style type=”text/css”>
+      <style>
         body,
         div,
         table tr,
@@ -163,7 +163,7 @@
       <mj-column>
         <mj-text align="center" padding-top="0px">
         </mj-text>
-        <mj-image mj-class="top-image" alt="green and yellow gradient art" />
+        <mj-image mj-class="divider-image" alt="green and yellow gradient art" />
       </mj-column>
     </mj-section>
 
@@ -350,8 +350,13 @@
     </mj-raw>
 
     <mj-section>
+      <mj-column>
+        <mj-image mj-class="divider-image" alt="green and yellow gradient art" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
       <mj-column background-color="#0c884a">
-        <mj-image mj-class="top-image" alt="green and yellow gradient art" />
         <mj-image src="https://42kgab3z3i7s3rm1xf48rq44-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/oxfamcanada_white.png" href="https://www.oxfam.ca/" alt="OXFAM Canada" width="196px" padding="20px" />
         <mj-text mj-class="text-color-white" align="center" font-size="12px" padding-bottom="20px" line-height="125%">
           39 McArthur Ave. Ottawa, Ontario, K1L 8L7 &bull; <a href="mailto:donor_relations@oxfam.ca" style="color:#ffffff;text-decoration:none;">donor_relations@oxfam.ca</a> &bull; <span style="white-space:nowrap">1-800-466-9326</span>
@@ -363,7 +368,6 @@
           <a href="https://www.oxfam.ca/privacy-policy/" style="color:#FFFFFF;text-decoration:none;">Privacy Policy</a> &nbsp;&bull;&nbsp; <a href="https://www.oxfam.ca/aoda-policy/" style="color:#FFFFFF;text-decoration:none;">Accessibility</a> &nbsp;&bull;&nbsp; <a href="https://www.oxfam.ca/who-we-are/about-oxfam/our-story/" style="color:#ffffff;text-decoration:none;">About Us</a>
           <br><br>
           &copy; 2020 Oxfam Canada is a member of the International Oxfam&nbsp;Confederation
-
         </mj-text>
         <mj-table align="center">
           <tr>
@@ -428,7 +432,6 @@
 
       </mj-column>
     </mj-section>
-
 
   </mj-body>
 </mjml>
