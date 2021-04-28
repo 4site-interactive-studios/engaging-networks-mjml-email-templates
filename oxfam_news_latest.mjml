@@ -39,7 +39,7 @@
 
       <mj-class name="text-color-white" color="#ffffff"></mj-class>
 
-      <mj-class name="divider-image" padding-top="0px" padding-bottom="0px" padding-left="0px" padding-right="0px" width="600px" height="12px" align="center" font-size="12px" src="https://www.oxfam.ca/wp-content/uploads/2018/08/toptop.jpg"></mj-class>
+      <mj-class name="divider-image" padding-top="0px" padding-bottom="0px" padding-left="0px" padding-right="0px" width="600px" height="12px" margin="0px" align="center" font-size="12px" src="https://www.oxfam.ca/wp-content/uploads/2018/08/toptop.jpg"></mj-class>
     </mj-attributes>
 
     <mj-style>
@@ -349,12 +349,16 @@
       </div>
     </mj-raw>
 
-    <mj-section>
-      <mj-column>
-        <mj-image mj-class="divider-image" alt="green and yellow gradient art" />
-      </mj-column>
-    </mj-section>
-
+    <mj-hero
+      mode="fixed-height"
+      background-width="600px"
+      background-height="12px"
+      background-url="https://www.oxfam.ca/wp-content/uploads/2018/08/toptop.jpg"
+      background-color="#FFFFFF"
+      padding="0px"
+      height="12px"
+    >
+    </mj-hero>
     <mj-section>
       <mj-column background-color="#0c884a">
         <mj-image src="https://42kgab3z3i7s3rm1xf48rq44-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/oxfamcanada_white.png" href="https://www.oxfam.ca/" alt="OXFAM Canada" width="196px" padding="20px" />
