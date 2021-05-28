@@ -5,7 +5,7 @@
 
     <mj-preview>Oxfam Canada</mj-preview>
 
-    <mj-breakpoint width="480px" />
+    <mj-breakpoint width="580px" />
 
     <mj-attributes>
       <mj-all color="#323232" font-size="16px" font-family="OxfamTSTAR, Arial, Helvetica, sans-serif"></mj-all>
@@ -19,7 +19,8 @@
       <mj-class name="padding-0" padding="0px"></mj-class>
       <mj-class name="padding-top-0" padding-top="0px"></mj-class>
       <mj-class name="padding-bottom-0" padding-bottom="0px"></mj-class>
-      <mj-class name="padding-20" padding="20px 0px 40px 0px"></mj-class>
+      <mj-class name="padding-20-0-40-0" padding="20px 0px 40px 0px"></mj-class>
+      <mj-class name="padding-20-24-0-24" padding="20px 24px 0px 24px"></mj-class>
 
       <mj-class name="text-size-small" font-size="12px" line-height="16px"></mj-class>
       <mj-class name="text-size-medium" font-size="18px" line-height="22px"></mj-class>
@@ -169,7 +170,7 @@
 
     <mj-section background-color="#ffffff">
       <mj-column vertical-align="middle" padding="0px 20px 0px 20px">
-        <mj-image href="https://www.oxfam.ca/" src="https://42kgab3z3i7s3rm1xf48rq44-wpengine.netdna-ssl.com/wp-content/uploads/2018/09/oxfamcanada_green.png" width="165px" alt="OXFAM Canada" padding-top="40px"></mj-image>
+        <mj-image href="https://www.oxfam.ca/" src="https://42kgab3z3i7s3rm1xf48rq44-wpengine.netdna-ssl.com/wp-content/uploads/2018/09/oxfamcanada_green.png" width="165px" alt="OXFAM Canada" padding-top="40px">
       </mj-column>
 
       <mj-column vertical-align="middle" padding="40px 20px 0px 20px">
@@ -197,7 +198,7 @@
         <mj-column>
           <mj-text mj-class="padding-0">
             <a href="https://www.oxfam.ca/">
-              <img style="display:block" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-600x395-grayscale.jpeg?v=1616091814000" width="600px" alt="" />
+              <img style="display:block; width: 100%; height: auto;" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-600x395-grayscale.jpeg?v=1616091814000" alt="" />
             </a>
           </mj-text>
         </mj-column>
@@ -250,7 +251,11 @@
       <mj-section mj-class="padding-top-0 padding-bottom-0" background-color="#ffffff">
         <mj-column width="5%"></mj-column>
         <mj-column width="45%">
-          <mj-image mj-class="padding-bottom-0" alt="" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-224x224.jpeg?v=1616091813000" width="224px" padding-top="20px" />
+          <mj-text mj-class="padding-20-24-0-24">
+            <a href="https://www.oxfam.ca/">
+              <img style="display:block; margin: auto; width: 100%; height: auto;" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-224x224.jpeg?v=1616091813000" alt="" />
+            </a>
+          </mj-text>
           <mj-text mj-class="text-h3-subhead left">
             This is the first subtitle
           </mj-text>
@@ -266,7 +271,11 @@
           <mj-spacer height="20px" />
         </mj-column>
         <mj-column width="45%">
-          <mj-image mj-class="padding-bottom-0" alt="" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-224x224.jpeg?v=1616091813000" width="224px" padding-top="20px" />
+          <mj-text mj-class="padding-20-24-0-24">
+            <a href="https://www.oxfam.ca/">
+              <img style="display:block; margin: auto; width: 100%; height: auto;" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-224x224.jpeg?v=1616091813000" alt="" />
+            </a>
+          </mj-text>
           <mj-text mj-class="text-h3-subhead left">
             Subtitle for the second block
           </mj-text>
@@ -293,7 +302,11 @@
       <mj-section mj-class="padding-top-0 padding-bottom-0" background-color="#ffffff">
         <mj-column width="5%"></mj-column>
         <mj-column width="45%">
-          <mj-image mj-class="padding-bottom-0" alt="" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-224x224.jpeg?v=1616091813000" width="224px" padding-top="20px" />
+          <mj-text mj-class="padding-20-24-0-24">
+            <a href="https://www.oxfam.ca/">
+              <img style="display:block; margin: auto; width: 100%; height: auto;" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-224x224.jpeg?v=1616091813000" alt="" />
+            </a>
+          </mj-text>
           <mj-text mj-class="text-h3-subhead left">
             Third subtitle for you
           </mj-text>
@@ -309,7 +322,11 @@
           <mj-spacer height="20px" />
         </mj-column>
         <mj-column width="45%">
-          <mj-image mj-class="padding-bottom-0" alt="" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-224x224.jpeg?v=1616091813000" width="224px" padding-top="20px" />
+          <mj-text mj-class="padding-20-24-0-24">
+            <a href="https://www.oxfam.ca/">
+              <img style="display:block; margin: auto; width: 100%; height: auto;" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-224x224.jpeg?v=1616091813000" alt="" />
+            </a>
+          </mj-text>
           <mj-text mj-class="text-h3-subhead left">
             Subtitle number four
           </mj-text>
@@ -433,7 +450,7 @@
 
     <mj-section>
       <mj-column>
-        <mj-text align="center" mj-class="padding-20 text-size-small">
+        <mj-text align="center" mj-class="padding-20-0-40-0 text-size-small">
           <a href="{unsubscribe_url~23599~143773~https://act.oxfam.ca~pb}" style="color:#61a534;text-decoration:underline;">Unsubscribe</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="{view_in_browser_url}" style="color:#61a534;text-decoration:underline;">View&nbsp;in&nbsp;browser</a>
         </mj-text>
 
