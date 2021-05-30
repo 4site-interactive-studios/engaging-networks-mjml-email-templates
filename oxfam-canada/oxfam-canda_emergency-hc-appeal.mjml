@@ -5,7 +5,7 @@
 
     <mj-preview>Oxfam Canada</mj-preview>
 
-    <mj-breakpoint width="600px" />
+    <mj-breakpoint width="660px" />
 
     <mj-attributes>
       <mj-all color="#323232" font-size="16px" font-family="OxfamTSTAR, Arial, Helvetica, sans-serif"></mj-all>
@@ -65,19 +65,8 @@
         src: url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/OxfamTSTARPRO-Bold.woff2") format("woff2");
       }
 
-      @media only screen and (max-width:480px) {
-        .no-top-padding {
-          padding-top: 0px !important;
-        }
-        .h1-desktop {
-          font-size:32px!important;
-          line-height:40px!important;
-        }
-
-        .h2-desktop {
-          font-size:24px!important;
-          line-height:30px!important;
-        }
+      @media only screen and (max-width:660px) {
+        /* Breakpoint Styles */
       }
     </mj-style>
 
