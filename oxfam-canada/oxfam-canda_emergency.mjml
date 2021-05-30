@@ -165,11 +165,11 @@
 
     <mj-section background-color="#ffffff">
       <mj-column width="5%"></mj-column>
-      <mj-column width="50%" vertical-align="middle" padding="0px 20px 0px 20px">
+      <mj-column width="30%" vertical-align="middle" padding="0px 0px 0px 0px">
         <mj-image href="https://www.oxfam.ca/" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/oxfamcanada_black.png?v=1589318279000" width="165px" alt="OXFAM Canada" padding-top="40px">
       </mj-column>
-
-      <mj-column width="40%" vertical-align="middle" padding="40px 20px 0px 20px">
+      <mj-column width="30%"></mj-column>
+      <mj-column width="30%" vertical-align="middle" padding="40px 0px 0px 0px">
         <mj-button href="https://secured.oxfam.ca/page/20905/donate/1?promo_name=Donate_now_button&amp;promo_position=Email&amp;promo_creative=Email" padding-top="20px">DONATE</mj-button>
       </mj-column>
       <mj-column width="5%"></mj-column>
