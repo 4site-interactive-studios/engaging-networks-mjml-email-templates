@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><!--
+	Notes: 
+		This HTML document demonstrates the various elements that make up our sample templates, formatted to respond to most desktop, web and mobile email clients.
+		**IMPORTANT: CSS INLINER MUST BE ENABLED!!!**
+		The intention is that the basic header + CSS, body tags and background table, can be copied entirely (see "wrapper begin" and "wrapper end" comments) and the elements within can be cut and pasted as required.
+		Structure:
+			body
+				en__container
+					en__section
+						header elements
+					/en__section
+				/en__container
+				...repeat for body, footer...
+			/body
+		Elements index:
+			header hero image
+			left align image
+			full width image
+			text content
+			button content
+			article
+			footer image
+			footer signature
+--><head>
+	<!-- High DPI image scaling (also xmlns attributes on <html> tag) -->
+	<!--[if gte mso 9]><xml>
+	 <o:OfficeDocumentSettings>
+	  <o:AllowPNG/>
+	  <o:PixelsPerInch>96</o:PixelsPerInch>
+	 </o:OfficeDocumentSettings>
+	</xml><![endif]-->
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="format-detection" content="telephone=no"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+	<style type="text/css"> 
+        
+        /* CSS Reset */
+		body{ 
+			width:100% !important; 
+			margin:0; 
+			padding:0; 
+		}
+        p,
+        h1,
+        h2 {
+        	margin: 0;
+        	padding: 0;
+        	margin-bottom: 0;
+        }
+        a {
+        }
+        table td {
+        	border-collapse: collapse;
+        }
+        img{
+        	border: 0; 
+        	height: auto; 
+        	line-height: 100%; 
+        	outline: none; 
+        	text-decoration: none;
+        }
+        table {
+        	margin: 0;
+        	padding: 0;
+        }
+        /* End Reset* */
+        /* Our styling */
+        body {
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 16px;
+			line-height: 22px;
+			color: #333333;
+        }
+        /* white either side */
+        .en__container {
+        	width: 100%;
+        	background-color: #ffffff;
+        }
+        /* grey either side */
+        .en__container--grey {
+        	background-color: #EEEEEE;
+        }
+        .en__section--header,
+        .en__section--body,
+        .en__section--footer {
+        	width: 640px;
+        }
+        .en__section--body {
+        	background-color: #ffffff;
+        }
+        .en__section--footer {
+        	font-size: 12px;
+        	color: #676767;
+        	line-height: 17px;
+        }
+        .en__pad {
+        	padding: 20px;
+        }
+        .en__image img {
+        	display: block;
+        }        
+
+/* 
+	Image notes:
+ 		Outlook uses width/height attribute on image instead, so that's set on the element as a fallback
+
+ 		hero image width and height are !important because our image editors set an inline width and height styles we want to override
+*/
+
+        .en__image--hero img {
+        	width: 100% !important;
+        	height: auto !important;
+        	display: block;
+        }
+        .signature-image {
+	        margin-right: 15px;
+        }
+        .small-image {
+	        margin-right: 10px;
+	        margin-left: 10px;
+	        margin-bottom: 10px;
+        }
+        p,
+        h1,
+        h2 {
+        	margin-bottom: 16px;
+        	margin-top: 16px;
+        }
+        h1 {
+        	font-size: 25px;
+        }
+        h2 {
+        	font-size: 22px;
+        }
+        h1,
+        h2 {
+        	color: #78a22f;
+        }
+
+        .en__button {
+            font-size: 20px;
+        }
+
+        .en__button__table td {
+        	/* bgcolor is on the element so users can edit */
+        	padding:15px 25px;
+        }
+
+        .en__button a {
+        	display:block;
+        	cursor:pointer;
+        }
+        .en__article {
+        	font-size: 14px;
+        	line-height: 19px;
+        	width: 100%;
+        }
+        .en__article h1,
+        .en__article h2,
+        .en__article p,
+       	.en__article__left,
+       	.en__article__right {
+        	margin-bottom: 14px;
+        	margin-top: 14px;        	
+        }
+        .en__article__spacer {
+        	padding-left: 20px;
+        }
+        /* Mobile */
+        @media screen and (max-width: 630px) {
+	        .en__section--header,
+	        .en__section--body,
+	        .en__section--footer {
+	        	width: 100% !important;
+	        }
+        }
+        @media screen and (max-width: 500px) {
+	        .en__article__left,
+	        .en__article__spacer,
+	        .en__article__right {
+	        	width: 100% !important;
+	        	display: block !important;
+	        }
+        }
+        /* End Mobile */
+        /* Client-specifics */
+        	/* Don't adjust my text size */
+        body * {
+        	text-size-adjust: none !important;
+        	-webkit-text-size-adjust:100%;
+        	-ms-text-size-adjust:100%;
+        }
+        	/* Hotmail adds divs and adjusts line-height */
+        .ReadMsgBody { 
+        	width: 100%;
+        }
+        .ExternalClass { 
+        	width:100%;
+        }
+        .ExternalClass * {
+        	line-height: 100%;
+        }
+        	/* image resize smoothing in IE */
+        img{
+        	-ms-interpolation-mode: bicubic;
+        } 
+            /* Apple blue links */
+	    a[x-apple-data-detectors] {
+	        color: inherit !important;
+	        text-decoration: none !important;
+	        font-size: inherit !important;
+	        font-family: inherit !important;
+	        font-weight: inherit !important;
+	        line-height: inherit !important;
+	    }
+	    /* End Client-specifics */
+    </style>
+	</head><body class="" style="cursor: auto;">
+		<!-- background table -->
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+		    <tbody><tr>
+		        <td>
+
+		        	<!-- body container -->
+		        	<table class="en__container en__container--grey" cellspacing="0" cellpadding="0">
+		        		<tbody><tr>
+		        			<td align="center" valign="top">
+
+		        				<!-- body -->
+		        				<table class="en__section en__section--body" border="0" cellspacing="0" cellpadding="20">
+					        		<tbody><tr>
+					        			<td class="en__pad" align="left">
+					        				<div class="en__component en__component--droppable ui-sortable">
+						        				<!-- Element: left align image -->
+						        				<div class="en__component en__component--imageblock en__image" style="background:#78a22f;"><img src="https://acb0a5d73b67fccd4bbe-c2d8138f0ea10a18dd4c43ec3aa4240a.ssl.cf5.rackcdn.com/10042/RAN_logo_bw_nobackground.png?v=1553698582000" class="" alt="" data-unit="px" data-ratio-lock="true" style="height: 58px; width: 300px; padding: 1em;"></div>
+						        				<!-- /Element: left align image -->
+
+						        				<!-- Element: intro -->
+						        				<div class="en__component en__component--textblock ui-draggable-dragging" style="inset: 0px auto auto 0px; position: relative;"><p><a href="https://act.ran.org"><img alt="" class="emailImage" data-ratio-lock="true" data-unit="%" src="https://acb0a5d73b67fccd4bbe-c2d8138f0ea10a18dd4c43ec3aa4240a.ssl.cf5.rackcdn.com/10042/orangutan-for-email.jpg?v=1560365750000" style="height: auto; width: 100%;"></a></p>
+</div><div class="en__component en__component--textblock"><p style="display:none !important;">{preview_text}</p>
+<p>{user_data~First Name~Friend},</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong><a data-custom-urls="[]" data-custom-urls-enabled="false" href="{campaignpage_url~32513~https://us.e-activist.com/page/10170/data/1~23f8cd00}">Nulla nec purus</a></strong> et lacus vehicula rhoncus sit amet imperdiet dolor. Nunc lacinia lorem pellentesque convallis vulputate. Aenean porttitor risus turpis, sed eleifend lectus rutrum in. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+</div><div class="en__component en__component--textblock ui-draggable-dragging" style="right: auto; bottom: auto;"><div align="center" style="padding: 10px;">
+<table cellpadding="10" cellspacing="0" style="margin-left: auto; margin-right: auto;">
+	<tbody>
+		<tr>
+			<td align="center" bgcolor="#f57e20" height="auto" style="-webkit-border-radius: 5px; border-radius: 5px; color: #ffffff; display: block;" width="350"><a href="https://act.ran.org/xxx" style="font-size: 16px; font-weight: bold; font-family: Helvetica, Arial, sans-serif; color: white; text-decoration: none; line-height: 25px; width: 100%; display: inline-block;" title="Take Action">Take Action</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+						        				<!-- /Element: intro -->
+
+												<!-- Element: full width image -->
+												
+												<!-- /Element: full width image -->
+
+												<!-- Element: text content -->
+												<div class="en__component en__component--textblock ui-draggable-dragging" style="right: auto; bottom: auto;"><div class="row">
+<div class="column">
+<p style="margin: 16px 0px; padding: 0px; font-family: Helvetica, Arial, sans-serif; font-size: 16px; text-size-adjust: none !important;">onec vulputate mi quis augue auctor iaculis. Fusce metus diam, semper ut tortor id, maximus posuere odio. Suspendisse auctor pretium urna ac mollis. Nam et viverra arcu. Mauris dictum id lorem at gravida.</p>
+
+<p style="margin: 16px 0px; padding: 0px; font-family: Helvetica, Arial, sans-serif; font-size: 16px; text-size-adjust: none !important;">Integer eu blandit lorem, non condimentum erat. Nunc eget elit lobortis, varius metus in, imperdiet nisi. Vestibulum conv</p>
+</div>
+
+<div class="column">&nbsp;</div>
+</div>
+</div><div class="en__component en__component--textblock ui-draggable-dragging" style="right: auto; bottom: auto;"><div align="center" style="padding: 10px;">
+<table cellpadding="10" cellspacing="0" style="margin-left: auto; margin-right: auto;">
+	<tbody>
+		<tr>
+			<td align="center" bgcolor="#f57e20" height="auto" style="-webkit-border-radius: 5px; border-radius: 5px; color: #ffffff; display: block;" width="350"><a href="https://act.ran.org/xxx" style="font-size: 16px; font-weight: bold; font-family: Helvetica, Arial, sans-serif; color: white; text-decoration: none; line-height: 25px; width: 100%; display: inline-block;" title="Take Action">Take Action</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div><div class="en__component en__component--textblock ui-draggable-dragging" style="right: auto; bottom: auto;"><p><img alt="" class="signature-image" data-ratio-lock="true" data-unit="px" src="https://acb0a5d73b67fccd4bbe-c2d8138f0ea10a18dd4c43ec3aa4240a.ssl.cf5.rackcdn.com/10042/ginger-cassidy.jpg?v=1566507035000" style="margin-left: 5px; float: left; height: 125px; width: 125px;"></p>
+
+<p>Sender Name<br>
+Position<br>
+Rainforest Action Network</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</div><div class="en__component en__component--textblock ui-draggable-dragging" style="right: auto; bottom: auto;"><p>P.S. <strong>Post Script.&nbsp;</strong></p>
+</div>
+												<!-- /Element: text content -->
+
+						        				<!-- Element: outro content -->
+						        				<div class="en__component en__component--textblock" style="background:#78a22f;"><p style=" text-align:=">&nbsp;</p>
+
+<p style="text-align: center; color:#FFFFFF; padding: 1em; font-size: 14px;">At RAN, we take the “Network” in our name seriously. It is&nbsp;only through your support&nbsp;that we are able to fund major campaigns for the forests, their inhabitants and the natural systems that sustain life.&nbsp;Please consider joining RAN as a Member by making a gift today.</p>
+
+<p center="" style="text-align: center;>
+<table align="><a data-custom-urls="[{&quot;parameter&quot;:&quot;en_og_source&quot;,&quot;value&quot;:&quot;e_en&quot;}]" data-custom-urls-enabled="true" href="{campaignpage_url~50252~https://act.ran.org/page/18085/donate/1?en_og_source=e_en~Become_a_monthly_donor}"><img src="https://acb0a5d73b67fccd4bbe-c2d8138f0ea10a18dd4c43ec3aa4240a.ssl.cf5.rackcdn.com/10042/StartAMonthlyDonation_Footer95.png?v=1557775468000"></a> <img src="https://acb0a5d73b67fccd4bbe-c2d8138f0ea10a18dd4c43ec3aa4240a.ssl.cf5.rackcdn.com/10042/OR_Footer95.png?v=1557775468000"> <a data-custom-urls="[{&quot;parameter&quot;:&quot;en_og_source&quot;,&quot;value&quot;:&quot;e_en&quot;}]" data-custom-urls-enabled="true" href="{campaignpage_url~48423~https://act.ran.org/page/17252/donate/1?en_og_source=e_en~Make_a_one_time_gift}"><img src="https://acb0a5d73b67fccd4bbe-c2d8138f0ea10a18dd4c43ec3aa4240a.ssl.cf5.rackcdn.com/10042/Give5_Footer95.png?v=1557775468000"></a></p>
+
+<p style="text-align: center; color:#000000; font-size: 11px;">425 Bush St, Suite 300, San Francisco, CA 94108, United States<br>
+This email was sent to {user_data~Email} |&nbsp;<a href="{unsubscribe_action~34305~https://act.ran.org/page/10767/subscriptions/1}">Unsubscribe</a></p>
+
+<p>&nbsp;</p>
+</div>
+						        				<!-- /Element: outro content -->
+					        				</div>
+				        				</td>
+				        			</tr>
+				        		</tbody></table>
+				        		<!-- /body -->
+
+		        			</td>
+		        		</tr>
+		        	</tbody></table>
+		        	<!-- /body container -->
+
+		        	<!-- footer container -->
+		        	<table class="en__container en__container--grey" border="0" cellspacing="0" cellpadding="0">
+		        		<tbody><tr>
+		        			<td align="center" valign="top">
+
+		        				<!-- footer -->
+		        				<table class="en__section en__section--footer" border="0" cellspacing="0" cellpadding="20">
+					        		<tbody><tr>
+					        			<td class="en__pad" align="center">
+							        		<!-- Element: footer signature -->
+							        		
+							        		<!-- /Element: footer signature -->
+							        	</td>
+							        </tr>
+							    </tbody></table>
+							    <!-- /footer -->
+
+							</td>
+		        		</tr>
+		        	</tbody></table>
+		        	<!-- /footer container -->
+
+		        </td>
+		    </tr>
+		</tbody></table>
+		<!-- /background table -->
+
+	   
+
+
+</body></html>
