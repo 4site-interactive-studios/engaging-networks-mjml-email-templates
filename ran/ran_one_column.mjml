@@ -1,0 +1,272 @@
+<mjml lang="en">
+
+  <mj-head>
+    <mj-title>RainForest Action Network</mj-title>
+
+    <mj-preview>{preview_text}</mj-preview>
+
+    <mj-breakpoint width="600px" />
+
+    <mj-attributes>
+      <mj-all color="#333333" font-size="16px" font-family="Arial, Helvetica, sans-serif"></mj-all>
+      <mj-section padding="0px" css-class="en__component en__component--droppable ui-sortable"></mj-section>
+      <mj-text padding="0px" css-class="en__component en__component--textblock"></mj-text>
+      <mj-image padding="0px" css-class="en__component en__component--imageblock" />
+      <mj-divider padding="12px 24px" border-width="2px" border-color="#000000" />
+      <mj-button padding="10px" inner-padding="15px 40px 15px 40px" width="350px" css-class="en__component en__component--textblock button" font-family="Arial, Helvetica, sans-serif" background-color="#f57e20" color="#ffffff" font-size="16px" font-weight="bold" target="_blank" border-radius="5px"></mj-button>
+      <mj-spacer css-class="en__component en__component--textblock"></mj-spacer>
+
+      <mj-class name="padding-0" padding="0px"></mj-class>
+      <mj-class name="padding-top-0" padding-top="0px"></mj-class>
+      <mj-class name="padding-bottom-0" padding-bottom="0px"></mj-class>
+      <mj-class name="padding-20-0-40-0" padding="20px 0px 40px 0px"></mj-class>
+      <mj-class name="padding-20-24-0-24" padding="20px 24px 0px 24px"></mj-class>
+      <mj-class name="text-body" font-size="16px" line-height="22px" color="#333333"></mj-class>
+      <mj-class name="text-footer" font-size="14px" line-height="22px" color="#ffffff"></mj-class>
+      <mj-class name="text-footer-alt" font-size="11px" line-height="13px" color="#000000"></mj-class>
+      <mj-class name="bold" font-weight="bold"></mj-class>
+      <mj-class name="center" align="center"></mj-class>
+      <mj-class name="right" align="right"></mj-class>
+      <mj-class name="left" align="left"></mj-class>
+    </mj-attributes>
+
+    <mj-style>
+      @media only screen and (max-width:599px) {
+        /* Breakpoint Styles */
+      }
+    </mj-style>
+
+
+    <mj-style inline="inline">
+      .color-cta {
+        color: #61a534;
+        text-decoration: underline;
+      }
+
+      a.blue-link {
+       text-decoration: underline !important;
+       color: #034dff !important;
+       font-weight: bold !important;
+      }
+
+      .underline {
+        text-decoration: underline;
+      }
+
+      .no-underline {
+        text-decoration: none;
+      }
+      
+      .button a{
+        display: inline-block;
+      }
+    </mj-style>
+
+    <mj-raw>
+      <meta name="format-detection" content="telephone=no">
+      <style>
+        img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          font-size: 16px;
+          color: #000000;
+        }
+
+        /* In the event an editable component is inside another editable component, bump the z-index of its components dialog so it appears above its parent */
+        .en__component--active .en__component--active .en__component__actions {
+          z-index: 1000;
+        }
+
+        .en__component--active .en__component--active .en__component--active .en__component__actions {
+          z-index: 1001;
+        }
+
+        .en__component--active .en__component--active .en__component--active .en__component--active .en__component__actions {
+          z-index: 1002;
+        }
+
+        .en__component--active .en__component--active .en__component--active .en__component--active .en__component--active .en__component__actions {
+          z-index: 1003;
+        }
+
+        /* In the event an editable component is inside another editable component, darken the color its components action button so they appears distinc from its parents */
+        .en__component--active .en__component--active .en__component__actions .en__component__action {
+          background-color: hsl(191deg 100% 38%);
+        }
+
+        .en__component--active .en__component--active .en__component--active .en__component__actions .en__component__action {
+          background-color: hsl(191deg 100% 33%);
+        }
+
+        .en__component--active .en__component--active .en__component--active .en__component--active .en__component__actions .en__component__action {
+          background-color: hsl(191deg 100% 28%);
+        }
+
+        .en__component--active .en__component--active .en__component--active .en__component--active .en__component--active .en__component__actions .en__component__action {
+          background-color: hsl(191deg 100% 23%);
+        }
+      </style>
+      <!--[if mso]>
+      <style>
+        body,
+        div,
+        table tr,
+        table td,
+        a,
+        span,
+        table.MsoNormalTable {
+          font-family: Arial, Helvetica, sans-serif !important;
+        }
+      </style>
+      <![endif]-->
+    </mj-raw>
+  </mj-head>
+  <mj-body background-color="#eeeeee" width="640px">
+
+  <mj-wrapper background-color="#ffffff" padding="20px">
+
+    <mj-section>
+      <mj-column background-color="#78a22f" padding="15px">
+        <mj-image src="https://acb0a5d73b67fccd4bbe-c2d8138f0ea10a18dd4c43ec3aa4240a.ssl.cf5.rackcdn.com/10042/RAN_logo_bw_nobackground.png" width="300px" alt="RAINFOREST ACTION NETWORK" align="left">
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <div class="en__component en__component--repeatable">
+    </mj-raw>
+      <mj-section>
+        <mj-column>
+          <mj-image src="https://acb0a5d73b67fccd4bbe-c2d8138f0ea10a18dd4c43ec3aa4240a.ssl.cf5.rackcdn.com/10042/orangutan-for-email.jpg" href="https://act.ran.org/page/17170/donate/1" width="600px" padding-top="20px" alt="photo of a orangutan" css-class="image" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text mj-class="text-body left" padding-top="20px" padding-bottom="10px">
+            {user_data~First Name~Friend},
+          </mj-text>
+          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="##" target="_blank" class="blue-link">Nulla nec purus</a>  et lacus vehicula rhoncus sit amet imperdiet dolor. Nunc lacinia lorem pellentesque convallis vulputate. Aenean porttitor risus turpis, sed eleifend lectus rutrum in. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+          </mj-text>
+          <mj-table>
+            <tr>
+              <td align="center" valign="top">
+                <table border="0" cellspacing="0" cellpadding="0" role="presentation">
+                  <tr>
+                    <td align="center" style="border-radius:5px;" bgcolor="#f57e20">
+                    <a href="https://act.ran.org/" target="_blank" style="font-size: 16px; font-family:Arial, Helvetica, sans-serif; color:#ffffff; text-decoration:none; font-weight:bold; border-radius:5px; padding: 12px 40px 12px 40px; border: 2px solid #f57e20; display: inline-block;">Take Action</a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </mj-table>
+          <!--<mj-button href="https://act.ran.org/">Take Action</mj-button>-->
+          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="30px">
+          onec vulputate mi quis augue auctor iaculis. Fusce metus diam, semper ut tortor id, maximus posuere odio. Suspendisse auctor pretium urna ac mollis. Nam et viverra arcu. Mauris dictum <a href="##" target="_blank" class="blue-link">id lorem at gravida</a>.
+          <br><br>
+          Integer eu blandit lorem, non condimentum erat. Nunc eget elit lobortis, varius metus in, imperdiet nisi. Vestibulum conv
+          </mj-text>
+          <mj-table>
+            <tr>
+              <td align="center" valign="top">
+                <table border="0" cellspacing="0" cellpadding="0" role="presentation">
+                  <tr>
+                    <td align="center" style="border-radius:5px;" bgcolor="#f57e20">
+                    <a href="https://act.ran.org/" target="_blank" style="font-size: 16px; font-family:Arial, Helvetica, sans-serif; color:#ffffff; text-decoration:none; font-weight:bold; border-radius:5px; padding: 12px 40px 12px 40px; border: 2px solid #f57e20; display: inline-block;">Take Action</a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </mj-table>
+          <!--<mj-button href="https://act.ran.org/">Take Action</mj-button>-->
+        </mj-column>
+      </mj-section>
+    <mj-raw>
+      </div>
+    </mj-raw>
+
+    <mj-section>
+      <mj-column>
+        <mj-table padding="20px 0px 20px 0px">
+          <tr>
+              <td align="left" valign="top">
+                  <table border="0" cellspacing="0" cellpadding="0" role="presentation">
+                    <tr>
+
+                      <td align="left" valign="top" style="padding:0px 15px 0px 0px;">
+                        <img style="width:125px; height:auto;display:block;" width="125" align="left" alt="" src="https://acb0a5d73b67fccd4bbe-c2d8138f0ea10a18dd4c43ec3aa4240a.ssl.cf5.rackcdn.com/10042/ginger-cassidy.jpg" />
+                      </td>
+
+                      <td align="center" valign="top" style="padding:0px 0px 0px 0px;">
+                        <table width="100%" bgcolor="#ffffff"role="presentation" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td align="left" valign="top" style="font-family:Arial, sans-serif; font-size: 16px; line-height:22px; color:#333333;">
+                            Sender Name<br>
+                            Position<br>
+                            Rainforest Action Network
+	
+											    </td>
+                        </tr>
+                        </table>
+                      </td>
+
+                    </tr>
+                  </table>
+              </td>
+          </tr>
+          <tr>
+              <td align="left" valign="top" style="padding-top:30px;font-family:Arial, sans-serif; font-size: 16px; line-height:22px; color:#333333;">
+                      P.S. <strong>Post Script.&nbsp;</strong>
+							</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column background-color="#78a22f" padding="30px 10px 30px 10px">
+        <mj-text mj-class="text-footer" align="center"  padding-bottom="20px">
+          At RAN, we take the “Network” in our name seriously. It is only through your support that we are able to fund major campaigns for the forests, their inhabitants and the natural systems that sustain life. Please consider joining RAN as a Member by making a gift today.
+        </mj-text>
+        <mj-table>
+          <tr>
+              <td align="center" valign="top">
+                  <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                    <tr>
+                      <td align="left" valign="middle" style="padding:0px 5px 0px 5px;">
+                        <a href="{campaignpage_url~50252~https://act.ran.org/page/18085/donate/1?en_og_source=e_en~Become_a_monthly_donor}" target="_blank"><img src="https://acb0a5d73b67fccd4bbe-c2d8138f0ea10a18dd4c43ec3aa4240a.ssl.cf5.rackcdn.com/10042/StartAMonthlyDonation_Footer95.png" style="width:173px; height:auto;display:block;color:#000000;" width="173" align="left" alt="Start a monthly donation now"  /></a>
+                      </td>
+                      <td align="left" valign="middle" style="padding:0px 5px 0px 5px;">
+                        <img src="https://acb0a5d73b67fccd4bbe-c2d8138f0ea10a18dd4c43ec3aa4240a.ssl.cf5.rackcdn.com/10042/OR_Footer95.png" style="width:50px; height:auto;display:block;color:#000000;" width="50" align="left" alt="OR"  />
+                      </td>
+                      <td align="left" valign="middle" style="padding:0px 5px 0px 5px;">
+                        <a href="{campaignpage_url~48423~https://act.ran.org/page/17252/donate/1?en_og_source=e_en~Make_a_one_time_gift}" target="_blank"><img src="https://acb0a5d73b67fccd4bbe-c2d8138f0ea10a18dd4c43ec3aa4240a.ssl.cf5.rackcdn.com/10042/Give5_Footer95.png" style="width:68px; height:auto;display:block;color:#000000;" width="68" align="left" alt="Give $5"  /></a>
+                      </td>
+                    </tr>
+                  </table>
+              </td>
+          </tr>
+        </mj-table>
+        <mj-text mj-class="text-footer-alt" align="center"  padding="20px 10px 20px 10px">
+         425 Bush St, Suite 300, San Francisco, CA 94108, United&nbsp;States
+          <br><br>
+          This email was sent to {user_data~Email} | <a href="{unsubscribe_action~34305~https://act.ran.org/page/10767/subscriptions/1}" class="blue-link">Unsubscribe</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-wrapper>
+
+  <mj-section>
+    <mj-column>
+        <mj-spacer height="30px" />
+    </mj-column>
+  </mj-section>
+
+
+
+  </mj-body>
+</mjml>
