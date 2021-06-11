@@ -13,9 +13,8 @@
       <mj-text padding="0px" css-class="en__component en__component--textblock"></mj-text>
       <mj-image padding="0px" css-class="en__component en__component--imageblock" />
       <mj-divider padding="12px 24px" border-width="2px" border-color="#000000" />
-      <mj-button padding="10px" inner-padding="15px 40px 15px 40px" width="350px" css-class="en__component en__component--textblock button" font-family="Arial, Helvetica, sans-serif" background-color="#f57e20" color="#ffffff" font-size="16px" font-weight="bold" target="_blank" border-radius="5px"></mj-button>
+      <mj-button padding="10px" inner-padding="15px 20px 15px 20px" width="350px" css-class="en__component en__component--textblock button" font-family="Arial, Helvetica, sans-serif" background-color="#f57e20" color="#ffffff" font-size="16px" font-weight="bold" target="_blank" border-radius="5px"></mj-button>
       <mj-spacer css-class="en__component en__component--textblock"></mj-spacer>
-
       <mj-class name="padding-0" padding="0px"></mj-class>
       <mj-class name="padding-top-0" padding-top="0px"></mj-class>
       <mj-class name="padding-bottom-0" padding-bottom="0px"></mj-class>
@@ -146,42 +145,16 @@
           <mj-text mj-class="text-body left" padding-top="20px" padding-bottom="10px">
             {user_data~First Name~Friend},
           </mj-text>
-          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="##" target="_blank" class="blue-link">Nulla nec purus</a>  et lacus vehicula rhoncus sit amet imperdiet dolor. Nunc lacinia lorem pellentesque convallis vulputate. Aenean porttitor risus turpis, sed eleifend lectus rutrum in. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="20px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="https://act.ran.org/" target="_blank" class="blue-link">Nulla nec purus</a>  et lacus vehicula rhoncus sit amet imperdiet dolor. Nunc lacinia lorem pellentesque convallis vulputate. Aenean porttitor risus turpis, sed eleifend lectus rutrum in. Interdum et malesuada fames ac ante ipsum primis in faucibus.
           </mj-text>
-          <mj-table>
-            <tr>
-              <td align="center" valign="top">
-                <table border="0" cellspacing="0" cellpadding="0" role="presentation">
-                  <tr>
-                    <td align="center" style="border-radius:5px;" bgcolor="#f57e20">
-                    <a href="https://act.ran.org/" target="_blank" style="font-size: 16px; font-family:Arial, Helvetica, sans-serif; color:#ffffff; text-decoration:none; font-weight:bold; border-radius:5px; padding: 12px 40px 12px 40px; border: 2px solid #f57e20; display: inline-block;">Take Action</a>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </mj-table>
-          <!--<mj-button href="https://act.ran.org/">Take Action</mj-button>-->
-          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="30px">
-          onec vulputate mi quis augue auctor iaculis. Fusce metus diam, semper ut tortor id, maximus posuere odio. Suspendisse auctor pretium urna ac mollis. Nam et viverra arcu. Mauris dictum <a href="##" target="_blank" class="blue-link">id lorem at gravida</a>.
+          <mj-button href="https://act.ran.org/">Take Action</mj-button>
+          <mj-text mj-class="text-body left" padding-top="20px" padding-bottom="30px">
+          onec vulputate mi quis augue auctor iaculis. Fusce metus diam, semper ut tortor id, maximus posuere odio. Suspendisse auctor pretium urna ac mollis. Nam et viverra arcu. Mauris dictum <a href="https://act.ran.org/" target="_blank" class="blue-link">id lorem at gravida</a>.
           <br><br>
           Integer eu blandit lorem, non condimentum erat. Nunc eget elit lobortis, varius metus in, imperdiet nisi. Vestibulum conv
           </mj-text>
-          <mj-table>
-            <tr>
-              <td align="center" valign="top">
-                <table border="0" cellspacing="0" cellpadding="0" role="presentation">
-                  <tr>
-                    <td align="center" style="border-radius:5px;" bgcolor="#f57e20">
-                    <a href="https://act.ran.org/" target="_blank" style="font-size: 16px; font-family:Arial, Helvetica, sans-serif; color:#ffffff; text-decoration:none; font-weight:bold; border-radius:5px; padding: 12px 40px 12px 40px; border: 2px solid #f57e20; display: inline-block;">Take Action</a>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </mj-table>
-          <!--<mj-button href="https://act.ran.org/">Take Action</mj-button>-->
+          <mj-button href="https://act.ran.org/">Take Action</mj-button>
         </mj-column>
       </mj-section>
     <mj-raw>
@@ -227,9 +200,9 @@
     </mj-section>
 
     <mj-section>
-      <mj-column background-color="#78a22f" padding="30px 10px 30px 10px">
-        <mj-text mj-class="text-footer" align="center"  padding-bottom="20px">
-          At RAN, we take the “Network” in our name seriously. It is only through your support that we are able to fund major campaigns for the forests, their inhabitants and the natural systems that sustain life. Please consider joining RAN as a Member by making a gift today.
+      <mj-column background-color="#78a22f" padding="30px 15px 30px 15px">
+        <mj-text mj-class="text-footer" align="center" padding-bottom="20px">
+          At RAN, we take the "Network" in our name seriously. It is only through your support that we are able to fund major campaigns for the forests, their inhabitants and the natural systems that sustain life. Please consider joining RAN as a Member by making a gift&nbsp;today.
         </mj-text>
         <mj-table>
           <tr>
