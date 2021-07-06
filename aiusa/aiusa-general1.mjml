@@ -1,0 +1,271 @@
+<mjml lang="en">
+
+  <mj-head>
+    <mj-title>Rainforest Action Network</mj-title>
+
+    <mj-preview>{preview_text}</mj-preview>
+
+    <mj-breakpoint width="600px"/>
+
+    <mj-attributes>
+      <mj-all color="#333333" font-size="16px" font-family="Arial, Helvetica, sans-serif"></mj-all>
+      <mj-section padding="0px"></mj-section>
+      <mj-text padding="0px" css-class="en__component en__component--textblock"></mj-text>
+      <mj-image padding="0px" css-class="en__component en__component--textblock"/>
+      <mj-divider padding="12px 24px" border-width="2px" border-color="#000000"/>
+      <mj-button padding="10px" inner-padding="15px 20px 15px 20px" width="350px" css-class="en__component en__component--textblock button" font-family="Arial, Helvetica, sans-serif" background-color="#ffff00" color="#000000" font-size="16px" font-weight="bold" target="_blank" border-radius="5px"></mj-button>
+      
+      <mj-class name="text-body" font-size="16px" line-height="22px" color="#333333"></mj-class>
+      <mj-class name="text-signer" font-family="Arial, sans-serif" font-size="16px" line-height="22px" color="#333333"></mj-class>
+      <mj-class name="text-footer" font-size="14px" line-height="22px" color="#ffffff"></mj-class>
+      <mj-class name="text-footer-alt" font-size="11px" line-height="13px" color="#000000"></mj-class>
+
+      <mj-class name="padding-0" padding="0px"></mj-class>
+      <mj-class name="padding-top-0" padding-top="0px"></mj-class>
+      <mj-class name="padding-bottom-0" padding-bottom="0px"></mj-class>
+      <mj-class name="padding-20-0-40-0" padding="20px 0px 40px 0px"></mj-class>
+      <mj-class name="padding-20-24-0-24" padding="20px 24px 0px 24px"></mj-class>
+
+      <mj-class name="bold" font-weight="bold"></mj-class>
+      <mj-class name="center" align="center"></mj-class>
+      <mj-class name="right" align="right"></mj-class>
+      <mj-class name="left" align="left"></mj-class>
+
+      <mj-class name="inline-block" display="inline-block"></mj-class>
+    </mj-attributes>
+
+    <mj-style>
+      @media only screen and (max-width:599px) {
+        /* Breakpoint Styles */
+      }
+    </mj-style>
+
+
+    <mj-style inline="inline">
+      .color-cta {
+        color: #ffff00;
+        text-decoration: underline;
+      }
+
+      a.blue-link {
+       text-decoration: underline !important;
+       color: #034dff !important;
+       font-weight: bold !important;
+      }
+
+      .underline {
+        text-decoration: underline;
+      }
+
+      .no-underline {
+        text-decoration: none;
+      }
+      
+      .button a{
+        display: inline-block;
+      }
+
+      .highlight{
+        color:#000;
+        background-color:#ff0;
+        text-decoration:underline;
+        font-weight:bold;
+      }
+    </mj-style>
+
+    <mj-raw>
+      <meta name="format-detection" content="telephone=no">
+      <style>
+        img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          font-size: 16px;
+          color: #000000;
+        }
+
+        /* In the event an editable component is inside another editable component, bump the z-index of its components dialog so it appears above its parent */
+        .en__component--active .en__component--active .en__component__actions {
+          z-index: 1000;
+        }
+
+        .en__component--active .en__component--active .en__component--active .en__component__actions {
+          z-index: 1001;
+        }
+
+        .en__component--active .en__component--active .en__component--active .en__component--active .en__component__actions {
+          z-index: 1002;
+        }
+
+        .en__component--active .en__component--active .en__component--active .en__component--active .en__component--active .en__component__actions {
+          z-index: 1003;
+        }
+
+        /* In the event an editable component is inside another editable component, darken the color its components action button so they appears distinct from its parents */
+        .en__component--active .en__component--active .en__component__actions .en__component__action {
+          background-color: hsl(191deg 100% 38%);
+        }
+
+        .en__component--active .en__component--active .en__component--active .en__component__actions .en__component__action {
+          background-color: hsl(191deg 100% 33%);
+        }
+
+        .en__component--active .en__component--active .en__component--active .en__component--active .en__component__actions .en__component__action {
+          background-color: hsl(191deg 100% 28%);
+        }
+
+        .en__component--active .en__component--active .en__component--active .en__component--active .en__component--active .en__component__actions .en__component__action {
+          background-color: hsl(191deg 100% 23%);
+        }
+      </style>
+      <!--[if mso]>
+      <style>
+        body,
+        div,
+        table tr,
+        table td,
+        a,
+        span,
+        table.MsoNormalTable {
+          font-family: Arial, Helvetica, sans-serif !important;
+        }
+      </style>
+      <![endif]-->
+    </mj-raw>
+  </mj-head>
+  <mj-body background-color="#eeeeee" width="640px">
+
+  <mj-wrapper background-color="#ffffff" padding="20px">
+
+    <mj-raw>
+      <div class="en__component en__component--repeatable">
+    </mj-raw>
+    <mj-section>
+      <mj-column padding="0px">
+          <mj-image href="https://www.ran.org" width="212px" align="left" height="82px" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/Smaller+Amnesty+Logo.jpg" alt="Amnesty International USA"/>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      </div>
+    </mj-raw>
+
+    <mj-section>
+      <mj-column>
+          <mj-spacer height="20px"/>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <div class="en__component en__component--repeatable">
+    </mj-raw>
+      <mj-section>
+        <mj-column>
+          <!-- When this image is replaced in Engaging Networks, in the image inserter UI it should have its width set to 600px and its height also set to an explicit pixel height, not "Width: 100%" and "Height: auto" -->
+          <mj-image href="https://www.ran.org" width="600px" height="auto" src="https://acb0a5d73b67fccd4bbe-c2d8138f0ea10a18dd4c43ec3aa4240a.ssl.cf5.rackcdn.com/10042/orangutan-for-email.jpg" alt="photo of a orangutan"/>
+          <mj-text mj-class="text-body" padding-top="20px" padding-bottom="10px">
+            {user_data~First Name~Friend},
+          </mj-text>
+          <mj-text mj-class="text-body" padding-top="10px" padding-bottom="20px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="https://act.ran.org/" target="_blank" class="blue-link">Nulla nec purus</a>  et lacus vehicula rhoncus sit amet imperdiet dolor. Nunc lacinia lorem pellentesque convallis vulputate. Aenean porttitor risus turpis, sed eleifend lectus rutrum in. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+          </mj-text>
+          <mj-text mj-class="text-body" padding-top="10px" padding-bottom="20px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="https://act.ran.org/" target="_blank" class="blue-link">Nulla nec purus</a>  et lacus vehicula rhoncus sit amet imperdiet dolor. Nunc lacinia lorem pellentesque convallis vulputate. Aenean porttitor risus turpis, sed eleifend lectus rutrum in. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+          </mj-text>
+          <mj-text mj-class="text-body" padding-top="10px" padding-bottom="20px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="https://act.ran.org/" target="_blank" class="blue-link">Nulla nec purus</a>  et lacus vehicula rhoncus sit amet imperdiet dolor. Nunc lacinia lorem pellentesque convallis vulputate. Aenean porttitor risus turpis, sed eleifend lectus rutrum in. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+          </mj-text>
+          <mj-button href="https://act.ran.org/">Take Action</mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+            <mj-spacer height="20px"/>
+        </mj-column>
+      </mj-section>
+    <mj-raw>
+      </div>
+    </mj-raw>
+
+    <mj-raw>
+      <div class="en__component en__component--repeatable">
+    </mj-raw>
+    <mj-section>
+      <mj-group>
+        <mj-column width="21%">
+          <mj-image width="125px" height="auto" align="left" src="https://acb0a5d73b67fccd4bbe-c2d8138f0ea10a18dd4c43ec3aa4240a.ssl.cf5.rackcdn.com/10042/ginger-cassidy.jpg" alt=""/>
+        </mj-column>
+        <mj-column width="3%">
+        </mj-column>
+        <mj-column width="76%">
+            <mj-text mj-class="text-signer">
+              Sender Name<br>
+              Position<br>
+              Rainforest Action Network
+            </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+          <mj-spacer height="20px"/>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      </div>
+    </mj-raw>    
+
+    <mj-raw>
+      <div class="en__component en__component--repeatable">
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          P.S. <strong>Post Script.&nbsp;</strong>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+          <mj-spacer height="20px"/>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      </div>
+    </mj-raw>
+
+    <mj-raw>
+      <div class="en__component en__component--repeatable">
+    </mj-raw>
+    <mj-section background-color="#000000" padding="30px 15px 20px 15px">
+      <mj-column>
+        <mj-text mj-class="text-footer" align="center">
+          At RAN, we take the "Network" in our name seriously. It is only through your support that we are able to fund major campaigns for the forests, their inhabitants and the natural systems that sustain life. Please consider joining RAN as a Member by making a gift&nbsp;today.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      </div>
+    </mj-raw> 
+
+    <mj-raw>
+      <div class="en__component en__component--repeatable">
+    </mj-raw>
+    <mj-section background-color="#000000" padding="0px 15px 30px 15px">
+      <mj-column>
+        <mj-text mj-class="text-footer-alt" align="center" padding="0px 0px 20px 0px" color="#ffffff">
+         425 Bush St, Suite 300, San Francisco, CA 94108, United&nbsp;States
+          <br><br>
+          This email was sent to {user_data~Email} | <a href="{unsubscribe_action~34305~https://act.ran.org/page/10767/subscriptions/1}" class="blue-link">Unsubscribe</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      </div>
+    </mj-raw> 
+  </mj-wrapper>
+
+  </mj-body>
+</mjml>
