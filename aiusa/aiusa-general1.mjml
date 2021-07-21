@@ -1,36 +1,33 @@
 <mjml lang="en">
 
   <mj-head>
-    <mj-title>Rainforest Action Network</mj-title>
+    <mj-title>Amnesty International USA</mj-title>
 
     <mj-preview>{preview_text}</mj-preview>
 
     <mj-breakpoint width="600px"/>
 
     <mj-attributes>
-      <mj-all color="#333333" font-size="16px" font-family="Arial, Helvetica, sans-serif"></mj-all>
+      <mj-all color="#000000" font-size="16px" font-family="Arial, Helvetica, sans-serif"></mj-all>
       <mj-section padding="0px"></mj-section>
       <mj-text padding="0px" css-class="en__component en__component--textblock"></mj-text>
       <mj-image padding="0px" css-class="en__component en__component--textblock"/>
       <mj-divider padding="12px 24px" border-width="2px" border-color="#000000"/>
-      <mj-button padding="10px" inner-padding="15px 20px 15px 20px" width="350px" css-class="en__component en__component--textblock button" font-family="Arial, Helvetica, sans-serif" background-color="#ffff00" color="#000000" font-size="16px" font-weight="bold" target="_blank" border-radius="5px"></mj-button>
+      <mj-button align="left" padding="0px" inner-padding="10px 20px 10px 20px" css-class="en__component en__component--textblock button" background-color="#ffffff" color="#000000" border="2px solid #000000" font-size="18px" font-weight="bold"></mj-button>
       
-      <mj-class name="text-body" font-size="16px" line-height="22px" color="#333333"></mj-class>
+      <mj-class name="text-header" font-size="32px" line-height="38px" color="#000000" font-weight="bold" text-transform="uppercase"></mj-class>
+      <mj-class name="text-body" font-size="16px" line-height="22px" color="#000000"></mj-class>
       <mj-class name="text-signer" font-family="Arial, sans-serif" font-size="16px" line-height="22px" color="#333333"></mj-class>
-      <mj-class name="text-footer" font-size="14px" line-height="22px" color="#ffffff"></mj-class>
-      <mj-class name="text-footer-alt" font-size="11px" line-height="13px" color="#000000"></mj-class>
-
+      <mj-class name="text-footer" font-size="9px" line-height="13px" color="#ffffff"></mj-class>
       <mj-class name="padding-0" padding="0px"></mj-class>
       <mj-class name="padding-top-0" padding-top="0px"></mj-class>
       <mj-class name="padding-bottom-0" padding-bottom="0px"></mj-class>
       <mj-class name="padding-20-0-40-0" padding="20px 0px 40px 0px"></mj-class>
       <mj-class name="padding-20-24-0-24" padding="20px 24px 0px 24px"></mj-class>
-
       <mj-class name="bold" font-weight="bold"></mj-class>
       <mj-class name="center" align="center"></mj-class>
       <mj-class name="right" align="right"></mj-class>
       <mj-class name="left" align="left"></mj-class>
-
       <mj-class name="inline-block" display="inline-block"></mj-class>
     </mj-attributes>
 
@@ -47,10 +44,16 @@
         text-decoration: underline;
       }
 
-      a.blue-link {
+      a.yellow-link {
        text-decoration: underline !important;
-       color: #034dff !important;
+       color: #000000 !important;
+       background-color: #ff0 !important;
        font-weight: bold !important;
+      }
+
+       a.white-link {
+       text-decoration: underline !important;
+       color: #ffffff !important;
       }
 
       .underline {
@@ -61,11 +64,11 @@
         text-decoration: none;
       }
       
-      .button a{
+      .button a {
         display: inline-block;
       }
 
-      .highlight{
+      .highlight {
         color:#000;
         background-color:#ff0;
         text-decoration:underline;
@@ -133,48 +136,81 @@
       <![endif]-->
     </mj-raw>
   </mj-head>
-  <mj-body background-color="#eeeeee" width="640px">
+  <mj-body background-color="#f3f3f3" width="600px">
 
-  <mj-wrapper background-color="#ffffff" padding="20px">
+  <mj-wrapper background-color="#ffffff" padding="0px">
 
     <mj-raw>
       <div class="en__component en__component--repeatable">
     </mj-raw>
     <mj-section>
       <mj-column padding="0px">
-          <mj-image href="https://www.ran.org" width="212px" align="left" height="82px" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/Smaller+Amnesty+Logo.jpg" alt="Amnesty International USA"/>
+          <mj-image href="##" width="212px" align="left" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/Smaller+Amnesty+Logo.jpg" alt="Amnesty International USA" />
       </mj-column>
     </mj-section>
     <mj-raw>
       </div>
     </mj-raw>
 
+     <mj-raw>
+      <div class="en__component en__component--repeatable">
+    </mj-raw>
     <mj-section>
-      <mj-column>
-          <mj-spacer height="20px"/>
+      <mj-column padding="30px 24px 15px 24px">
+          <mj-text mj-class="text-header" padding-bottom="20px">
+          Lorem ipsum dolor sit amet <a href="" class="highlight" target="_blank">quis nostrud exercitation ullamco</a>
+          </mj-text>
+          <mj-button href="##">DONATE NOW</mj-button>
       </mj-column>
     </mj-section>
+    <mj-raw>
+      </div>
+    </mj-raw>
+
 
     <mj-raw>
       <div class="en__component en__component--repeatable">
     </mj-raw>
       <mj-section>
-        <mj-column>
+        <mj-column padding-top="15px">
           <!-- When this image is replaced in Engaging Networks, in the image inserter UI it should have its width set to 600px and its height also set to an explicit pixel height, not "Width: 100%" and "Height: auto" -->
-          <mj-image href="https://www.ran.org" width="600px" height="auto" src="https://acb0a5d73b67fccd4bbe-c2d8138f0ea10a18dd4c43ec3aa4240a.ssl.cf5.rackcdn.com/10042/orangutan-for-email.jpg" alt="photo of a orangutan"/>
-          <mj-text mj-class="text-body" padding-top="20px" padding-bottom="10px">
-            {user_data~First Name~Friend},
+          <mj-image width="600px" src="https://via.placeholder.com/600x300" alt="" />
+        </mj-column>
+      </mj-section>
+    <mj-raw>
+      </div>
+    </mj-raw>
+
+    <mj-raw>
+      <div class="en__component en__component--repeatable">
+    </mj-raw>
+      <mj-section>
+        <mj-column padding="30px 20px 20px 20px">
+          <mj-text mj-class="text-body" padding-top="10px" padding-bottom="10px">
+          <p class="message-content" style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;margin-top:0;margin-bottom:1rem;text-align:left;color:#000000;font-weight:normal;">
+           Dear {user_data~First Name~Friend},</p>
+          <p class="message-content" style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;margin-top:0;margin-bottom:1rem;text-align:left;color:#000000;font-weight:normal;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+          <p class="message-content" style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;margin-top:0;margin-bottom:1rem;text-align:left;color:#000000;font-weight:normal;">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+
+          <p class="message-content" style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;margin-top:0;margin-bottom:1rem;text-align:left;color:#000000;font-weight:normal;"><a href="##" target="_blank" class="yellow-link">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a></p>
+
+           <p class="message-content" style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;margin-top:0;margin-bottom:1rem;text-align:left;color:#000000;font-weight:normal;">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+
+           <p class="message-content" style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;margin-top:0;margin-bottom:1rem;text-align:left;color:#000000;font-weight:bold;">Lorem ipsum dolor sit amet, consectetur adipiscing elit <a href="##" target="_blank" class="yellow-link">sed do eiusmod tempor incididunt &raquo;</a></p>
+     
+          <p class="message-content" style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;margin-top:0;margin-bottom:1rem;text-align:left;color:#000000;font-weight:normal;">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
           </mj-text>
-          <mj-text mj-class="text-body" padding-top="10px" padding-bottom="20px">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="https://act.ran.org/" target="_blank" class="blue-link">Nulla nec purus</a>  et lacus vehicula rhoncus sit amet imperdiet dolor. Nunc lacinia lorem pellentesque convallis vulputate. Aenean porttitor risus turpis, sed eleifend lectus rutrum in. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+          
+          <mj-button href="##" background-color="#ff0">TAKE ACTION</mj-button>
+
+          <mj-image padding-top="20px" width="192px" align="left" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/Bhirsch.Sig.png?v=1592328988000" alt="Billie Hirsch" />
+
+          <mj-text mj-class="text-body" padding-top="5px" padding-bottom="10px">
+                            Billie Hirsch<br>
+                            Director of Online Engagement<br>
+                            Amnesty International USA
           </mj-text>
-          <mj-text mj-class="text-body" padding-top="10px" padding-bottom="20px">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="https://act.ran.org/" target="_blank" class="blue-link">Nulla nec purus</a>  et lacus vehicula rhoncus sit amet imperdiet dolor. Nunc lacinia lorem pellentesque convallis vulputate. Aenean porttitor risus turpis, sed eleifend lectus rutrum in. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-          </mj-text>
-          <mj-text mj-class="text-body" padding-top="10px" padding-bottom="20px">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="https://act.ran.org/" target="_blank" class="blue-link">Nulla nec purus</a>  et lacus vehicula rhoncus sit amet imperdiet dolor. Nunc lacinia lorem pellentesque convallis vulputate. Aenean porttitor risus turpis, sed eleifend lectus rutrum in. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-          </mj-text>
-          <mj-button href="https://act.ran.org/">Take Action</mj-button>
         </mj-column>
       </mj-section>
 
@@ -190,48 +226,27 @@
     <mj-raw>
       <div class="en__component en__component--repeatable">
     </mj-raw>
-    <mj-section>
-      <mj-group>
-        <mj-column width="21%">
-          <mj-image width="125px" height="auto" align="left" src="https://acb0a5d73b67fccd4bbe-c2d8138f0ea10a18dd4c43ec3aa4240a.ssl.cf5.rackcdn.com/10042/ginger-cassidy.jpg" alt=""/>
-        </mj-column>
-        <mj-column width="3%">
-        </mj-column>
-        <mj-column width="76%">
-            <mj-text mj-class="text-signer">
-              Sender Name<br>
-              Position<br>
-              Rainforest Action Network
-            </mj-text>
-        </mj-column>
-      </mj-group>
-    </mj-section>
+      <mj-section background-color="#e5e5e5" border="1px solid #000000">
+        <mj-column padding="15px 20px 15px 20px">
+          <mj-text mj-class="text-body" padding-top="10px" padding-bottom="10px">
+          <p class="message-content-title" style="font-family:Arial, Helvetica, sans-serif;font-size:24px;line-height:28px;margin-top:0;margin-bottom:1rem;text-align:center;color:#000000;font-weight:bold;text-decoration:underline;"><strong>FEELING INSPIRED? ACT&nbsp;NOW</strong></p>
+         
+          <p class="message-content" style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;margin-top:0;margin-bottom:1rem;text-align:left;color:#000000;font-weight:normal;">We are shocked and alarmed by all incidents of gun violence we’ve been seeing. Our government has failed to confront the crisis of gun violence, including the racialized and gendered violence that upholds white supremacy &mdash; and has made access to guns far too easy. The Amnesty movement grieves with these communities, and we are clearer than ever on this basic truth: 
+          <strong>living free from violence is a human right.</strong></p>
 
-    <mj-section>
-      <mj-column>
-          <mj-spacer height="20px"/>
-      </mj-column>
-    </mj-section>
-    <mj-raw>
-      </div>
-    </mj-raw>    
+          <p class="message-content" style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;margin-top:0;margin-bottom:1rem;text-align:left;color:#000000;font-weight:normal;">Amnesty is actively calling for a prompt, thorough, transparent, and impartial examination of all the circumstances of the spa shootings in the Atlanta area, including whether the shootings qualify as "Hate Crimes" under Georgia law, which imposes additional penalties for crimes motivated by a victim's race, color, religion, national origin, sex, sexual orientation, gender or disability.</p>
 
-    <mj-raw>
-      <div class="en__component en__component--repeatable">
-    </mj-raw>
-    <mj-section>
-      <mj-column>
-        <mj-text>
-          P.S. <strong>Post Script.&nbsp;</strong>
-        </mj-text>
-      </mj-column>
-    </mj-section>
+           <p class="message-content" style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;margin-top:0;margin-bottom:1rem;text-align:left;color:#000000;font-weight:normal;">And we're calling on our allies and supporters to  <strong>join us in urging Congress to pass the Break the Cycle of Violence Act,</strong>  which aims to reduce gun violence nationwide by supporting community-based violence reduction programs. This would be a MAJOR step toward our building a country free of gun violence.</p>
 
-    <mj-section>
-      <mj-column>
-          <mj-spacer height="20px"/>
-      </mj-column>
-    </mj-section>
+          <p class="message-content" style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;margin-top:0;margin-bottom:1rem;text-align:left;color:#000000;font-weight:normal;"><a href="##" target="_blank" class="yellow-link">Help hold your representatives accountable: Tell them to support the Break the Cycle of Violence Act today &raquo;</a></p>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+            <mj-spacer height="30px"/>
+        </mj-column>
+      </mj-section>
     <mj-raw>
       </div>
     </mj-raw>
@@ -239,10 +254,19 @@
     <mj-raw>
       <div class="en__component en__component--repeatable">
     </mj-raw>
-    <mj-section background-color="#000000" padding="30px 15px 20px 15px">
+    <mj-section background-color="#000000" padding="30px 20px 30px 20px">
       <mj-column>
-        <mj-text mj-class="text-footer" align="center">
-          At RAN, we take the "Network" in our name seriously. It is only through your support that we are able to fund major campaigns for the forests, their inhabitants and the natural systems that sustain life. Please consider joining RAN as a Member by making a gift&nbsp;today.
+        <mj-button href="##" align="center" background-color="#ff0">DONATE NOW</mj-button>
+
+        <mj-text mj-class="text-footer" align="center" padding-top="15px">
+          &copy; 2021 Amnesty International USA<br>
+          311 W 43rd Street, 7th Floor, New York, NY 10036 | 1-800-AMNESTY<br><br>
+
+          Please don't reply to this email. You can send questions to <a href="mailto:aimember@aiusa.org" class="white-link">aimember@aiusa.org</a>.<br><br>
+
+          We're so happy you're here to hear about the most important updates on human rights!<br>
+          
+          If necessary, you can <a href="https://act.amnestyusa.org/page/broadcast.message.redirect.do?campaignpageurl=https%3A%2F%2Fact.amnestyusa.org%2Fpage%2F49038%2Fsubscriptions%2F1%3F%23&amp;ea.campaigner.email=%2BwY8tfDne9Mvt2z5xlLGbYYzSnZNTJ5hYRvCvY1aUew=&amp;enc=y" class="white-link">opt to receive fewer emails</a> or <a href="https://act.amnestyusa.org/page/broadcast.message.redirect.do?campaignpageurl=https%3A%2F%2Fact.amnestyusa.org%2Fpage%2F49038%2Fsubscriptions%2F1%3F%23&amp;ea.campaigner.email=%2BwY8tfDne9Mvt2z5xlLGbYYzSnZNTJ5hYRvCvY1aUew=&amp;enc=y" class="white-link">unsubscribe here</a>.
         </mj-text>
       </mj-column>
     </mj-section>
@@ -250,21 +274,6 @@
       </div>
     </mj-raw> 
 
-    <mj-raw>
-      <div class="en__component en__component--repeatable">
-    </mj-raw>
-    <mj-section background-color="#000000" padding="0px 15px 30px 15px">
-      <mj-column>
-        <mj-text mj-class="text-footer-alt" align="center" padding="0px 0px 20px 0px" color="#ffffff">
-         425 Bush St, Suite 300, San Francisco, CA 94108, United&nbsp;States
-          <br><br>
-          This email was sent to {user_data~Email} | <a href="{unsubscribe_action~34305~https://act.ran.org/page/10767/subscriptions/1}" class="blue-link">Unsubscribe</a>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-raw>
-      </div>
-    </mj-raw> 
   </mj-wrapper>
 
   </mj-body>
