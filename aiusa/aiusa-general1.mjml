@@ -13,7 +13,7 @@
       <mj-text padding="0px" css-class="en__component en__component--textblock"></mj-text>
       <mj-image padding="0px" css-class="en__component en__component--textblock"/>
       <mj-divider padding="12px 24px" border-width="2px" border-color="#000000"/>
-      <mj-button align="left" padding="0px" inner-padding="10px 20px 10px 20px" css-class="en__component en__component--textblock button" background-color="#ffffff" color="#000000" border="2px solid #000000" font-size="18px" font-weight="bold"></mj-button>
+      <mj-button align="left" padding="0px" inner-padding="10px 20px 10px 20px" border-radius="0px" css-class="en__component en__component--textblock button" background-color="#ffffff" color="#000000" border="2px solid #000000" font-size="18px" font-weight="bold"></mj-button>
       
       <mj-class name="text-header" font-size="32px" line-height="38px" color="#000000" font-weight="bold" text-transform="uppercase"></mj-class>
       <mj-class name="text-body" font-size="16px" line-height="22px" color="#000000"></mj-class>
@@ -34,6 +34,30 @@
     <mj-style>
       @media only screen and (max-width:599px) {
         /* Breakpoint Styles */
+      }
+
+      
+      @media (prefers-color-scheme: dark) {
+
+       /* Shows Dark Mode-Only Content, Like Images */
+       .dark-img {
+        display: block !important;
+        width: auto !important;
+        overflow: visible !important;
+        float: none !important;
+        max-height: inherit !important;
+        max-width: inherit !important;
+        line-height: auto !important;
+        margin-top: 0px !important;
+        visibility: inherit !important;
+        }
+
+        /* Hides Light Mode-Only Content, Like Images */
+        .light-img {
+        display: none;
+        display: none !important;
+        }
+
       }
     </mj-style>
 
@@ -77,6 +101,8 @@
     </mj-style>
 
     <mj-raw>
+      <meta name="color-scheme" content="light dark">
+      <meta name="supported-color-schemes" content="light dark only">
       <meta name="format-detection" content="telephone=no">
       <style>
         img {
@@ -167,26 +193,14 @@
       </div>
     </mj-raw>
 
-
     <mj-raw>
       <div class="en__component en__component--repeatable">
     </mj-raw>
       <mj-section>
-        <mj-column padding-top="15px">
-          <!-- When this image is replaced in Engaging Networks, in the image inserter UI it should have its width set to 600px and its height also set to an explicit pixel height, not "Width: 100%" and "Height: auto" -->
+        <mj-column padding="15px 0px 15px 0px">
+           <!-- When this image is replaced in Engaging Networks, in the image inserter UI it should have its width set to 600px and its height also set to an explicit pixel height, not "Width: 100%" and "Height: auto" -->
           <mj-image width="600px" src="https://via.placeholder.com/600x300" alt="" />
-        </mj-column>
-      </mj-section>
-    <mj-raw>
-      </div>
-    </mj-raw>
-
-    <mj-raw>
-      <div class="en__component en__component--repeatable">
-    </mj-raw>
-      <mj-section>
-        <mj-column padding="30px 20px 20px 20px">
-          <mj-text mj-class="text-body" padding-top="10px" padding-bottom="10px">
+          <mj-text mj-class="text-body" padding="30px 20px 10px 20px">
           <p class="message-content" style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;margin-top:0;margin-bottom:1rem;text-align:left;color:#000000;font-weight:normal;">
            Dear {user_data~First Name~Friend},</p>
           <p class="message-content" style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;margin-top:0;margin-bottom:1rem;text-align:left;color:#000000;font-weight:normal;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -202,11 +216,37 @@
           <p class="message-content" style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;margin-top:0;margin-bottom:1rem;text-align:left;color:#000000;font-weight:normal;">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
           </mj-text>
           
-          <mj-button href="##" background-color="#ff0">TAKE ACTION</mj-button>
+          <mj-button padding="0px 20px 0px 20px" href="##" background-color="#ff0">TAKE ACTION</mj-button>
 
-          <mj-image padding-top="20px" width="192px" align="left" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/Bhirsch.Sig.png?v=1592328988000" alt="Billie Hirsch" />
+          <!--<mj-image padding="20px 20px 0px 20px" width="192px" align="left" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/Bhirsch.Sig.png" alt="Billie Hirsch signature" />-->
 
-          <mj-text mj-class="text-body" padding-top="5px" padding-bottom="10px">
+          <!--<mj-image padding="20px 20px 0px 20px" width="192px" align="left" src="https://i.ibb.co/nf5RN4K/Bhirsch-Sig-inverted.png" alt="Billie Hirsch signature" />-->
+
+           <mj-table padding="5px 20px 5px 20px">
+            <tr>
+                <td align="left" valign="top">
+                  <table border="0" cellspacing="0" cellpadding="0" role="presentation">
+                  <tr>
+                    <td align="left" valign="top">
+                    
+                    <img class="light-img" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/Bhirsch.Sig.png" width="192" height="43" alt="Billie Hirsch signature" style="width:192px; color: #000000; font-family:Arial, sans-serif; text-align:center; font-weight:bold; font-size:20px; text-decoration:none; margin: 0 auto; padding:0;" border="0"> 
+
+                    <!--[if !mso]><! --> 
+                    <div class="dark-img" style="display:none; overflow:hidden; float:left; width:0px; max-height:0px; max-width:0px; line-height:0px; visibility:hidden;" align="center"> 
+                    <img src="https://i.ibb.co/nf5RN4K/Bhirsch-Sig-inverted.png" width="192" height="43" alt="Billie Hirsch signature" style="width:192px; color: #ffffff; font-family:Arial, sans-serif; text-align:center; font-weight:bold; font-size:20px;  text-decoration:none; margin: 0 auto; padding:0;" border="0"> 
+                    </div> 
+                    <!--<![endif]--> 
+
+                    </td>
+                  </tr>
+                  </table>
+                </td>
+            </tr>
+          </mj-table>
+            
+           
+
+          <mj-text mj-class="text-body" padding="5px 20px 5px 20px">
                             Billie Hirsch<br>
                             Director of Online Engagement<br>
                             Amnesty International USA
@@ -229,6 +269,7 @@
       <mj-section background-color="#e5e5e5" border="1px solid #000000">
         <mj-column padding="15px 20px 15px 20px">
           <mj-text mj-class="text-body" padding-top="10px" padding-bottom="10px">
+          
           <p class="message-content-title" style="font-family:Arial, Helvetica, sans-serif;font-size:24px;line-height:28px;margin-top:0;margin-bottom:1rem;text-align:center;color:#000000;font-weight:bold;text-decoration:underline;"><strong>FEELING INSPIRED? ACT&nbsp;NOW</strong></p>
          
           <p class="message-content" style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;margin-top:0;margin-bottom:1rem;text-align:left;color:#000000;font-weight:normal;">We are shocked and alarmed by all incidents of gun violence we’ve been seeing. Our government has failed to confront the crisis of gun violence, including the racialized and gendered violence that upholds white supremacy &mdash; and has made access to guns far too easy. The Amnesty movement grieves with these communities, and we are clearer than ever on this basic truth: 
@@ -239,6 +280,7 @@
            <p class="message-content" style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;margin-top:0;margin-bottom:1rem;text-align:left;color:#000000;font-weight:normal;">And we're calling on our allies and supporters to  <strong>join us in urging Congress to pass the Break the Cycle of Violence Act,</strong>  which aims to reduce gun violence nationwide by supporting community-based violence reduction programs. This would be a MAJOR step toward our building a country free of gun violence.</p>
 
           <p class="message-content" style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;margin-top:0;margin-bottom:1rem;text-align:left;color:#000000;font-weight:normal;"><a href="##" target="_blank" class="yellow-link">Help hold your representatives accountable: Tell them to support the Break the Cycle of Violence Act today &raquo;</a></p>
+          </mj-text>
         </mj-column>
       </mj-section>
 
