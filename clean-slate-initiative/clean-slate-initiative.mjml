@@ -1,0 +1,418 @@
+<mjml lang="en">
+  <mj-head>
+    <mj-title>Clean Slate Initiative</mj-title>
+    
+   <mj-style>
+      @import url("https://use.typekit.net/msp3soo.css"); /* bc */
+      /* @import url("https://use.typekit.net/gnb8ztl.css"); jy */
+
+      a,
+      span,
+      td,
+      th {
+        -webkit-font-smoothing: antialiased !important;
+        -moz-osx-font-smoothing: grayscale !important;
+      }
+    </mj-style>
+
+    <mj-attributes>
+      <mj-all font-family="'neusa-next-std', Arial, sans-serif" color="#333333"></mj-all>
+      <mj-button padding="15px 25px 15px 25px" inner-padding="10px 30px 10px 30px" background-color="#f1f2fb" color="#333333" font-size="16px" line-height="24px" border-radius="0px" text-transform="uppercase" font-weight="700" border="2px solid #210043"></mj-button>
+      <mj-text font-weight="400" font-size="18px" line-height="26px"></mj-text>
+      <mj-class name="heading" font-size="24px" line-height="30px" />
+      <mj-class name="footer-text" color="#210043" font-size="14px" line-height="20px" />
+      <mj-class name="sub-heading" font-weight="400" font-size="20px" line-height="28px" />
+      <mj-class name="image-heading" font-weight="400" font-size="14px" line-height="20px" />
+    </mj-attributes>
+
+    <mj-html-attributes>
+     <mj-selector path=".section1">
+       <mj-html-attribute name="mc:variant">Intro Section</mj-html-attribute>
+       <mj-html-attribute name="mc:repeatable">content</mj-html-attribute>
+       <mj-html-attribute name="mc:hideable"></mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".section2">
+       <mj-html-attribute name="mc:variant">Image and CTA Section</mj-html-attribute>
+       <mj-html-attribute name="mc:repeatable">content</mj-html-attribute>
+       <mj-html-attribute name="mc:hideable"></mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".section3">
+       <mj-html-attribute name="mc:variant">Basic Section</mj-html-attribute>
+       <mj-html-attribute name="mc:repeatable">content</mj-html-attribute>
+       <mj-html-attribute name="mc:hideable"></mj-html-attribute>
+     </mj-selector>
+      <mj-selector path=".section4">
+       <mj-html-attribute name="mc:variant">Side-by-Side Section</mj-html-attribute>
+       <mj-html-attribute name="mc:repeatable">content</mj-html-attribute>
+       <mj-html-attribute name="mc:hideable"></mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".section5">
+       <mj-html-attribute name="mc:variant">Side-by-Side Section on White</mj-html-attribute>
+       <mj-html-attribute name="mc:repeatable">content</mj-html-attribute>
+       <mj-html-attribute name="mc:hideable"></mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".section6">
+       <mj-html-attribute name="mc:variant">Basic Section with BG Color</mj-html-attribute>
+       <mj-html-attribute name="mc:repeatable">content</mj-html-attribute>
+       <mj-html-attribute name="mc:hideable"></mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".section7">
+       <mj-html-attribute name="mc:variant">Basic Section with Border</mj-html-attribute>
+       <mj-html-attribute name="mc:repeatable">content</mj-html-attribute>
+       <mj-html-attribute name="mc:hideable"></mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".section8">
+       <mj-html-attribute name="mc:variant">Side-by-Side Image Section</mj-html-attribute>
+       <mj-html-attribute name="mc:repeatable">content</mj-html-attribute>
+       <mj-html-attribute name="mc:hideable"></mj-html-attribute>
+     </mj-selector>
+      <mj-selector path=".section9">
+       <mj-html-attribute name="mc:variant">Side-by-Side Image Section on White</mj-html-attribute>
+       <mj-html-attribute name="mc:repeatable">content</mj-html-attribute>
+       <mj-html-attribute name="mc:hideable"></mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".section10">
+       <mj-html-attribute name="mc:variant">Link Farm</mj-html-attribute>
+       <mj-html-attribute name="mc:repeatable">content</mj-html-attribute>
+       <mj-html-attribute name="mc:hideable"></mj-html-attribute>
+     </mj-selector>       
+
+     <mj-selector path=".edit-text1-1 div">
+       <mj-html-attribute name="mc:edit">text1-1</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text1-2 div">
+       <mj-html-attribute name="mc:edit">text1-2</mj-html-attribute>
+     </mj-selector>
+    <mj-selector path=".edit-text2-1 p">
+       <mj-html-attribute name="mc:edit">text2-1</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text2-2 h2">
+       <mj-html-attribute name="mc:edit">text2-2</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text2-3 div">
+       <mj-html-attribute name="mc:edit">text2-3</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text2-4 td">
+       <mj-html-attribute name="mc:edit">text2-4</mj-html-attribute>
+     </mj-selector>
+    <mj-selector path=".edit-text3-1 div">
+       <mj-html-attribute name="mc:edit">text3-1</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text3-2 div">
+       <mj-html-attribute name="mc:edit">text3-2</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text4-1 div">
+       <mj-html-attribute name="mc:edit">text4-1</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text4-2 div">
+       <mj-html-attribute name="mc:edit">text4-2</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text4-3 div">
+       <mj-html-attribute name="mc:edit">text4-3</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text5-1 div">
+       <mj-html-attribute name="mc:edit">text5-1</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text5-2 div">
+       <mj-html-attribute name="mc:edit">text5-2</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text5-3 div">
+       <mj-html-attribute name="mc:edit">text5-3</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text6-1 p">
+       <mj-html-attribute name="mc:edit">text6-1</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text6-2 h2">
+       <mj-html-attribute name="mc:edit">text6-2</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text6-3 div">
+       <mj-html-attribute name="mc:edit">text6-3</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text6-4 td">
+       <mj-html-attribute name="mc:edit">text6-4</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text7-1 p">
+       <mj-html-attribute name="mc:edit">text7-1</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text7-2 h2">
+       <mj-html-attribute name="mc:edit">text7-2</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text7-3 div">
+       <mj-html-attribute name="mc:edit">text7-3</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text7-4 td">
+       <mj-html-attribute name="mc:edit">text7-4</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text8-1 p">
+       <mj-html-attribute name="mc:edit">text8-1</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text8-2 h3">
+       <mj-html-attribute name="mc:edit">text8-2</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text9-1 p">
+       <mj-html-attribute name="mc:edit">text9-1</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text9-2 h3">
+       <mj-html-attribute name="mc:edit">text9-2</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text10-1 div">
+       <mj-html-attribute name="mc:edit">text10-1</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text10-2 div">
+       <mj-html-attribute name="mc:edit">text10-2</mj-html-attribute>
+     </mj-selector>
+     </mj-html-attributes>
+     <mj-selector path=".edit-text-11-1">
+       <mj-html-attribute name="mc:edit">text11-1</mj-html-attribute>
+     </mj-selector>
+     <mj-selector path=".edit-text-11-2">
+       <mj-html-attribute name="mc:edit">text11-2</mj-html-attribute>
+     </mj-selector> 
+    </mj-html-attributes>
+
+    <mj-selector path=".edit-image1 img">
+      <mj-html-attribute name="mc:edit">image1</mj-html-attribute>
+    </mj-selector>
+
+    <mj-selector path=".edit-image2 img">
+      <mj-html-attribute name="mc:edit">image2</mj-html-attribute>
+    </mj-selector>
+
+    <mj-selector path=".edit-image3 img">
+      <mj-html-attribute name="mc:edit">image3</mj-html-attribute>
+    </mj-selector>    
+
+    <mj-style inline="inline"> 
+      h1
+       {
+        margin: 0;
+        color: #6424d1;
+        font-size: 28px;
+        line-height: normal;
+        font-weight: bold;
+      }
+
+      h2 {
+        margin: 0;
+        color: #6424d1;
+        font-size: 26px;
+        line-height: normal;
+        font-weight: bold;
+      }
+
+      h2 {
+        margin: 0;
+        color: #6424d1;
+        font-size: 26px;
+        line-height: normal;
+        font-weight: bold;
+      }
+
+      h3 {
+        margin: 0;
+        color: #6424d1;
+        font-size: 22px;
+        line-height: normal;
+        font-weight: bold;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      a {
+        color: #210043;
+        text-decoration: underline;
+      }
+
+      .date {
+        margin-bottom: 5px;
+        font-size: 16px;
+      }
+
+      /* Max-width on images are required for compatability with the Mailchimp Email Editor */
+      .edit-image1{
+        max-width: 530px;
+      }
+
+      /* Max-width on images are required for compatability with the Mailchimp Email Editor */
+      .edit-image2,
+      .edit-image3{
+        max-width: 124px;
+      }
+    </mj-style>
+   
+  </mj-head>
+  <mj-body background-color="#f1f2fb">
+
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://mcusercontent.com/b6c104aa601c09dbc0de49ade/images/e92ccda3-0686-4a36-9dce-fdd24f1ebf11.png" title="Clean Slate Initiative header logo" alt="Clean Slate Initiative header logo" padding="0px" align="center" width="300px"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper background-color="#f1f2fb" border="10px solid #6424d1">
+
+      <mj-section padding-bottom="0px" css-class="section1">
+        <mj-column>
+          <mj-text mj-class="heading" css-class="edit-text1-1">
+            <h1>Hello *|FNAME|*,</h1>
+          </mj-text>
+          <mj-text css-class="edit-text1-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <a href="https://cleanslateinitiative.org/" target="_blank">tempor incididunt</a> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br /><br />
+            
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  <a href="https://cleanslateinitiative.org/" target="_blank">commodo consequat</a>.
+
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section css-class="section2">
+        <mj-column>
+          <mj-image css-class="edit-image1" src="https://i.picsum.photos/id/122/600/300.jpg?hmac=D7UkQOeWS2HTQr5SJd2gyhaCgVFplQcU6CSL7jadB24"> </mj-image>
+          <mj-text mj-class="heading" align="left" css-class="edit-text2-1 edit-text2-2">
+            <p class="date">March 25, 2021</p>
+            <h2>Officia deserunt mollit anim id</h2>
+          </mj-text>
+          <mj-text css-class="edit-text2-3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <a href="https://cleanslateinitiative.org/" target="_blank">tempor incididunt</a> ut labore et dolore magna aliqua.</p>
+          </mj-text>
+          <mj-button align="left" href="https://cleanslateinitiative.org/" css-class="edit-text2-4">
+            <strong>READ MORE</strong>
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section css-class="section3">
+        <mj-column>
+          <mj-text mj-class="heading" align="left" css-class="edit-text3-1">
+            <h2>Duis aute irure dolor in reprehenderit in voluptate</h2>
+          </mj-text>
+          <mj-text css-class="edit-text3-2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <a href="https://cleanslateinitiative.org/" target="_blank">tempor incididunt</a> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br /><br />  
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur <a href="https://cleanslateinitiative.org/" target="_blank">sint occaecat cupidatat non</a> proident.<br /><br />
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section css-class="section4">
+        <mj-column width="40%">
+          <mj-text padding-bottom="0" css-class="edit-text4-1">
+            <h2><a href="https://cleanslateinitiative.org/" target="_blank">This is a link</a></h2>
+          </mj-text>
+          <mj-text color="#999" padding-top="0" css-class="edit-text4-2">
+            <p>Lorem ipsum dolor sit amet</p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="60%" padding-left="0">
+          <mj-text css-class="edit-text4-3">
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#f9f9f9" css-class="section5">
+        <mj-column width="40%">
+          <mj-text padding-bottom="0" css-class="edit-text5-1">
+            <h2><a href="https://cleanslateinitiative.org/" target="_blank">This is a link</a></h2>
+          </mj-text>
+          <mj-text color="#999" padding-top="0" css-class="edit-text5-2">
+            <p>Lorem ipsum dolor sit amet</p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="60%" padding-left="0">
+          <mj-text css-class="edit-text5-3">
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#210043" css-class="section6">
+        <mj-column>
+          <mj-text color="#ffffff" mj-class="heading" align="left" css-class="edit-text6-1 edit-text6-2">
+           <p class="date">February 14, 2021</p>
+           <h2 style="color:#ffffff;">Ullamco laboris nisi ut aliquip ex ea commodo consequat</h2>
+          </mj-text>
+          <mj-text color="#ffffff" css-class="edit-text6-3">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <a href="https://cleanslateinitiative.org/" target="_blank" style="color:#ffffff;">tempor incididunt</a> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+          </mj-text>
+
+          <mj-button align="left" href="https://cleanslateinitiative.org/" css-class="edit-text6-4">
+            <strong>READ MORE</strong>
+          </mj-button>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="20px" css-class="section7">
+        <mj-column border="1px solid #000">
+          <mj-text mj-class="heading" align="left" css-class="edit-text7-1 edit-text7-2">
+            <p class="date">February 14, 2021</p>
+            <h2>Duis aute irure dolor in reprehenderit in voluptate velit</h2>
+          </mj-text>
+          <mj-text css-class="edit-text7-3">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <a href="https://cleanslateinitiative.org/" target="_blank">tempor incididunt</a> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse <a href="https://cleanslateinitiative.org/" target="_blank">cillum dolore eu fugiat</a> nulla pariatur. Excepteur sint occaecat cupidatat non proident.<br /><br >
+            
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat  <a href="https://cleanslateinitiative.org/" target="_blank">non proident</a>.
+            </p>
+          </mj-text>
+          <mj-button align="left"  href="https://cleanslateinitiative.org/" css-class="edit-text7-4">
+            <strong>WATCH THE VIDEO</strong>
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section css-class="section8">
+        <mj-column width="30%" vertical-align="middle">
+          <mj-image fluid-on-mobile="true" src="https://i.picsum.photos/id/560/130/100.jpg?hmac=LT032P2qjcgsts7IGZAzhPuqDbmV44WtqdpvoFB3CFY" css-class="edit-image2"></mj-image>
+        </mj-column>
+        <mj-column width="70%" vertical-align="middle">
+          <mj-text mj-class="image-heading" align="left" css-class="edit-text8-1 edit-text8-2">
+            <p class="date">March 25, 2021</p>
+            <h3>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h3>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#f8f8f8" css-class="section9">
+        <mj-column width="30%" vertical-align="middle">
+          <mj-image fluid-on-mobile="true" src="https://i.picsum.photos/id/560/130/100.jpg?hmac=LT032P2qjcgsts7IGZAzhPuqDbmV44WtqdpvoFB3CFY" css-class="edit-image3"> </mj-image>
+        </mj-column>
+        <mj-column width="70%" vertical-align="middle">
+          <mj-text mj-class="image-heading" align="left" css-class="edit-text9-1 edit-text9-2">
+            <p class="date">March 28, 2021</p>
+            <h3>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur..</h3>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section css-class="section10">
+        <mj-column>
+          <mj-text mj-class="heading" align="left" css-class="edit-text10-1">
+            <h2>Here is a good place to start a link farm</h2>
+          </mj-text>
+          <mj-text css-class="edit-text10-2">
+            <p> <strong>Lorem ipsum dolor sit amet</strong> &bull; <a href="https://cleanslateinitiative.org/" target="_blank">consectetur adipiscing elit, sed do eiusmod  ut labore et dolore magna aliqua.</a></p><br />
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="footer-text" align="center" css-class="edit-text11-1">
+          &copy; *|CURRENT_YEAR|* *|USER:COMPANY|* *|LIST:ADDRESSLINE|*
+        </mj-text>
+          <mj-text mj-class="footer-text" align="center" css-class="edit-text11-2">
+          Update your <a href="https://cleanslateinitiative.org/">email preferences</a> to choose the types of emails you receive, or you can <a href="*|UNSUB|*">unsubscribe </a>from all future emails.
+        </mj-text>
+        <mj-spacer height="1px"></mj-spacer>
+      </mj-column>
+    </mj-section>
+
+   
+  </mj-body>
+</mjml>
