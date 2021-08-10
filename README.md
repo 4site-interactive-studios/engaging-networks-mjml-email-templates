@@ -1,10 +1,12 @@
-# engaging-networks-mjml-email-templates
+# 4Site's MJML Template
 
-Example Templates
-
-Amnesty International USA (AIUSA): https://codepen.io/4SiteStudios/full/oNWJJbJ
+## Universal
 
 Clean Slate Initiative (CSI): https://codepen.io/4SiteStudios/full/abWPPVR
+
+## Engaging Networks
+
+Amnesty International USA (AIUSA): https://codepen.io/4SiteStudios/full/oNWJJbJ
 
 Oxfam Canada: https://codepen.io/4SiteStudios/full/NWjeedR
 
