@@ -1,10 +1,10 @@
 # 4Site's MJML Template
 
-## Universal
+## Email Templates
 
 Clean Slate Initiative (CSI): https://codepen.io/4SiteStudios/full/abWPPVR
 
-## Engaging Networks
+## Email Templates Optimized for Engaging Networks
 
 Amnesty International USA (AIUSA): https://codepen.io/4SiteStudios/full/oNWJJbJ
 
