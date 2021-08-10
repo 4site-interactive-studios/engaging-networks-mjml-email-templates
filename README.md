@@ -1,9 +1,11 @@
 # engaging-networks-mjml-email-templates
 
-MJML Amnesty Example Template: https://codepen.io/4SiteStudios/full/oNWJJbJ
+Example Templates
 
-MJML RAN Example Template: https://codepen.io/4SiteStudios/full/PomXXpq
+Amnesty International USA (AIUSA): https://codepen.io/4SiteStudios/full/oNWJJbJ
 
-MJML Oxfam Canada Template: https://codepen.io/4SiteStudios/full/NWjeedR
+Clean Slate Initiative (CSI): https://codepen.io/4SiteStudios/full/abWPPVR
 
-MJML CSI Example Template: https://codepen.io/4SiteStudios/full/abWPPVR
+Oxfam Canada: https://codepen.io/4SiteStudios/full/NWjeedR
+
+Rainforest Action Network (RAN): https://codepen.io/4SiteStudios/full/PomXXpq
