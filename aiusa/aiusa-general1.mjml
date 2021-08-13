@@ -174,7 +174,7 @@
       </mj-raw>
       <mj-section>
         <mj-column padding="0px">
-            <mj-image href="https://www.amnestyusa.org/" width="212px" align="left" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/Smaller+Amnesty+Logo.jpg" alt="Amnesty International USA" />
+          <mj-image href="https://www.amnestyusa.org/" width="194px" height="82px" align="left" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/aiusa-logo-2021.png?v=1613335346000" alt="Amnesty International USA" />
         </mj-column>
       </mj-section>
       <mj-raw>
@@ -204,7 +204,7 @@
         <mj-section>
           <mj-column padding="15px 0px 0px 0px">
             <!-- When this image is replaced in Engaging Networks, in the image inserter UI it should have its width set to 600px and its height also set to an explicit pixel height, not "Width: 100%" and "Height: auto" -->
-            <mj-image width="600px" src="https://via.placeholder.com/600x300" alt="" />
+            <mj-image href="#" width="600px" src="https://via.placeholder.com/600x300" alt="" />
             <mj-text mj-class="text-body" padding="30px 20px 10px 20px">
               <p class="message-content" style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;margin-top:0;margin-bottom:1rem;text-align:left;color:#000000;font-weight:normal;">Dear {user_data~First Name~Friend},</p>
               <p class="message-content" style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;margin-top:0;margin-bottom:1rem;text-align:left;color:#000000;font-weight:normal;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -221,7 +221,7 @@
         </div>
       </mj-raw>
           
-      <!-- Email Signature Image -->
+      <!-- Email Signature Image with Light Mode and Dark Mode -->
       <mj-raw>
         <div class="en__component en__component--repeatable">
       </mj-raw>
@@ -234,7 +234,7 @@
                   <tr>
                     <td align="left" valign="top">
                       <!-- Light Mode Email Signature on a White Background -->
-                      <img src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/Bhirsch.Sig.png" width="192" height="43" alt="Billie Hirsch signature" style="width:192px; color: #000000; font-family:Arial, sans-serif; text-align:center; font-weight:bold; font-size:20px; text-decoration:none; margin: 0 auto; padding:0" border="0"> 
+                      <img class="light-img" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/Bhirsch.Sig.png" width="192" height="43" alt="Billie Hirsch signature" style="width:192px; color: #000000; font-family:Arial, sans-serif; text-align:center; font-weight:bold; font-size:20px; text-decoration:none; margin: 0 auto; padding:0" border="0"> 
                       
                       <!-- Dark Mode Email Signature on a Black Background -->
                       <!--[if !mso]><! --> 
@@ -253,6 +253,33 @@
       <mj-raw>
         </div>
       </mj-raw>
+
+      <!-- Email Signature Image - Light Mode -->
+      <!--
+      <mj-raw>
+        <div class="en__component en__component--repeatable">
+      </mj-raw>
+      <mj-section>
+        <mj-column>
+          <mj-table role="presentation" padding="0px 0px 0px 20px" css-class="en__component en__component--textblock">
+            <tr>
+                <td align="left" valign="top">
+                  <table border="0" cellspacing="0" cellpadding="0" role="presentation">
+                  <tr>
+                    <td align="left" valign="top">
+                      <img src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/Bhirsch.Sig.png" width="192" height="43" alt="Billie Hirsch signature" style="width:192px; color: #000000; font-family:Arial, sans-serif; text-align:center; font-weight:bold; font-size:20px; text-decoration:none; margin: 0 auto; padding:0" border="0"> 
+                    </td>
+                  </tr>
+                  </table>
+                </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        </div>
+      </mj-raw>
+      -->
 
        <!-- Email Signature Text -->
       <mj-raw>
@@ -289,7 +316,7 @@
             </mj-text>
 
             <!-- When this image is replaced in Engaging Networks, in the image inserter UI it should have its width set to 600px and its height also set to an explicit pixel height, not "Width: 100%" and "Height: auto" -->
-            <mj-image width="540px" src="https://via.placeholder.com/540x300" alt="" />
+            <mj-image href="#" width="560px" src="https://via.placeholder.com/560x300" alt="" />
             
             <mj-text mj-class="text-body" padding-top="10px" padding-bottom="10px">
               <p class="message-content" style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;margin-top:0;margin-bottom:1rem;text-align:left;color:#000000;font-weight:normal;">We are shocked and alarmed by all incidents of gun violence we’ve been seeing. Our government has failed to confront the crisis of gun violence, including the racialized and gendered violence that upholds white supremacy &mdash; and has made access to guns far too easy. The Amnesty movement grieves with these communities, and we are clearer than ever on this basic truth: 
