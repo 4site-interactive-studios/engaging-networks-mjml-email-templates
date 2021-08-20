@@ -1,0 +1,14 @@
+After converting from MJML to HTML, a number of changes need to be made for it to become valid in the SalesForce Email Template Builder
+
+DELETE: xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml"
+
+REPLACE:<td class="" style="vertical-align:top;
+-WITH:<td class="" style="
+
+REPLACE:<td style="vertical-align:top;
+-WITH:<td style="
+
+DELETE: vertical-align="middle"
+
+REPLACE:{unsubscribe_url~23599~143773~https://act.oxfam.ca~pb}
+-WITH:#
