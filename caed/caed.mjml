@@ -1,19 +1,19 @@
 <mjml lang="en">
 
   <mj-head>
-    <mj-title>Oxfam News</mj-title>
+    <mj-title>California Education Partners</mj-title>
 
-    <mj-preview>Oxfam Canada</mj-preview>
+    <mj-preview>Preview text goes here - or appropriate preview text token/variable</mj-preview>
 
-    <mj-breakpoint width="660px" />
+    <mj-breakpoint width="600px" />
 
     <mj-attributes>
-      <mj-all color="#323232" font-size="16px" font-family="OxfamTSTAR, Arial, Helvetica, sans-serif"></mj-all>
+      <mj-all color="#323232" font-size="16px" font-family="Cambria,Georgia,serif"></mj-all>
       <mj-section padding="0px" css-class="en__component en__component--droppable ui-sortable"></mj-section>
       <mj-text padding="12px 24px" css-class="en__component en__component--textblock"></mj-text>
       <mj-image padding="0px" css-class="en__component en__component--imageblock" />
       <mj-divider padding="12px 24px" border-width="2px" border-color="#DEE0E2" />
-      <mj-button padding="20px 15px" inner-padding="13px 40px 11px 40px" css-class="en__component en__component--textblock button" font-family="sans-serif" background-color="#61a534" color="#ffffff" font-size="16px" font-weight="bold" target="_blank" border-radius="23px" border="4px single #ffffff"></mj-button>
+      <mj-button padding="20px 15px" inner-padding="8px 32px 8px 32px" css-class="en__component en__component--textblock button" background-color="#363770" color="#ffffff" font-size="16px" font-weight="bold" target="_blank" border-radius="8px" border="2px single #363770"></mj-button>
       <mj-spacer css-class="en__component en__component--textblock"></mj-spacer>
 
       <mj-class name="padding-0" padding="0px"></mj-class>
@@ -28,53 +28,31 @@
       <mj-class name="text-size-large" font-size="18px" line-height="27px"></mj-class>
       <mj-class name="text-size-xlarge" font-size="24px" line-height="36px"></mj-class>
 
-      <mj-class name="text-h1-headline" font-family="OxfamHeadline, Arial, sans-serif" font-size="44px" line-height="48px" font-weight="700" color="#3b3b3b" padding-left="40px"></mj-class>
-      <mj-class name="text-h1-date" font-family="OxfamTSTAR, Arial, sans-serif" font-size="20px" line-height="20px" font-weight="100" color="#3b3b3b" padding-left="40px"></mj-class>
-      <mj-class name="text-h2-headline" font-size="24px" line-height="28px" font-weight="bold" color="#61a534"></mj-class>
-      <mj-class name="text-h3-subhead" font-size="24px" line-height="30px" font-weight="bold" color="#323232"></mj-class>
+      <mj-class name="text-h1-headline" font-size="44px" line-height="48px" font-weight="700" color="#363770" padding-left="40px"></mj-class>
+      <mj-class name="text-h1-date"  font-size="20px" line-height="20px" font-weight="100" color="#3b3b3b" padding-left="40px"></mj-class>
+      <mj-class name="text-h2-headline" font-size="24px" line-height="28px" font-weight="bold" color="#363770"></mj-class>
+      <mj-class name="text-h3-subhead" font-size="22px" line-height="26px" font-weight="bold" color="#363770"></mj-class>
+      <mj-class name="text-h4-date"  font-size="16px" line-height="20px" color="#3b3b3b"></mj-class>
+      <mj-class name="text-h4-subhead" font-size="18px" line-height="22px" font-weight="bold" color="#363770"></mj-class>
+
+      <mj-class name="text-footer" color="#ffffff" font-size="12px" line-height="16px"></mj-class>
 
       <mj-class name="bold" font-weight="bold"></mj-class>
       <mj-class name="center" align="center"></mj-class>
       <mj-class name="right" align="right"></mj-class>
       <mj-class name="left" align="left"></mj-class>
 
-      <mj-class name="text-color-white" color="#ffffff"></mj-class>
-
-      <mj-class name="divider-image" padding-top="0px" padding-bottom="0px" padding-left="0px" padding-right="0px" width="600px" height="12px" margin="0px" align="center" font-size="12px" src="https://www.oxfam.ca/wp-content/uploads/2018/08/toptop.jpg"></mj-class>
     </mj-attributes>
-
-    <mj-style>
-      @font-face {
-        font-family: "OxfamHeadline";
-        font-style: normal;
-        font-weight: 400;
-        src: url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/oxfamglobalheadline-webfont.woff") format("woff");
-      }
-
-      @font-face {
-        font-family: "OxfamTSTAR";
-        font-weight: 400;
-        font-style: normal;
-        src: url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/OxfamTSTARPRO-Regular.woff2") format("woff2");
-      }
-
-      @font-face {
-        font-family: "OxfamTSTAR";
-        font-weight: 700;
-        font-style: normal;
-        src: url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/OxfamTSTARPRO-Bold.woff2") format("woff2");
-      }
-    </mj-style>
-
 
     <mj-style inline="inline">
       .color-cta {
-        color: #61a534;
+        color: #363770;
         text-decoration: underline;
       }
 
-      .color-muted {
-        color: #4B5562;
+      .footer-white-link {
+        color: #ffffff;
+        text-decoration: none;
       }
 
       .underline {
@@ -115,36 +93,22 @@
       <![endif]-->
     </mj-raw>
   </mj-head>
-  <mj-body background-color="#eeeeee">
+  <mj-body background-color="#ffffff">
 
-    <mj-section>
-      <mj-column>
-        <mj-text align="center" padding-top="0px">
-        </mj-text>
-        <mj-image mj-class="divider-image" alt="green and yellow gradient art" />
+    <mj-section background-color="#231f20">
+      <mj-column padding="30px 20px 30px 20px">
+        <mj-image href="https://dev-caed.pantheonsite.io" src="https://dev-caed.pantheonsite.io/wp-content/uploads/2021/07/logo.svg" width="165px" alt="California Education Partners logo">
       </mj-column>
-    </mj-section>
-
-    <mj-section background-color="#ffffff">
-      <mj-column width="5%"></mj-column>
-      <mj-column width="30%" padding="0px 0px 0px 0px">
-        <mj-image href="https://www.oxfam.ca/" src="https://42kgab3z3i7s3rm1xf48rq44-wpengine.netdna-ssl.com/wp-content/uploads/2018/09/oxfamcanada_green.png" width="165px" alt="OXFAM Canada" padding-top="40px">
-      </mj-column>
-      <mj-column width="30%"></mj-column>
-      <mj-column width="30%" padding="40px 0px 0px 0px">
-        <mj-button href="https://secured.oxfam.ca/page/20905/donate/1?promo_name=Donate_now_button&amp;promo_position=Email&amp;promo_creative=Email" padding-top="20px">DONATE</mj-button>
-      </mj-column>
-      <mj-column width="5%"></mj-column>
     </mj-section>
 
     <mj-section background-color="#ffffff">
       <mj-column width="5%"></mj-column>
       <mj-column width="90%" padding="20px 0px 20px 0px">
         <mj-text mj-class="text-h1-headline left">
-          OXFAM News
+          Main headline goes here
         </mj-text>
         <mj-text mj-class="text-h1-date left">
-          June 2021
+          September 2021
         </mj-text>
       </mj-column>
       <mj-column width="5%"></mj-column>
@@ -156,9 +120,7 @@
       <mj-section background-color="#ffffff">
         <mj-column>
           <mj-text mj-class="padding-0">
-            <a href="https://www.oxfam.ca/">
-              <img width="600px" height="auto" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-600x395-grayscale.jpeg?v=1616091814000" alt="" />
-            </a>
+              <img width="600px" height="auto" src="https://dev-caed.pantheonsite.io/wp-content/uploads/2021/07/img-hero@2x-1024x951.jpg" alt="" />
           </mj-text>
         </mj-column>
       </mj-section>
@@ -174,29 +136,7 @@
             Nunc sed id semper risus in. Diam donec adipiscing tristique risus nec feugiat. In vitae turpis massa sed. Mauris vitae ultricies leo integer malesuada nunc vel. A scelerisque purus semper eget duis. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Nulla facilisi etiam dignissim diam quis enim lobortis
             scelerisque fermentum. Nisi lacus sed viverra tellus in.
           </mj-text>
-          <mj-button href="https://www.oxfam.ca/">CALL TO ACTION</mj-button>
-        </mj-column>
-        <mj-column width="5%"></mj-column>
-      </mj-section>
-    <mj-raw>
-      </div>
-    </mj-raw>
-
-    <mj-raw>
-      <div class="en__component en__component--repeatable">
-    </mj-raw>
-      <mj-section background-color="#ffffff">
-        <mj-column width="5%"></mj-column>
-        <mj-column width="90%">
-          <mj-text mj-class="text-h2-headline left" padding-top="40px" padding-bottom="10px">
-            Adipiscing bibendum est ultricies integer quis auctor.
-          </mj-text>
-          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
-            <strong>Enim lobortis scelerisque fermentum</strong> , dui faucibus in ornare quam viverra. Lectus magnafringilla urna porttitor rhoncus dolor purus non enim.
-            Nunc sed id semper risus in. Diam donec adipiscing tristique risus nec feugiat. In vitae turpis massa sed. Mauris vitae ultricies leo integer malesuada nunc vel. A scelerisque purus semper eget duis. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Nulla facilisi etiam dignissim diam quis enim lobortis
-            scelerisque fermentum. Nisi lacus sed viverra tellus in.
-          </mj-text>
-          <mj-button href="https://www.oxfam.ca/">CALL TO ACTION</mj-button>
+          <mj-button href="https://dev-caed.pantheonsite.io/">CALL TO ACTION</mj-button>
         </mj-column>
         <mj-column width="5%"></mj-column>
       </mj-section>
@@ -211,8 +151,8 @@
         <mj-column width="5%"></mj-column>
         <mj-column width="45%">
           <mj-text mj-class="padding-20-24-0-24">
-            <a href="https://www.oxfam.ca/">
-              <img width="224" height="auto" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-224x224.jpeg?v=1616091813000" alt="" />
+            <a href="https://dev-caed.pantheonsite.io/">
+              <img width="224" height="auto" src="https://dev-caed.pantheonsite.io/wp-content/uploads/2021/07/slider-b@2x-1024x727.jpg" alt="" />
             </a>
           </mj-text>
           <mj-text mj-class="text-h3-subhead left">
@@ -225,14 +165,14 @@
             semper risus in. Diam donec ...
           </mj-text>
           <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
-            <a class="color-cta" href="https://www.oxfam.ca/">Learn More</a>
+            <a class="color-cta" href="https://dev-caed.pantheonsite.io/">Learn More</a>
           </mj-text>
           <mj-spacer height="20px" />
         </mj-column>
         <mj-column width="45%">
           <mj-text mj-class="padding-20-24-0-24">
-            <a href="https://www.oxfam.ca/">
-              <img width="224" height="auto" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-224x224.jpeg?v=1616091813000" alt="" />
+            <a href="https://dev-caed.pantheonsite.io/">
+              <img width="224" height="auto" src="https://dev-caed.pantheonsite.io/wp-content/uploads/2021/07/slider-b@2x-1024x727.jpg" alt="" />
             </a>
           </mj-text>
           <mj-text mj-class="text-h3-subhead left">
@@ -245,7 +185,7 @@
             semper risus in. Diam donec ...
           </mj-text>
           <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
-            <a class="color-cta" href="https://www.oxfam.ca/">Learn More</a>
+            <a class="color-cta" href="https://dev-caed.pantheonsite.io/">Learn More</a>
           </mj-text>
           <mj-spacer height="20px" />
         </mj-column>
@@ -262,8 +202,8 @@
         <mj-column width="5%"></mj-column>
         <mj-column width="45%">
           <mj-text mj-class="padding-20-24-0-24">
-            <a href="https://www.oxfam.ca/">
-              <img style="display:block; margin: auto;" width="224" height="auto" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-224x224.jpeg?v=1616091813000" alt="" />
+            <a href="https://dev-caed.pantheonsite.io/">
+              <img style="display:block; margin: auto;" width="224" height="auto" src="https://dev-caed.pantheonsite.io/wp-content/uploads/2021/07/slider-b@2x-1024x727.jpg" alt="" />
             </a>
           </mj-text>
           <mj-text mj-class="text-h3-subhead left">
@@ -276,14 +216,14 @@
             semper risus in. Diam donec ...
           </mj-text>
           <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
-            <a class="color-cta" href="https://www.oxfam.ca/">Learn More</a>
+            <a class="color-cta" href="https://dev-caed.pantheonsite.io/">Learn More</a>
           </mj-text>
           <mj-spacer height="20px" />
         </mj-column>
         <mj-column width="45%">
           <mj-text mj-class="padding-20-24-0-24">
-            <a href="https://www.oxfam.ca/">
-              <img width="224" height="auto" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/email-placeholder-10-224x224.jpeg?v=1616091813000" alt="" />
+            <a href="https://dev-caed.pantheonsite.io/">
+              <img width="224" height="auto" src="https://dev-caed.pantheonsite.io/wp-content/uploads/2021/07/slider-b@2x-1024x727.jpg" alt="" />
             </a>
           </mj-text>
           <mj-text mj-class="text-h3-subhead left">
@@ -296,7 +236,59 @@
             semper risus in. Diam donec ...
           </mj-text>
           <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
-            <a class="color-cta" href="https://www.oxfam.ca/">Learn More</a>
+            <a class="color-cta" href="https://dev-caed.pantheonsite.io/">Learn More</a>
+          </mj-text>
+          <mj-spacer height="20px" />
+        </mj-column>
+        <mj-column width="5%"></mj-column>
+      </mj-section>
+    <mj-raw>
+      </div>
+    </mj-raw>
+
+
+    <mj-raw>
+      <div class="en__component en__component--repeatable">
+    </mj-raw>
+      <mj-section mj-class="padding-top-0 padding-bottom-0" background-color="#ffffff">
+        <mj-column width="5%"></mj-column>
+        <mj-column width="45%">
+          <mj-text mj-class="padding-20-24-0-24">
+            <a href="https://dev-caed.pantheonsite.io/">
+              <img style="display:block; margin: auto;" width="224" height="auto" src="https://dev-caed.pantheonsite.io/wp-content/uploads/2021/07/slider-b@2x-1024x727.jpg" alt="" />
+            </a>
+          </mj-text>
+          <mj-text mj-class="text-h3-subhead left">
+            Fifth subtitle belongs here
+          </mj-text>
+          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
+            Enim lobortis scelerisque fermentum, dui <strong>faucibus in ornare</strong>, quam
+            viverra. Lectus magna fringilla urna porttitor
+            rhoncus dolor purus non enim. Nunc sed id
+            semper risus in. Diam donec ...
+          </mj-text>
+          <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
+            <a class="color-cta" href="https://dev-caed.pantheonsite.io/">Learn More</a>
+          </mj-text>
+          <mj-spacer height="20px" />
+        </mj-column>
+        <mj-column width="45%">
+          <mj-text mj-class="padding-20-24-0-24">
+            <a href="https://dev-caed.pantheonsite.io/">
+              <img width="224" height="auto" src="https://dev-caed.pantheonsite.io/wp-content/uploads/2021/07/slider-b@2x-1024x727.jpg" alt="" />
+            </a>
+          </mj-text>
+          <mj-text mj-class="text-h3-subhead left">
+            This is subtitle number six
+          </mj-text>
+          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
+            Enim lobortis scelerisque fermentum, dui <strong>faucibus in ornare</strong> quam
+            viverra. Lectus magna fringilla urna porttitor
+            rhoncus dolor purus non enim. Nunc sed id
+            semper risus in. Diam donec ...
+          </mj-text>
+          <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
+            <a class="color-cta" href="https://dev-caed.pantheonsite.io/">Learn More</a>
           </mj-text>
           <mj-spacer height="20px" />
         </mj-column>
@@ -312,15 +304,12 @@
       <mj-section background-color="#ffffff">
         <mj-column width="5%"></mj-column>
         <mj-column width="90%">
-          <mj-text mj-class="text-h2-headline left" padding-top="40px" padding-bottom="10px">
-            Adipiscing bibendum est ultricies integer quis auctor.
+          <mj-text mj-class="text-h4-date left" padding-top="20px">
+            September 21, 2021
           </mj-text>
-          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
-            <strong>Enim lobortis scelerisque fermentum</strong> , dui faucibus in ornare quam viverra. Lectus magnafringilla urna porttitor rhoncus dolor purus non enim.
-            Nunc sed id semper risus in. Diam donec adipiscing tristique risus nec feugiat. In vitae turpis massa sed. Mauris vitae ultricies leo integer malesuada nunc vel. A scelerisque purus semper eget duis. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Nulla facilisi etiam dignissim diam quis enim lobortis
-            scelerisque fermentum. Nisi lacus sed viverra tellus in.
+          <mj-text mj-class="text-h4-subhead left" padding-top="0px" padding-bottom="20px" line-height="160%">
+            <a class="color-cta" href="https://dev-caed.pantheonsite.io/">Enim lobortis scelerisque fermentum, dui faucibus in ornare quam viverra. Lectus magnafringilla urna porttitor rhoncus dolor purus non enim.</a> 
           </mj-text>
-          <mj-button href="https://www.oxfam.ca/">CALL TO ACTION</mj-button>
         </mj-column>
         <mj-column width="5%"></mj-column>
       </mj-section>
@@ -328,71 +317,63 @@
       </div>
     </mj-raw>
 
-    <mj-hero
-      mode="fixed-height"
-      background-width="600px"
-      background-height="12px"
-      background-url="https://www.oxfam.ca/wp-content/uploads/2018/08/toptop.jpg"
-      background-color="#FFFFFF"
-      padding="0px"
-      height="12px"
-    >
-    </mj-hero>
+     <mj-raw>
+      <div class="en__component en__component--repeatable">
+    </mj-raw>
+      <mj-section background-color="#ffffff">
+        <mj-column width="5%"></mj-column>
+        <mj-column width="90%">
+          <mj-text mj-class="text-h4-date left" padding-top="20px">
+            September 12, 2021
+          </mj-text>
+          <mj-text mj-class="text-h4-subhead left" padding-top="0px" padding-bottom="20px" line-height="160%">
+            <a class="color-cta" href="https://dev-caed.pantheonsite.io/">Dui faucibus in ornare quam
+            viverra. Lectus magna fringilla urna porttitor
+            rhoncus dolor purus non enim. Nunc sed id
+            semper risus in. Diam done</a> 
+          </mj-text>
+        </mj-column>
+        <mj-column width="5%"></mj-column>
+      </mj-section>
+    <mj-raw>
+      </div>
+    </mj-raw>
+
+
     <mj-section>
-      <mj-column background-color="#0c884a">
-        <mj-image src="https://42kgab3z3i7s3rm1xf48rq44-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/oxfamcanada_white.png" href="https://www.oxfam.ca/" alt="OXFAM Canada" width="196px" padding="20px" />
-        <mj-text mj-class="text-color-white" align="center" font-size="12px" padding-bottom="20px" line-height="125%">
-          39 McArthur Ave. Ottawa, Ontario, K1L 8L7 &bull; <a href="mailto:donor_relations@oxfam.ca" style="color:#ffffff;text-decoration:none;">donor_relations@oxfam.ca</a> &bull; <span style="white-space:nowrap">1-800-466-9326</span>
+      <mj-column background-color="#231f20" padding="30px 20px 30px 20px">
+        <mj-image href="https://dev-caed.pantheonsite.io" src="https://dev-caed.pantheonsite.io/wp-content/uploads/2021/07/logo.svg" width="165px" alt="California Education Partners logo" />
+        <mj-text mj-class="text-footer center" font-size="12px" padding="30px 0px 20px 0px">
+         One Lombard Street Suite 305 San Francisco, CA 94111 &bull; <span style="white-space:nowrap">(415) 321-8017</span>
+         <br><br>
+          <a href="##" class="footer-white-link">Privacy Policy</a> &nbsp;&bull;&nbsp; <a href="https://dev-caed.pantheonsite.io/contact-us/" class="footer-white-link">Contact</a> &nbsp;&bull;&nbsp; <a href="https://dev-caed.pantheonsite.io/about/" class="footer-white-link">About Us</a>
           <br><br>
-          Charitable Registration No. 129716866&nbsp;RR0001
-          <br><br><br>
-          Photo Credit
-          <br><br><br>
-          <a href="https://www.oxfam.ca/privacy-policy/" style="color:#FFFFFF;text-decoration:none;">Privacy Policy</a> &nbsp;&bull;&nbsp; <a href="https://www.oxfam.ca/aoda-policy/" style="color:#FFFFFF;text-decoration:none;">Accessibility</a> &nbsp;&bull;&nbsp; <a href="https://www.oxfam.ca/who-we-are/about-oxfam/our-story/" style="color:#ffffff;text-decoration:none;">About Us</a>
-          <br><br>
-          &copy; 2020 Oxfam Canada is a member of the International Oxfam&nbsp;Confederation
+          &copy; 2021 California Education Partners
         </mj-text>
         <mj-table align="center">
           <tr>
             <td align="center" valign="middle">
-              <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                <tr>
-                  <td align="center" valign="middle">
-                    <table width="275" style="275px" border="0" cellspacing="0" cellpadding="0">
-                      <tr>
-                        <td align="center" valign="middle">
-                          <img src="https://42kgab3z3i7s3rm1xf48rq44-wpengine.netdna-ssl.com/wp-content/uploads/2019/01/foot_logo_humcoa.png" width="124" height="auto" alt="HUMANITARIAN COALITION">
-                        </td>
-                        <td width="10" style="width:10px"></td>
-                        <td align="center" valign="middle">
-                          <img src="https://42kgab3z3i7s3rm1xf48rq44-wpengine.netdna-ssl.com/wp-content/uploads/2019/01/foot_logo_imagine.png" width="98" height="auto" alt="IMAGINE CANADA">
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-                <tr>
-                  <td height="30" style="height:30px; font-size: 0px; line-height: 0px;">&nbsp;</td>
-                </tr>
+              <table width="100%" role="presentation" border="0" cellspacing="0" cellpadding="0">
                 <tr>
                   <td align="center" valign="middle">
                     <table width="225" style="225px" border="0" cellspacing="0" cellpadding="0">
                       <tr>
                         <td align="center" valign="middle">
-                          <a href="https://www.facebook.com/OxfamCanada/" target="_blank"><img src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/facebook-icon.png" width="48" alt="Facebook" style="width:48px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0">
+                          <a href="https://www.facebook.com/CaliforniaEducationPartners/" target="_blank"><img src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/facebook-icon.png" width="48" alt="Facebook" style="width:48px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0">
                         </td>
                         <td width="10" style="width:10px"></td>
                         <td align="center" valign="middle">
-                          <a href="https://twitter.com/oxfamcanada" target="_blank"><img src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/twitter-icon.png" width="48" alt="Twitter" style="width:48px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0">
+                          <a href="https://www.linkedin.com/company/california-education-partners/" target="_blank"><img src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/linkedin-icon.png" width="48" alt="LinkedIn" style="width:48px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0">
                         </td>
                         <td width="10" style="width:10px"></td>
                         <td align="center" valign="middle">
-                          <a href="https://www.instagram.com/oxfamcanada/" target="_blank"><img src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/instagram-icon.png" width="48" alt="Instagram" style="width:48px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0">
+                          <a href="https://twitter.com/caedpartners" target="_blank"><img src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/twitter-icon.png" width="48" alt="Twitter" style="width:48px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0">
                         </td>
                         <td width="10" style="width:10px"></td>
                         <td align="center" valign="middle">
-                          <a href="https://www.linkedin.com/company/oxfam-canada" target="_blank"><img src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/linkedin-icon.png" width="48" alt="LinkedIn" style="width:48px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0">
+                          <a href="https://www.instagram.com/caedpartners" target="_blank"><img src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/instagram-icon.png" width="48" alt="Instagram" style="width:48px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0">
                         </td>
+                        
                       </tr>
                     </table>
                   </td>
@@ -410,9 +391,8 @@
     <mj-section>
       <mj-column>
         <mj-text align="center" mj-class="padding-20-0-40-0 text-size-small">
-          <a href="{unsubscribe_url~23599~143773~https://act.oxfam.ca~pb}" style="color:#61a534;text-decoration:underline;">Unsubscribe</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="{view_in_browser_url}" style="color:#61a534;text-decoration:underline;">View&nbsp;in&nbsp;browser</a>
+          <a href="{unsubscribe_url}" style="color:#363770;text-decoration:underline;">Unsubscribe</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="{view_in_browser_url}" style="color:#363770;text-decoration:underline;">View&nbsp;in&nbsp;browser</a>
         </mj-text>
-
       </mj-column>
     </mj-section>
 
