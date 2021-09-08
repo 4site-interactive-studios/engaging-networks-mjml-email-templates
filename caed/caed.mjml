@@ -97,7 +97,7 @@
 
     <mj-section background-color="#231f20">
       <mj-column padding="30px 20px 30px 20px">
-        <mj-image href="https://dev-caed.pantheonsite.io" src="https://dev-caed.pantheonsite.io/wp-content/uploads/2021/07/logo.svg" width="165px" alt="California Education Partners logo">
+        <mj-image href="https://dev-caed.pantheonsite.io" src="https://www.caedpartners.org/wp-content/uploads/2021/07/logo.svg" width="165px" alt="California Education Partners logo">
       </mj-column>
     </mj-section>
 
@@ -120,7 +120,7 @@
       <mj-section background-color="#ffffff">
         <mj-column>
           <mj-text mj-class="padding-0">
-              <img width="600px" height="auto" src="https://dev-caed.pantheonsite.io/wp-content/uploads/2021/07/img-hero@2x-1024x951.jpg" alt="" />
+              <img width="600px" height="auto" src="https://www.caedpartners.org/wp-content/uploads/2021/07/img-hero@2x-1024x951.jpg" alt="" />
           </mj-text>
         </mj-column>
       </mj-section>
@@ -136,7 +136,7 @@
             Nunc sed id semper risus in. Diam donec adipiscing tristique risus nec feugiat. In vitae turpis massa sed. Mauris vitae ultricies leo integer malesuada nunc vel. A scelerisque purus semper eget duis. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Nulla facilisi etiam dignissim diam quis enim lobortis
             scelerisque fermentum. Nisi lacus sed viverra tellus in.
           </mj-text>
-          <mj-button href="https://dev-caed.pantheonsite.io/">CALL TO ACTION</mj-button>
+          <mj-button href="https://www.caedpartners.org/">CALL TO ACTION</mj-button>
         </mj-column>
         <mj-column width="5%"></mj-column>
       </mj-section>
@@ -151,8 +151,8 @@
         <mj-column width="5%"></mj-column>
         <mj-column width="45%">
           <mj-text mj-class="padding-20-24-0-24">
-            <a href="https://dev-caed.pantheonsite.io/">
-              <img width="224" height="auto" src="https://dev-caed.pantheonsite.io/wp-content/uploads/2021/07/slider-b@2x-1024x727.jpg" alt="" />
+            <a href="https://www.caedpartners.org/">
+              <img width="224" height="auto" src="https://www.caedpartners.org/wp-content/uploads/2021/07/slider-b@2x-1024x727.jpg" alt="" />
             </a>
           </mj-text>
           <mj-text mj-class="text-h3-subhead left">
@@ -165,14 +165,14 @@
             semper risus in. Diam donec ...
           </mj-text>
           <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
-            <a class="color-cta" href="https://dev-caed.pantheonsite.io/">Learn More</a>
+            <a class="color-cta" href="https://www.caedpartners.org/">Learn More</a>
           </mj-text>
           <mj-spacer height="20px" />
         </mj-column>
         <mj-column width="45%">
           <mj-text mj-class="padding-20-24-0-24">
-            <a href="https://dev-caed.pantheonsite.io/">
-              <img width="224" height="auto" src="https://dev-caed.pantheonsite.io/wp-content/uploads/2021/07/slider-b@2x-1024x727.jpg" alt="" />
+            <a href="https://www.caedpartners.org/">
+              <img width="224" height="auto" src="https://www.caedpartners.org/wp-content/uploads/2021/07/slider-b@2x-1024x727.jpg" alt="" />
             </a>
           </mj-text>
           <mj-text mj-class="text-h3-subhead left">
@@ -185,7 +185,7 @@
             semper risus in. Diam donec ...
           </mj-text>
           <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
-            <a class="color-cta" href="https://dev-caed.pantheonsite.io/">Learn More</a>
+            <a class="color-cta" href="https://www.caedpartners.org/">Learn More</a>
           </mj-text>
           <mj-spacer height="20px" />
         </mj-column>
@@ -202,8 +202,8 @@
         <mj-column width="5%"></mj-column>
         <mj-column width="45%">
           <mj-text mj-class="padding-20-24-0-24">
-            <a href="https://dev-caed.pantheonsite.io/">
-              <img style="display:block; margin: auto;" width="224" height="auto" src="https://dev-caed.pantheonsite.io/wp-content/uploads/2021/07/slider-b@2x-1024x727.jpg" alt="" />
+            <a href="https://www.caedpartners.org/">
+              <img style="display:block; margin: auto;" width="224" height="auto" src="https://www.caedpartners.org/wp-content/uploads/2021/07/slider-b@2x-1024x727.jpg" alt="" />
             </a>
           </mj-text>
           <mj-text mj-class="text-h3-subhead left">
@@ -216,14 +216,14 @@
             semper risus in. Diam donec ...
           </mj-text>
           <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
-            <a class="color-cta" href="https://dev-caed.pantheonsite.io/">Learn More</a>
+            <a class="color-cta" href="https://www.caedpartners.org/">Learn More</a>
           </mj-text>
           <mj-spacer height="20px" />
         </mj-column>
         <mj-column width="45%">
           <mj-text mj-class="padding-20-24-0-24">
-            <a href="https://dev-caed.pantheonsite.io/">
-              <img width="224" height="auto" src="https://dev-caed.pantheonsite.io/wp-content/uploads/2021/07/slider-b@2x-1024x727.jpg" alt="" />
+            <a href="https://www.caedpartners.org/">
+              <img width="224" height="auto" src="https://www.caedpartners.org/wp-content/uploads/2021/07/slider-b@2x-1024x727.jpg" alt="" />
             </a>
           </mj-text>
           <mj-text mj-class="text-h3-subhead left">
@@ -236,7 +236,7 @@
             semper risus in. Diam donec ...
           </mj-text>
           <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
-            <a class="color-cta" href="https://dev-caed.pantheonsite.io/">Learn More</a>
+            <a class="color-cta" href="https://www.caedpartners.org/">Learn More</a>
           </mj-text>
           <mj-spacer height="20px" />
         </mj-column>
@@ -254,8 +254,8 @@
         <mj-column width="5%"></mj-column>
         <mj-column width="45%">
           <mj-text mj-class="padding-20-24-0-24">
-            <a href="https://dev-caed.pantheonsite.io/">
-              <img style="display:block; margin: auto;" width="224" height="auto" src="https://dev-caed.pantheonsite.io/wp-content/uploads/2021/07/slider-b@2x-1024x727.jpg" alt="" />
+            <a href="https://www.caedpartners.org/">
+              <img style="display:block; margin: auto;" width="224" height="auto" src="https://www.caedpartners.org/wp-content/uploads/2021/07/slider-b@2x-1024x727.jpg" alt="" />
             </a>
           </mj-text>
           <mj-text mj-class="text-h3-subhead left">
@@ -268,14 +268,14 @@
             semper risus in. Diam donec ...
           </mj-text>
           <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
-            <a class="color-cta" href="https://dev-caed.pantheonsite.io/">Learn More</a>
+            <a class="color-cta" href="https://www.caedpartners.org/">Learn More</a>
           </mj-text>
           <mj-spacer height="20px" />
         </mj-column>
         <mj-column width="45%">
           <mj-text mj-class="padding-20-24-0-24">
-            <a href="https://dev-caed.pantheonsite.io/">
-              <img width="224" height="auto" src="https://dev-caed.pantheonsite.io/wp-content/uploads/2021/07/slider-b@2x-1024x727.jpg" alt="" />
+            <a href="https://www.caedpartners.org/">
+              <img width="224" height="auto" src="https://www.caedpartners.org/wp-content/uploads/2021/07/slider-b@2x-1024x727.jpg" alt="" />
             </a>
           </mj-text>
           <mj-text mj-class="text-h3-subhead left">
@@ -288,7 +288,7 @@
             semper risus in. Diam donec ...
           </mj-text>
           <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0">
-            <a class="color-cta" href="https://dev-caed.pantheonsite.io/">Learn More</a>
+            <a class="color-cta" href="https://www.caedpartners.org/">Learn More</a>
           </mj-text>
           <mj-spacer height="20px" />
         </mj-column>
@@ -308,7 +308,7 @@
             September 21, 2021
           </mj-text>
           <mj-text mj-class="text-h4-subhead left" padding-top="0px" padding-bottom="20px" line-height="160%">
-            <a class="color-cta" href="https://dev-caed.pantheonsite.io/">Enim lobortis scelerisque fermentum, dui faucibus in ornare quam viverra. Lectus magnafringilla urna porttitor rhoncus dolor purus non enim.</a> 
+            <a class="color-cta" href="https://www.caedpartners.org/">Enim lobortis scelerisque fermentum, dui faucibus in ornare quam viverra. Lectus magnafringilla urna porttitor rhoncus dolor purus non enim.</a> 
           </mj-text>
         </mj-column>
         <mj-column width="5%"></mj-column>
@@ -327,7 +327,7 @@
             September 12, 2021
           </mj-text>
           <mj-text mj-class="text-h4-subhead left" padding-top="0px" padding-bottom="20px" line-height="160%">
-            <a class="color-cta" href="https://dev-caed.pantheonsite.io/">Dui faucibus in ornare quam
+            <a class="color-cta" href="https://www.caedpartners.org/">Dui faucibus in ornare quam
             viverra. Lectus magna fringilla urna porttitor
             rhoncus dolor purus non enim. Nunc sed id
             semper risus in. Diam done</a> 
@@ -342,11 +342,11 @@
 
     <mj-section>
       <mj-column background-color="#231f20" padding="30px 20px 30px 20px">
-        <mj-image href="https://dev-caed.pantheonsite.io" src="https://dev-caed.pantheonsite.io/wp-content/uploads/2021/07/logo.svg" width="165px" alt="California Education Partners logo" />
+        <mj-image href="https://dev-caed.pantheonsite.io" src="https://www.caedpartners.org/wp-content/uploads/2021/07/logo.svg" width="165px" alt="California Education Partners logo" />
         <mj-text mj-class="text-footer center" font-size="12px" padding="30px 0px 20px 0px">
          One Lombard Street Suite 305 San Francisco, CA 94111 &bull; <span style="white-space:nowrap">(415) 321-8017</span>
          <br><br>
-          <a href="##" class="footer-white-link">Privacy Policy</a> &nbsp;&bull;&nbsp; <a href="https://dev-caed.pantheonsite.io/contact-us/" class="footer-white-link">Contact</a> &nbsp;&bull;&nbsp; <a href="https://dev-caed.pantheonsite.io/about/" class="footer-white-link">About Us</a>
+          <a href="##" class="footer-white-link">Privacy Policy</a> &nbsp;&bull;&nbsp; <a href="https://www.caedpartners.org/contact-us/" class="footer-white-link">Contact</a> &nbsp;&bull;&nbsp; <a href="https://www.caedpartners.org/about/" class="footer-white-link">About Us</a>
           <br><br>
           &copy; 2021 California Education Partners
         </mj-text>
