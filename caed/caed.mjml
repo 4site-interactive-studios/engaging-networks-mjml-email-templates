@@ -391,7 +391,7 @@
     <mj-section>
       <mj-column>
         <mj-text align="center" mj-class="padding-20-0-40-0 text-size-small">
-          <a href="{unsubscribe_url}" style="color:#363770;text-decoration:underline;">Unsubscribe</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="{view_in_browser_url}" style="color:#363770;text-decoration:underline;">View&nbsp;in&nbsp;browser</a>
+          <a href="*|UNSUB|*" style="color:#363770;text-decoration:underline;">Unsubscribe</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="{view_in_browser_url}" style="color:#363770;text-decoration:underline;">View&nbsp;in&nbsp;browser</a>
         </mj-text>
       </mj-column>
     </mj-section>
