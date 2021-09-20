@@ -91,7 +91,7 @@
      <mj-selector path=".edit-2-2 div">
        <mj-html-attribute name="mc:edit">edit-2-2</mj-html-attribute><!-- Text -->
      </mj-selector>
-    <mj-selector path=".edit-3-1 div">
+     <mj-selector path=".edit-3-1 div">
        <mj-html-attribute name="mc:edit">edit-3-1</mj-html-attribute><!-- Image -->
      </mj-selector>
      <mj-selector path=".edit-4-1 div">
@@ -99,6 +99,9 @@
      </mj-selector>
      <mj-selector path=".edit-4-2 div">
        <mj-html-attribute name="mc:edit">edit-4-2</mj-html-attribute><!-- Text -->
+     </mj-selector>
+     <mj-selector path=".edit-4-3 td">
+       <mj-html-attribute name="mc:edit">edit-4-3</mj-html-attribute><!-- Button -->
      </mj-selector>
      <mj-selector path=".edit-5-1 div">
        <mj-html-attribute name="mc:edit">edit-5-1</mj-html-attribute><!-- Image -->
@@ -223,7 +226,7 @@
       <mj-column padding="30px 20px 30px 20px">
         <mj-text css-class="edit-1-1">
           <a href="https://www.caedpartners.org/">
-            <img css-class="logo" src="https://www.caedpartners.org/wp-content/uploads/2021/07/logo.svg" width="165px" alt="California Education Partners logo" />
+            <img css-class="logo" src="https://mcusercontent.com/898c7f3b6848e231aa05e691a/images/4aa9672f-d6ef-9b5a-cd17-abf0242cea9e.png" width="165px" alt="California Education Partners logo" />
           </a>
         </mj-text>
       </mj-column>
@@ -248,7 +251,7 @@
       <mj-column>
         <mj-text mj-class="padding-0" css-class="edit-3-1">
           <a href="#">
-            <img width="600px" css-class="banner" height="auto" src="https://www.caedpartners.org/wp-content/uploads/2021/07/img-hero@2x-1024x951.jpg" alt="" />
+            <img width="600px" css-class="banner" height="auto" src="https://mcusercontent.com/898c7f3b6848e231aa05e691a/images/2a845728-909c-bd50-1c7d-295676b35f03.jpg" alt="" />
           </a>
         </mj-text>
       </mj-column>
@@ -266,7 +269,7 @@
           Nunc sed id semper risus in. Diam donec adipiscing tristique risus nec feugiat. In vitae turpis massa sed. Mauris vitae ultricies leo integer malesuada nunc vel. A scelerisque purus semper eget duis. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Nulla facilisi etiam dignissim diam quis enim lobortis
           scelerisque fermentum. Nisi lacus sed viverra tellus in.
         </mj-text>
-        <mj-button href="https://www.caedpartners.org/">CALL TO ACTION</mj-button>
+        <mj-button href="#" css-class="edit-4-3">CALL TO ACTION</mj-button>
       </mj-column>
       <mj-column width="5%"></mj-column>
     </mj-section>
@@ -277,8 +280,8 @@
       <mj-column width="5%"></mj-column>
       <mj-column width="45%">
         <mj-text mj-class="padding-20-24-0-24" css-class="edit-5-1">
-          <a href="#/">
-            <img css-class="side-by-side" width="224" height="auto" src="https://www.caedpartners.org/wp-content/uploads/2021/07/slider-b@2x-1024x727.jpg" alt="" />
+          <a href="#">
+            <img css-class="side-by-side" width="224" height="auto" src="https://mcusercontent.com/898c7f3b6848e231aa05e691a/images/4f42835d-909c-6eec-8681-1d4f5f2c7853.jpg" alt="" />
           </a>
         </mj-text>
         <mj-text mj-class="text-h3-subhead left" css-class="edit-5-2">
@@ -298,7 +301,7 @@
       <mj-column width="45%">
         <mj-text mj-class="padding-20-24-0-24" css-class="edit-5-5">
           <a href="#">
-            <img css-class="side-by-side" width="224" height="auto" src="https://www.caedpartners.org/wp-content/uploads/2021/07/slider-b@2x-1024x727.jpg" alt="" />
+            <img css-class="side-by-side" width="224" height="auto" src="https://mcusercontent.com/898c7f3b6848e231aa05e691a/images/4f42835d-909c-6eec-8681-1d4f5f2c7853.jpg" alt="" />
           </a>
         </mj-text>
         <mj-text mj-class="text-h3-subhead left" css-class="edit-5-6">
@@ -340,14 +343,14 @@
       <mj-column background-color="#231f20" padding="30px 20px 30px 20px">
         <mj-text mj-class="padding-0" css-class="edit-7-1">
           <a href="https://www.caedpartners.org/">
-            <img src="https://www.caedpartners.org/wp-content/uploads/2021/07/logo.svg" width="165px" alt="California Education Partners logo" />
+            <img src="https://mcusercontent.com/898c7f3b6848e231aa05e691a/images/4aa9672f-d6ef-9b5a-cd17-abf0242cea9e.png" width="165px" alt="California Education Partners logo" />
           </a>
         </mj-text>
 
         <mj-text mj-class="text-footer center" css-class="edit-7-2" font-size="12px" padding="30px 0px 20px 0px">
           One Lombard Street Suite 305 San Francisco, CA 94111 &bull; <span style="white-space:nowrap">(415) 321-8017</span>
           <br><br>
-          <a href="##" class="footer-white-link">Privacy Policy</a> &nbsp;&bull;&nbsp; <a href="https://www.caedpartners.org/contact-us/" class="footer-white-link">Contact</a> &nbsp;&bull;&nbsp; <a href="https://www.caedpartners.org/about/" class="footer-white-link">About Us</a>
+          <a href="https://www.caedpartners.org/contact-us/" class="footer-white-link">Contact</a> &nbsp;&bull;&nbsp; <a href="https://www.caedpartners.org/about/" class="footer-white-link">About Us</a>
           <br><br>
           &copy; 2021 California Education Partners
         </mj-text>
@@ -362,7 +365,7 @@
                         <td align="center" valign="middle">
                           <mj-text css-class="edit-7-3">
                             <a href="https://www.facebook.com/CaliforniaEducationPartners/" target="_blank">
-                              <img src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/facebook-icon.png" width="48" alt="Facebook" style="width:48px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0" />
+                              <img src="https://mcusercontent.com/898c7f3b6848e231aa05e691a/images/ae44482c-8cec-4522-1e98-b8934b39725c.png" width="48" alt="Facebook" style="width:48px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0" />
                             </a>
                           </mj-text>
                         </td>
@@ -370,7 +373,7 @@
                         <td align="center" valign="middle">
                           <mj-text css-class="edit-7-4">
                             <a href="https://www.linkedin.com/company/california-education-partners/" target="_blank">
-                              <img src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/linkedin-icon.png" width="48" alt="LinkedIn" style="width:48px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0" />
+                              <img src="https://mcusercontent.com/898c7f3b6848e231aa05e691a/images/cb3e9d39-007f-1035-9b2f-53534f3facd3.png" width="48" alt="LinkedIn" style="width:48px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0" />
                             </a>
                           </mj-text>
                         </td>
@@ -378,7 +381,7 @@
                         <td align="center" valign="middle">
                           <mj-text css-class="edit-7-5">
                             <a href="https://twitter.com/caedpartners" target="_blank">
-                              <img src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/twitter-icon.png" width="48" alt="Twitter" style="width:48px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0" />
+                              <img src="https://mcusercontent.com/898c7f3b6848e231aa05e691a/images/e28c31b7-47f8-e759-3626-3767ab6d7368.png" width="48" alt="Twitter" style="width:48px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0" />
                             </a>
                           </mj-text>
                         </td>
@@ -386,7 +389,7 @@
                         <td align="center" valign="middle">
                           <mj-text css-class="edit-7-6">
                             <a href="https://www.instagram.com/caedpartners" target="_blank">
-                              <img src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/instagram-icon.png" width="48" alt="Instagram" style="width:48px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0" />
+                              <img src="https://mcusercontent.com/898c7f3b6848e231aa05e691a/images/a45f2701-3253-a024-3f4e-90e2be2b1e8c.png" width="48" alt="Instagram" style="width:48px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0" />
                             </a>
                           </mj-text>
                         </td>
