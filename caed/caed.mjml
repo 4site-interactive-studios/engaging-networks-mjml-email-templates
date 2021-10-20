@@ -305,7 +305,7 @@
     </mj-section>
 
     <!-- Section 4: Paragraph Copy -->
-    <mj-section background-color="#ffffff" css-class="section4">
+    <mj-section background-color="#ffffff" css-class="section4b">
         <mj-column width="5%"></mj-column>
         <mj-column width="90%">
             <mj-text mj-class="text-h2-headline left" css-class="edit-4b-1" padding-top="40px" padding-bottom="10px">
