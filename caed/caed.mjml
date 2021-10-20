@@ -42,6 +42,11 @@
     </mj-attributes>
 
     <mj-html-attributes>
+    <mj-selector path=".section0">
+        <mj-html-attribute name="mc:variant">Placeholder Section</mj-html-attribute>
+        <mj-html-attribute name="mc:repeatable">content</mj-html-attribute>
+        <mj-html-attribute name="mc:hideable"></mj-html-attribute>
+    </mj-selector>
      <mj-selector path=".section1">
        <mj-html-attribute name="mc:variant">Logo</mj-html-attribute>
        <mj-html-attribute name="mc:repeatable">content</mj-html-attribute>
@@ -62,6 +67,11 @@
        <mj-html-attribute name="mc:repeatable">content</mj-html-attribute>
        <mj-html-attribute name="mc:hideable"></mj-html-attribute>
      </mj-selector>
+     <mj-selector path=".section4b">
+        <mj-html-attribute name="mc:variant">Paragraph Copy</mj-html-attribute>
+        <mj-html-attribute name="mc:repeatable">content</mj-html-attribute>
+        <mj-html-attribute name="mc:hideable"></mj-html-attribute>
+      </mj-selector>
      <mj-selector path=".section5">
        <mj-html-attribute name="mc:variant">Side-by-Side Section</mj-html-attribute>
        <mj-html-attribute name="mc:repeatable">content</mj-html-attribute>
@@ -82,6 +92,9 @@
        <mj-html-attribute name="mc:repeatable">content</mj-html-attribute>
        <mj-html-attribute name="mc:hideable"></mj-html-attribute>
      </mj-selector>
+     <mj-selector path=".edit-0-1 div">
+        <mj-html-attribute name="mc:edit">edit-0-1</mj-html-attribute><!-- Text -->
+      </mj-selector>
      <mj-selector path=".edit-1-1 div">
        <mj-html-attribute name="mc:edit">edit-1-1</mj-html-attribute><!-- Image -->
      </mj-selector>
@@ -95,13 +108,19 @@
        <mj-html-attribute name="mc:edit">edit-3-1</mj-html-attribute><!-- Image -->
      </mj-selector>
      <mj-selector path=".edit-4-1 div">
-       <mj-html-attribute name="mc:edit">edit-4-1</mj-html-attribute><!-- Text -->
+        <mj-html-attribute name="mc:edit">edit-4-1</mj-html-attribute><!-- Text -->
+      </mj-selector>
+      <mj-selector path=".edit-4-2 div">
+        <mj-html-attribute name="mc:edit">edit-4-2</mj-html-attribute><!-- Text -->
+      </mj-selector>
+      <mj-selector path=".edit-4-3 td">
+        <mj-html-attribute name="mc:edit">edit-4-3</mj-html-attribute><!-- Button -->
+      </mj-selector>     
+     <mj-selector path=".edit-4b-1 div">
+       <mj-html-attribute name="mc:edit">edit-4b-1</mj-html-attribute><!-- Text -->
      </mj-selector>
-     <mj-selector path=".edit-4-2 div">
-       <mj-html-attribute name="mc:edit">edit-4-2</mj-html-attribute><!-- Text -->
-     </mj-selector>
-     <mj-selector path=".edit-4-3 td">
-       <mj-html-attribute name="mc:edit">edit-4-3</mj-html-attribute><!-- Button -->
+     <mj-selector path=".edit-4b-2 div">
+       <mj-html-attribute name="mc:edit">edit-4b-2</mj-html-attribute><!-- Text -->
      </mj-selector>
      <mj-selector path=".edit-5-1 div">
        <mj-html-attribute name="mc:edit">edit-5-1</mj-html-attribute><!-- Image -->
@@ -221,6 +240,17 @@
   </mj-head>
   <mj-body background-color="#ffffff">
 
+    <!-- Section 0: Placeholder -->
+    <mj-section background-color="#ffffff" css-class="section0">
+        <mj-column width="5%"></mj-column>
+        <mj-column width="90%">
+          <mj-text mj-class="text-body left" css-class="edit-0-1" padding-top="10px" padding-bottom="10px" line-height="150%">
+            <strong>Placeholder Section</strong>
+          </mj-text>
+        </mj-column>
+        <mj-column width="5%"></mj-column>
+    </mj-section>
+
     <!-- Section 1: Logo -->
     <mj-section background-color="#231f20" css-class="section1">
       <mj-column padding="30px 20px 30px 20px">
@@ -250,7 +280,7 @@
     <mj-section background-color="#ffffff" css-class="section3">
       <mj-column>
         <mj-text mj-class="padding-0" css-class="edit-3-1">
-          <a href="#">
+          <a href="https://www.caedpartners.org/">
             <img width="600px" css-class="banner" height="auto" src="https://mcusercontent.com/898c7f3b6848e231aa05e691a/images/2a845728-909c-bd50-1c7d-295676b35f03.jpg" alt="" />
           </a>
         </mj-text>
@@ -269,18 +299,33 @@
           Nunc sed id semper risus in. Diam donec adipiscing tristique risus nec feugiat. In vitae turpis massa sed. Mauris vitae ultricies leo integer malesuada nunc vel. A scelerisque purus semper eget duis. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Nulla facilisi etiam dignissim diam quis enim lobortis
           scelerisque fermentum. Nisi lacus sed viverra tellus in.
         </mj-text>
-        <mj-button href="#" css-class="edit-4-3">CALL TO ACTION</mj-button>
+        <mj-button href="https://www.caedpartners.org/" css-class="edit-4-3">CALL TO ACTION</mj-button>
       </mj-column>
       <mj-column width="5%"></mj-column>
     </mj-section>
 
+    <!-- Section 4: Paragraph Copy -->
+    <mj-section background-color="#ffffff" css-class="section4">
+        <mj-column width="5%"></mj-column>
+        <mj-column width="90%">
+            <mj-text mj-class="text-h2-headline left" css-class="edit-4b-1" padding-top="40px" padding-bottom="10px">
+            Adipiscing bibendum est ultricies integer quis auctor.
+            </mj-text>
+            <mj-text mj-class="text-body left" css-class="edit-4b-2" padding-top="10px" padding-bottom="10px" line-height="150%">
+            <strong>Enim lobortis scelerisque fermentum</strong> , dui faucibus in ornare quam viverra. Lectus magnafringilla urna porttitor rhoncus dolor purus non enim.
+            Nunc sed id semper risus in. Diam donec adipiscing tristique risus nec feugiat. In vitae turpis massa sed. Mauris vitae ultricies leo integer malesuada nunc vel. A scelerisque purus semper eget duis. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Nulla facilisi etiam dignissim diam quis enim lobortis
+            scelerisque fermentum. Nisi lacus sed viverra tellus in.
+            </mj-text>
+        </mj-column>
+        <mj-column width="5%"></mj-column>
+    </mj-section>
 
     <!-- Section 5: Side-by-Side Section -->
     <mj-section mj-class="padding-top-0 padding-bottom-0" background-color="#ffffff" css-class="section5">
       <mj-column width="5%"></mj-column>
       <mj-column width="45%">
         <mj-text mj-class="padding-20-24-0-24" css-class="edit-5-1">
-          <a href="#">
+          <a href="https://www.caedpartners.org/">
             <img css-class="side-by-side" width="224" height="auto" src="https://mcusercontent.com/898c7f3b6848e231aa05e691a/images/4f42835d-909c-6eec-8681-1d4f5f2c7853.jpg" alt="" />
           </a>
         </mj-text>
@@ -300,7 +345,7 @@
       </mj-column>
       <mj-column width="45%">
         <mj-text mj-class="padding-20-24-0-24" css-class="edit-5-5">
-          <a href="#">
+          <a href="https://www.caedpartners.org/">
             <img css-class="side-by-side" width="224" height="auto" src="https://mcusercontent.com/898c7f3b6848e231aa05e691a/images/4f42835d-909c-6eec-8681-1d4f5f2c7853.jpg" alt="" />
           </a>
         </mj-text>
@@ -314,7 +359,7 @@
           semper risus in. Diam donec ...
         </mj-text>
         <mj-text mj-class="bold left text-size-medium text-color-cta padding-bottom-0" css-class="edit-5-8">
-          <a class="color-cta" href="#">Learn More</a>
+          <a class="color-cta" href="https://www.caedpartners.org/">Learn More</a>
         </mj-text>
         <mj-spacer height="20px" />
       </mj-column>
