@@ -1,0 +1,207 @@
+<mjml lang="en">
+
+  <mj-head>
+    <mj-title>World Wildlife Federation</mj-title>
+
+    <mj-preview>World Wildlife Federation</mj-preview>
+
+    <mj-breakpoint width="660px" />
+
+    <mj-attributes>
+      <mj-all color="#323232" font-size="16px" font-family="Arial,Helvetica,'Open Sans'"></mj-all>
+      <mj-section padding="0px" css-class="en__component en__component--droppable ui-sortable"></mj-section>
+      <mj-text padding="12px 24px" css-class="en__component en__component--textblock"></mj-text>
+      <mj-image padding="0px" css-class="en__component en__component--imageblock" />
+      <mj-divider padding="12px 24px" border-width="2px" border-color="#DEE0E2" />
+      <mj-button padding="20px 15px" inner-padding="13px 40px 11px 40px" css-class="en__component en__component--textblock button" font-family="sans-serif" background-color="#d55c19" color="#ffffff" font-size="16px" font-weight="bold" target="_blank" border-radius="23px" border="4px single #ffffff"></mj-button>
+      <mj-spacer css-class="en__component en__component--textblock"></mj-spacer>
+
+      <mj-class name="padding-0" padding="0px"></mj-class>
+      <mj-class name="padding-top-0" padding-top="0px"></mj-class>
+      <mj-class name="padding-bottom-0" padding-bottom="0px"></mj-class>
+      <mj-class name="padding-20-0-40-0" padding="20px 0px 40px 0px"></mj-class>
+      <mj-class name="padding-20-24-0-24" padding="20px 24px 0px 24px"></mj-class>
+
+      <mj-class name="text-size-small" font-size="12px" line-height="16px"></mj-class>
+      <mj-class name="text-size-medium" font-size="18px" line-height="22px"></mj-class>
+      <mj-class name="text-size-normal" font-size="16px" line-height="24px"></mj-class>
+      <mj-class name="text-size-large" font-size="18px" line-height="27px"></mj-class>
+      <mj-class name="text-size-xlarge" font-size="24px" line-height="36px"></mj-class>
+
+      <mj-class name="text-h1-headline" font-family="Arial,Helvetica,'Open Sans'" font-size="44px" line-height="48px" font-weight="700" color="#3b3b3b" padding-left="40px"></mj-class>
+      <mj-class name="text-h1-date" font-family="Arial,Helvetica,'Open Sans'" font-size="20px" line-height="20px" font-weight="100" color="#3b3b3b" padding-left="40px"></mj-class>
+      <mj-class name="text-h2-headline" font-size="24px" line-height="28px" font-weight="bold" color="#000000"></mj-class>
+      <mj-class name="text-h3-subhead" font-size="24px" line-height="30px" font-weight="bold" color="#323232"></mj-class>
+
+      <mj-class name="bold" font-weight="bold"></mj-class>
+      <mj-class name="center" align="center"></mj-class>
+      <mj-class name="right" align="right"></mj-class>
+      <mj-class name="left" align="left"></mj-class>
+
+      <mj-class name="text-color-white" color="#ffffff"></mj-class>
+
+    </mj-attributes>
+
+    <mj-raw>
+      <meta name="format-detection" content="telephone=no">
+      <style>
+        img{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        /* In the event an editable component is inside another editable component, bump the z-index of its components dialog so it appears above its parent */
+        .en__component--active .en__component--active .en__component__actions {
+          z-index: 1000;
+        }
+
+        .en__component--active .en__component--active .en__component--active .en__component__actions {
+          z-index: 1001;
+        }
+
+        .en__component--active .en__component--active .en__component--active .en__component--active .en__component__actions {
+          z-index: 1002;
+        }
+
+        .en__component--active .en__component--active .en__component--active .en__component--active .en__component--active .en__component__actions {
+          z-index: 1003;
+        }
+
+        /* In the event an editable component is inside another editable component, darken the color its components action button so they appears distinc from its parents */
+        .en__component--active .en__component--active .en__component__actions .en__component__action {
+          background-color: hsl(191deg 100% 38%);
+        }
+
+        .en__component--active .en__component--active .en__component--active .en__component__actions .en__component__action {
+          background-color: hsl(191deg 100% 33%);
+        }
+
+        .en__component--active .en__component--active .en__component--active .en__component--active .en__component__actions .en__component__action {
+          background-color: hsl(191deg 100% 28%);
+        }
+
+        .en__component--active .en__component--active .en__component--active .en__component--active .en__component--active .en__component__actions .en__component__action {
+          background-color: hsl(191deg 100% 23%);
+        }
+      </style>
+      <!--REF: https://www.litmus.com/blog/typography-tips-for-email-designers/-->
+      <!--[if mso]>
+      <style>
+        body,
+        div,
+        table tr,
+        table td,
+        a,
+        span,
+        table.MsoNormalTable {
+          font-family: Arial, Helvetica, sans-serif !important;
+        }
+      </style>
+      <![endif]-->
+    </mj-raw>
+  </mj-head>
+  <mj-body background-color="#f6f5f1">
+
+    <mj-section background-color="#ffffff">
+      <mj-column width="5%"></mj-column>
+      <mj-column width="20%" vertical-align="middle" padding="0px 0px 0px 0px">
+        <mj-image href="https://www.worldwildlife.org/" src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2080/wwf-logo.png" width="60px" alt="World Wildlife Federation" padding-top="30px">
+      </mj-column>
+      <mj-column width="40%"></mj-column>
+      <mj-column width="30%" vertical-align="middle" padding="30px 0px 0px 0px">
+        <mj-button href="https://netdonor.net/page/36946/donate/1?mode=DEMO&single=250,500,1000,2000,5000&single-default=1000&monthly=50,100,200,500&monthly-default=100" padding-top="20px">DONATE</mj-button>
+      </mj-column>
+      <mj-column width="5%"></mj-column>
+    </mj-section>
+
+
+
+    <mj-raw>
+      <div class="en__component en__component--repeatable">
+    </mj-raw>
+
+      <mj-section background-color="#ffffff">
+        <mj-column width="5%"></mj-column>
+        <mj-column width="90%">
+          <mj-text mj-class="text-h2-headline left" padding-top="40px" padding-bottom="10px">
+            Adipiscing bibendum est ultricies integer quis auctor.
+          </mj-text>
+          <mj-text mj-class="text-body left" padding-top="10px" padding-bottom="10px" line-height="150%">
+            <strong>Enim lobortis scelerisque fermentum</strong> , dui faucibus in ornare quam viverra. Lectus magnafringilla urna porttitor rhoncus dolor purus non enim.
+            Nunc sed id semper risus in. Diam donec adipiscing tristique risus nec feugiat. In vitae turpis massa sed. Mauris vitae ultricies leo integer malesuada nunc vel. A scelerisque purus semper eget duis. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Nulla facilisi etiam dignissim diam quis enim lobortis
+            scelerisque fermentum. Nisi lacus sed viverra tellus in.
+          </mj-text>
+          <mj-spacer height="20px" />
+          
+        </mj-column>
+        <mj-column width="5%"></mj-column>
+      </mj-section>
+    <mj-raw>
+      </div>
+    </mj-raw>
+
+    <mj-hero
+      mode="fixed-height"
+      background-width="600px"
+      background-height="12px"
+      background-url="https://www.worldwildlife.org/wp-content/uploads/2018/08/toptop.jpg"
+      background-color="#FFFFFF"
+      padding="0px"
+      height="12px"
+    >
+    </mj-hero>
+    <mj-section>
+      <mj-column background-color="#000000">
+        <mj-text mj-class="text-color-white" align="center" font-size="12px" padding-bottom="20px" padding-top="40px" line-height="125%">
+          © World Wildlife Fund, Inc. 1250 24th Street, N.W. Washington, DC 20037</span>
+          <br><br>
+          Photo Credit: Lorem Ipsum
+          <br><br>
+          <a href="https://worldwildlife.org/pages/privacy-policy" style="color:#FFFFFF;text-decoration:none;">Privacy Policy</a> &nbsp;&bull;&nbsp; <a href="https://worldwildlife.org/about/contact" style="color:#FFFFFF;text-decoration:none;">Contact WWF</a> &nbsp;&bull;&nbsp; <a href="https://support.worldwildlife.org/site/SPageServer?pagename=SupporterCenter" style="color:#ffffff;text-decoration:none;">Update Profile</a>
+        </mj-text>
+        <mj-table align="center">
+          <tr>
+            <td align="center" valign="middle">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td height="20" style="height:20px; font-size: 0px; line-height: 0px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <table width="225" style="225px" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="50" style="width:50px"></td>
+                        <td align="center" valign="middle">
+                          <a href="https://www.facebook.com/worldwildlifefund" target="_blank"><img src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/facebook-icon.png" width="48" alt="Facebook" style="width:48px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0">
+                        </td>
+                        <td width="10" style="width:10px"></td>
+                        <td align="center" valign="middle">
+                          <a href="https://www.twitter.com/world_wildlife" target="_blank"><img src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/twitter-icon.png" width="48" alt="Twitter" style="width:48px; height:auto;display:block;font-family:Arial, sans-serif;font-size:10px;color:#ffffff;border:none;outline:none;" border="0">
+                        </td>
+                        <td width="50" style="width:50px"></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td height="30" style="height:30px; font-size: 0px; line-height: 0px;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" mj-class="padding-20-0-40-0 text-size-small">
+          <a href="{unsubscribe}" style="color:#444444;text-decoration:underline;">Unsubscribe</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="{view_in_browser_url}" style="color:#444444;text-decoration:underline;">View&nbsp;in&nbsp;browser</a>
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
