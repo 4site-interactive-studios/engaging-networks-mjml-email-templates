@@ -1,4 +1,4 @@
-# 4Site's MJML Email Template
+# 4Site's MJML Email Templatea
 
 ## Email Templates
 
